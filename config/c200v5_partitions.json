@@ -1,0 +1,17 @@
+{
+  "device": "TP-Link Tapo C200 V5",
+  "flash_size": 8388608,
+  "notes": "Known Rev.5 8 MiB SPI NOR layout used as a research baseline. Verify against the tested unit before any write operation.",
+  "partitions": [
+    {"name": "factory_boot", "start": 0,       "end": 186368},
+    {"name": "factory_info", "start": 186368, "end": 196608},
+    {"name": "art",          "start": 196608, "end": 262144},
+    {"name": "config",       "start": 262144, "end": 327680},
+    {"name": "normal_boot",  "start": 327680, "end": 458752},
+    {"name": "kernel",       "start": 459264, "end": 1769472},
+    {"name": "rootfs",       "start": 1769472,"end": 3997696},
+    {"name": "rootfs_data",  "start": 3997696,"end": 7798784},
+    {"name": "user_record",  "start": 7798784,"end": 8323072},
+    {"name": "verify",       "start": 8323072,"end": 8388608}
+  ]
+}

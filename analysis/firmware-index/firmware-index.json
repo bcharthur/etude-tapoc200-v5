@@ -1,0 +1,80 @@
+{
+  "root": "fs\\normal",
+  "keyword_groups": {
+    "state_reset": [
+      "factory_reset",
+      "factory reset",
+      "factory_default",
+      "factory default",
+      "reset_wifi",
+      "reset wifi",
+      "wifi_reset",
+      "resettofactory",
+      "restore_factory",
+      "unbind",
+      "unbound",
+      "binding",
+      "bind_state",
+      "configured",
+      "provision",
+      "pairing",
+      "softap",
+      "ap_mode",
+      "ap mode"
+    ],
+    "reboot_watchdog": [
+      "reboot",
+      "watchdog",
+      "/dev/watchdog",
+      "wdt",
+      "restart",
+      "panic",
+      "kernel panic",
+      "oops"
+    ],
+    "flash_config": [
+      "/dev/mtd",
+      "mtd",
+      "rootfs_data",
+      "user_record",
+      "factory_info",
+      "config",
+      "jffs2",
+      "squashfs",
+      "nvram",
+      "erase",
+      "flash"
+    ],
+    "network": [
+      "/stream",
+      "streamd",
+      "authorization",
+      "rtsp",
+      "onvif",
+      "pake_register",
+      "pake_share",
+      "default_userpw",
+      "userpw",
+      "device_confirm",
+      "key-exchange",
+      "encrypt_type",
+      "tdp"
+    ],
+    "dangerous_api": [
+      "strcpy",
+      "strcat",
+      "sprintf",
+      "vsprintf",
+      "memcpy",
+      "memmove",
+      "system",
+      "popen",
+      "ioctl",
+      "execve"
+    ]
+  },
+  "file_count": 0,
+  "hit_count": 0,
+  "files": [],
+  "hits": []
+}

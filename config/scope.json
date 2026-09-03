@@ -1,0 +1,13 @@
+{
+  "device_name": "Tapo C200 V5",
+  "target_ip": "192.168.1.79",
+  "target_mac": "dc:62:79:8b:3a:da",
+  "allowed_cidr": "192.168.1.0/24",
+  "tcp_ports": [
+    80,
+    443,
+    554,
+    2020,
+    8800
+  ]
+}

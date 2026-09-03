@@ -1,0 +1,10 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+evidence/runs/*
+!evidence/runs/.gitkeep
+captures/*
+!captures/.gitkeep
+firmware/dumps/*
+!firmware/dumps/.gitkeep

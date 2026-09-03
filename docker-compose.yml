@@ -1,0 +1,8 @@
+services:
+  offline:
+    build: .
+    working_dir: /lab
+    volumes:
+      - ./evidence:/lab/evidence
+      - ./captures:/lab/captures
+    command: ["python", "main.py", "--help"]
