@@ -1,0 +1,7 @@
+pyelftools>=0.31
+capstone>=5.0,<6
+cryptography>=44
+ecdsa>=0.19
+
+pytapo>=3.3.50
+certifi>=2024.8.30

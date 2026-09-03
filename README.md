@@ -154,3 +154,22 @@ python .\main.py analyze <capture.pcap>
 6. analyser `capture-summary.json`.
 
 Cela valide tout le pipeline Python avant de construire le mode passerelle.
+
+## Research journal — firmware / S1 radio-only
+
+Le projet contient désormais un journal de recherche structuré dans [`docs/`](docs/README.md).
+
+Le scénario prioritaire S1 est strict : caméra `NORMAL/bound`, attaquant à portée radio uniquement, **sans PSK, sans association au WLAN, sans IP caméra et sans accès physique**. Le succès recherché est une transition reproductible vers `SoftAP/provisioning/unbound/factory`, pas un simple disconnect ou reboot.
+
+Le premier mapping statique du firmware C200 V5 `1.4.2 Build 260513 Rel.33069n` a isolé un point de jonction important : `onboarding_phy_link_status_change_handle`, avec les fonctions de disconnect/reconnect WLAN et les états explicites de re-onboarding/SoftAP. Voir [`docs/06_S1_STATIC_MAP_142_RESULTS.md`](docs/06_S1_STATIC_MAP_142_RESULTS.md).
+
+Mapper standalone :
+
+```powershell
+pip install -r .\requirements-v5patchlab.txt
+python .\scripts\s1-static-map-standalone.py `
+  .\analysis\c200v5-142\main-1.4.2 `
+  --rootfs .\analysis\c200v5-142\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\squashfs-root `
+  --xrefs `
+  --out .\analysis\s1-static-map
+```
