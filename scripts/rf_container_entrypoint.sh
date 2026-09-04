@@ -13,10 +13,11 @@ usage() {
   cat <<'EOF'
 Tapo C200 S1 RF container
 
-Native Linux host only. Docker Desktop/WSL cannot expose an internal PCIe Wi-Fi
-adapter to this container in monitor mode.
+Native Linux host only for real RF access. Docker Desktop/WSL cannot expose an
+internal PCIe Wi-Fi adapter to this container in monitor mode.
 
 Commands:
+  rf-lab shell
   rf-lab probe
   rf-lab observe --channel 6
   rf-lab deauth --channel 6 --ap-bssid aa:bb:cc:dd:ee:ff [--count 1]
@@ -35,6 +36,14 @@ EOF
 
 MODE="${1:-probe}"
 if [[ $# -gt 0 ]]; then shift; fi
+
+# Interactive diagnostics must work even when no Wi-Fi radio is visible. This is
+# useful on Docker Desktop/WSL to inspect exactly what the container can access.
+if [[ "$MODE" == "shell" ]]; then
+  echo "[+] Entering RF lab container shell"
+  echo "[i] Useful commands: ip link ; ip route ; iw dev ; iw phy ; ls -l /sys/class/net"
+  exec /bin/bash
+fi
 
 while [[ $# -gt 0 ]]; do
   case "$1" in
@@ -116,8 +125,6 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
-# Do not convert the Windows/Linux managed interface in-place. Create a separate
-# monitor VIF on the same PHY so Ethernet remains the host's Internet path.
 if iw dev "$MON_IFACE" info >/dev/null 2>&1; then
   iw dev "$MON_IFACE" del
 fi
