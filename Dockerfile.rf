@@ -1,0 +1,29 @@
+FROM python:3.12-slim-bookworm
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    iw \
+    iproute2 \
+    pciutils \
+    usbutils \
+    wireless-regdb \
+    procps \
+    tcpdump \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /lab
+
+COPY requirements-rf.txt /tmp/requirements-rf.txt
+RUN python -m pip install --upgrade pip && \
+    python -m pip install -r /tmp/requirements-rf.txt
+
+COPY scripts/s1_rf_trial.py /lab/scripts/s1_rf_trial.py
+COPY scripts/rf_container_entrypoint.sh /usr/local/bin/rf-lab
+RUN chmod +x /usr/local/bin/rf-lab
+
+ENTRYPOINT ["/usr/local/bin/rf-lab"]
+CMD ["probe"]
