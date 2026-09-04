@@ -1,5 +1,5 @@
 param(
-    [ValidateSet("list-usb", "probe", "observe", "deauth", "disassoc")]
+    [ValidateSet("install-usbipd", "list-usb", "probe", "observe", "deauth", "disassoc")]
     [string]$Mode = "probe",
 
     [string]$Distro = "Ubuntu",
@@ -40,12 +40,66 @@ function Assert-Mac([string]$Value, [string]$Name) {
 }
 
 function Quote-Bash([string]$Value) {
-    # Keep shell construction deliberately strict instead of trying to support
-    # arbitrary shell metacharacters in local paths.
     if ($Value.Contains("'")) {
         throw "Single quotes are not supported in WSL paths/arguments: $Value"
     }
     return "'" + $Value + "'"
+}
+
+function Get-UsbipdExe {
+    $cmd = Get-Command usbipd.exe -ErrorAction SilentlyContinue
+    if ($cmd) {
+        return $cmd.Source
+    }
+
+    $candidates = @(
+        "$env:ProgramFiles\usbipd-win\usbipd.exe",
+        "${env:ProgramFiles(x86)}\usbipd-win\usbipd.exe"
+    )
+
+    foreach ($candidate in $candidates) {
+        if ($candidate -and (Test-Path $candidate)) {
+            return $candidate
+        }
+    }
+
+    return $null
+}
+
+function Install-UsbipdWithChocolatey {
+    if (-not (Test-IsAdministrator)) {
+        throw @"
+Installing usbipd requires an elevated PowerShell.
+Open PowerShell with 'Run as Administrator', cd to the repository, then run:
+  .\scripts\run-s1-rf-windows.ps1 -Mode install-usbipd
+"@
+    }
+
+    if (-not (Get-Command choco.exe -ErrorAction SilentlyContinue)) {
+        throw @"
+Chocolatey was not found.
+Install usbipd-win manually from the official usbipd-win MSI release,
+or install Chocolatey first.
+"@
+    }
+
+    Write-Host "[+] Installing usbipd with Chocolatey"
+    & choco.exe install usbipd -y
+    if ($LASTEXITCODE -notin @(0, 1641, 3010)) {
+        throw "Chocolatey failed to install usbipd (exit code $LASTEXITCODE)."
+    }
+
+    $exe = Get-UsbipdExe
+    if (-not $exe) {
+        throw @"
+usbipd appears to have been installed, but usbipd.exe is not visible yet.
+Close and reopen PowerShell, then run:
+  usbipd --version
+"@
+    }
+
+    Write-Host "[+] usbipd installed: $exe"
+    & $exe --version
 }
 
 function Invoke-WslBash([string]$Command) {
@@ -60,22 +114,24 @@ function Ensure-UsbAttached {
         return
     }
 
-    if (-not (Get-Command usbipd.exe -ErrorAction SilentlyContinue)) {
+    $usbipd = Get-UsbipdExe
+    if (-not $usbipd) {
         throw @"
 usbipd-win is not installed.
-Install it from an elevated PowerShell with:
-  winget install --interactive --exact dorssel.usbipd-win
+You already have Chocolatey, so from an elevated PowerShell run:
+  choco install usbipd -y
+or from this repository:
+  .\scripts\run-s1-rf-windows.ps1 -Mode install-usbipd
 Then reconnect the USB Wi-Fi adapter and retry.
 "@
     }
 
-    # Keep the WSL VM alive before attaching the USB device.
     & wsl.exe -d $Distro -- true | Out-Null
     if ($LASTEXITCODE -ne 0) {
         throw "Unable to start WSL distribution '$Distro'."
     }
 
-    $list = (& usbipd.exe list) -join "`n"
+    $list = (& $usbipd list) -join "`n"
     $escaped = [regex]::Escape($BusId)
     $line = ($list -split "`n" | Where-Object { $_ -match "^\s*$escaped\s+" } | Select-Object -First 1)
     if (-not $line) {
@@ -92,26 +148,33 @@ Then retry this script normally.
 "@
         }
         Write-Host "[+] Sharing USB device $BusId with usbipd"
-        & usbipd.exe bind --busid $BusId
+        & $usbipd bind --busid $BusId
         if ($LASTEXITCODE -ne 0) { throw "usbipd bind failed" }
     }
 
-    $list = (& usbipd.exe list) -join "`n"
+    $list = (& $usbipd list) -join "`n"
     $line = ($list -split "`n" | Where-Object { $_ -match "^\s*$escaped\s+" } | Select-Object -First 1)
     if ($line -notmatch '(?i)Attached') {
         Write-Host "[+] Attaching USB device $BusId to WSL"
-        & usbipd.exe attach --wsl --busid $BusId
+        & $usbipd attach --wsl --busid $BusId
         if ($LASTEXITCODE -ne 0) { throw "usbipd attach failed" }
     }
 }
 
+if ($Mode -eq "install-usbipd") {
+    Install-UsbipdWithChocolatey
+    exit 0
+}
+
 if ($Mode -eq "list-usb") {
-    if (-not (Get-Command usbipd.exe -ErrorAction SilentlyContinue)) {
+    $usbipd = Get-UsbipdExe
+    if (-not $usbipd) {
         Write-Host "[-] usbipd-win is not installed."
-        Write-Host "    winget install --interactive --exact dorssel.usbipd-win"
+        Write-Host "    Elevated PowerShell: choco install usbipd -y"
+        Write-Host "    Or: .\scripts\run-s1-rf-windows.ps1 -Mode install-usbipd"
         exit 2
     }
-    & usbipd.exe list
+    & $usbipd list
     exit $LASTEXITCODE
 }
 
