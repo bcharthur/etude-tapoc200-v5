@@ -1,0 +1,16 @@
+services:
+  rf:
+    build:
+      context: .
+      dockerfile: Dockerfile.rf
+    image: tapoc200-s1-rf:local
+    privileged: true
+    network_mode: host
+    volumes:
+      - ./evidence:/lab/evidence
+      - /sys:/sys
+    environment:
+      CAMERA_MAC: "dc:62:79:8b:3a:da"
+      MON_IFACE: "mon0"
+    stdin_open: true
+    tty: true
