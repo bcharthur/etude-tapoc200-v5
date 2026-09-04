@@ -1,0 +1,2 @@
+# S1 radio-only lab helpers (run inside WSL/Linux, not native Windows)
+scapy>=2.5,<3
