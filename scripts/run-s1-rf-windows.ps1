@@ -40,7 +40,12 @@ function Assert-Mac([string]$Value, [string]$Name) {
 }
 
 function Quote-Bash([string]$Value) {
-    return "'" + $Value.Replace("'", "'\"'\"'") + "'"
+    # Keep shell construction deliberately strict instead of trying to support
+    # arbitrary shell metacharacters in local paths.
+    if ($Value.Contains("'")) {
+        throw "Single quotes are not supported in WSL paths/arguments: $Value"
+    }
+    return "'" + $Value + "'"
 }
 
 function Invoke-WslBash([string]$Command) {
