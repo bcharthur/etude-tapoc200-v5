@@ -1,0 +1,22 @@
+﻿ 
+Nom de lÔÇÖinterface┬á: Wi-Fi 
+Actuellement 1 r├®seaux sont visibles. 
+
+SSID 1┬á: Chez_Jade_et_Arthur
+    Type de r├®seau┬á         : Infrastructure
+    Authentification┬á       : WPA2┬á-┬áPersonnel
+    Chiffrement┬á            : CCMP 
+    BSSID 1                 : 8a:bb:e5:0f:e3:9d
+         Signal             : 100%  
+         Type de radio         : 802.11ax
+         Bande               : 5┬áGHz
+         Canal            : 36 
+         Charge BSS┬á:
+             Stations connect├®es┬á:         5
+             Utilisation du canal┬á:        25 (9 %)
+             Capacit├® moyenne disponible┬á:  0 (0 us/s)
+         QoS MSCS pris en charge : 1
+         Mappage QoS pris en charge :  1
+         Taux de base (Mbits/s)┬á: 6 12 24
+         Autres taux (Mbits/s)┬á┬á: 9 18 36 48 54
+

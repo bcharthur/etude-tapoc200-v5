@@ -1,0 +1,123 @@
+{
+  "name": "tapo-c200-s1-observer-patch",
+  "version": "1.0.0",
+  "overlay_only": true,
+  "replaces_existing_files": false,
+  "files": [
+    {
+      "path": ".env.observer.example",
+      "size": 392,
+      "sha256": "ea6c4671554ea050af8a7f95d31b8b8908df7b3e55a01f9fe6f520905f2dd774"
+    },
+    {
+      "path": ".gitignore.observer.snippet",
+      "size": 110,
+      "sha256": "ec59bf80283e074ca4aa5b239a65feae9023bfda799d0ff5034faf55eb98df25"
+    },
+    {
+      "path": "PATCH_README.txt",
+      "size": 479,
+      "sha256": "dcd109df4f804786eada4c2d7d8f2b4d96bf0979696563b25582a1a57ef86a82"
+    },
+    {
+      "path": "docs/S1_OBSERVER.md",
+      "size": 2800,
+      "sha256": "7f96225f73e948fdb94cf20648b768523ed59a9d81b74d542447fbaafe17bee4"
+    },
+    {
+      "path": "observer/__init__.py",
+      "size": 92,
+      "sha256": "967380bf33d413b5c0d3344b1f967652409a3e2006f6a421f35cd9db74f90d66"
+    },
+    {
+      "path": "observer/cli.py",
+      "size": 3895,
+      "sha256": "ae499a3d216fa068ac072d2e9a6de4ae1bd9bc65b51799ded3fb303528217695"
+    },
+    {
+      "path": "observer/common.py",
+      "size": 4644,
+      "sha256": "5e81dc103183426a7e86dfd88d7dd3d911f70592a61d5554e01ac5fd9d16f123"
+    },
+    {
+      "path": "observer/network_probe.py",
+      "size": 3552,
+      "sha256": "66f43e8c761b5202beb5e29dc0d4b2fa88e65bde0dd23a2cdadefacc24c46a75"
+    },
+    {
+      "path": "observer/pcap.py",
+      "size": 3027,
+      "sha256": "198366c834ccf41b82331fa2252ccb56d5cb7deb452dfb83e63c4fd3e196ffec"
+    },
+    {
+      "path": "observer/preflight.py",
+      "size": 1811,
+      "sha256": "c6b6effe7354565c343ee71285699272c3bd826701f00f466bc0fd58f05848d9"
+    },
+    {
+      "path": "observer/report.py",
+      "size": 2802,
+      "sha256": "b75c331b6f6283949e8aaaa651bb0512fdccdf8791b9739ae10be9a5d1911334"
+    },
+    {
+      "path": "observer/rtsp_probe.py",
+      "size": 3939,
+      "sha256": "802d122c302648169dfb518abed34f802c9fa7c00fd028709900caaff814f895"
+    },
+    {
+      "path": "observer/session.py",
+      "size": 5935,
+      "sha256": "7dda8c498d432593d87b34ffeee87dfb2993ffa4c513c3d32f6fcfca6cb3afc7"
+    },
+    {
+      "path": "observer/state_probe.py",
+      "size": 1674,
+      "sha256": "3e4c01d5aedadc32a0a427000c8523c9cae28abd586f8b496d38c6b2aba1b46f"
+    },
+    {
+      "path": "observer/tapo_probe.py",
+      "size": 2506,
+      "sha256": "4a8774d0ad90b19f94360c47a3c3827e886a8b9f01d2c694b308993dfb662cf0"
+    },
+    {
+      "path": "observer/timeline.py",
+      "size": 656,
+      "sha256": "675b142f29488630596b0cc99aa35a9f53b851ea7d4d30728506bc4acd71d45e"
+    },
+    {
+      "path": "observer/wifi_probe.py",
+      "size": 4006,
+      "sha256": "42c3b3b0ba1098ef6b445cee9e3f587cf971e025399812968a6cb0a03b4a9da2"
+    },
+    {
+      "path": "observerlab.py",
+      "size": 87,
+      "sha256": "96029cffadbc5eac2c6538cd07f0af9aba2bd6699545dbc1d834509b4428c414"
+    },
+    {
+      "path": "requirements-observer.txt",
+      "size": 117,
+      "sha256": "4ae19fdd176e4bebce9a0a83f07b5ba1722fdea79b90bcd758a9caebb035cd7d"
+    },
+    {
+      "path": "scripts/observer-mark.ps1",
+      "size": 211,
+      "sha256": "d8d0fd195a4cc76000b60c0e692a9b511bed4b29681366fdfc3f23ce44ce0071"
+    },
+    {
+      "path": "scripts/observer-preflight.ps1",
+      "size": 114,
+      "sha256": "ef0ad53e6a56ea526bf4f2a093fd56036d1e8f7d1a55280c3855c238665f44c3"
+    },
+    {
+      "path": "scripts/observer-start-s1.ps1",
+      "size": 368,
+      "sha256": "5ab6e55fd76b2d47e4038aa8fd931a9398635fda2121e2e4111489bba9060e19"
+    },
+    {
+      "path": "tests/test_observer_parsers.py",
+      "size": 503,
+      "sha256": "c0bff6e17ff1bf2f172406b5e7b34cca1d019677b8b4b403b68ffc2d2a9530df"
+    }
+  ]
+}

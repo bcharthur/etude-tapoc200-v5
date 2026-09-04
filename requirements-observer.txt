@@ -1,0 +1,3 @@
+# Optional features. The observer still runs TCP/ARP/state/Wi-Fi scans without these.
+opencv-python>=4.8
+pytapo>=3.3
