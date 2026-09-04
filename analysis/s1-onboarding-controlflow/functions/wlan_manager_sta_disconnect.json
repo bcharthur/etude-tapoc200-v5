@@ -1,0 +1,54 @@
+{
+  "name": "wlan_manager_sta_disconnect",
+  "address": 5417876,
+  "size": 80,
+  "end": 5417956,
+  "instruction_count": 20,
+  "direct_calls": [
+    {
+      "site": 5417932,
+      "mnemonic": "bal",
+      "target": 5444208,
+      "target_symbol": "wlan_sta_disconnect",
+      "objdump_symbol": "wlan_sta_disconnect",
+      "context": [
+        "  52abac:\t8c43e6f0 \tlw\tv1,-6416(v0)",
+        "  52abb0:\tafbf0024 \tsw\tra,36(sp)",
+        "  52abb4:\tafa00018 \tsw\tzero,24(sp)",
+        "  52abb8:\t10600007 \tbeqz\tv1,52abd8 <wlan_manager_sta_disconnect+0x44>",
+        "  52abbc:\t2402ffff \tli\tv0,-1",
+        "  52abc0:\t8c650008 \tlw\ta1,8(v1)",
+        "  52abc4:\t10a00004 \tbeqz\ta1,52abd8 <wlan_manager_sta_disconnect+0x44>",
+        "  52abc8:\t8f9988b0 \tlw\tt9,-30544(gp)",
+        "  52abcc:\t041119a8 \tbal\t531270 <wlan_sta_disconnect>",
+        "  52abd0:\t27a60018 \taddiu\ta2,sp,24",
+        "  52abd4:\t8fa20018 \tlw\tv0,24(sp)",
+        "  52abd8:\t8fbf0024 \tlw\tra,36(sp)",
+        "  52abdc:\t03e00008 \tjr\tra",
+        "  52abe0:\t27bd0028 \taddiu\tsp,sp,40"
+      ]
+    }
+  ],
+  "indirect_calls": [],
+  "branches": [
+    {
+      "site": 5417912,
+      "mnemonic": "beqz",
+      "operands": "v1,52abd8 <wlan_manager_sta_disconnect+0x44>",
+      "target": 5417944,
+      "target_symbol": null
+    },
+    {
+      "site": 5417924,
+      "mnemonic": "beqz",
+      "operands": "a1,52abd8 <wlan_manager_sta_disconnect+0x44>",
+      "target": 5417944,
+      "target_symbol": null
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "link"
+  ],
+  "direct_callers": []
+}

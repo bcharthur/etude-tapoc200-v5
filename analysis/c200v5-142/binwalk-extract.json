@@ -1,0 +1,2711 @@
+{
+  "image": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\firmware\\Tapo_C200v5_1.4.2_260513.bin.dec",
+  "output_dir": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142",
+  "extraction_command_completed": true,
+  "files": [
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\166F9A",
+      "size": 6385091
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\166F9A.xz",
+      "size": 5917754
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\16E4B2",
+      "size": 6319555
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\16E4B2.xz",
+      "size": 5887778
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\175DB2",
+      "size": 6254019
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\175DB2.xz",
+      "size": 5856802
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\17D5AE",
+      "size": 6188483
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\17D5AE.xz",
+      "size": 5826086
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1851FE",
+      "size": 6122947
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1851FE.xz",
+      "size": 5794262
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1856A6",
+      "size": 6116151
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1856A6.xz",
+      "size": 5793070
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\18A60A",
+      "size": 6056483
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\18A60A.xz",
+      "size": 5772746
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\18E932",
+      "size": 5990947
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\18E932.xz",
+      "size": 5755554
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\192366",
+      "size": 5925411
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\192366.xz",
+      "size": 5740654
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\194B76",
+      "size": 5864107
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\194B76.xz",
+      "size": 5730398
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\196ED6",
+      "size": 5799511
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\196ED6.xz",
+      "size": 5721342
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\19CA8E",
+      "size": 5741905
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\19CA8E.xz",
+      "size": 5697862
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\19F296",
+      "size": 5719905
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\19F296.xz",
+      "size": 5687614
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1A44F6",
+      "size": 5654369
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1A44F6.xz",
+      "size": 5666526
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1A5CA6",
+      "size": 5635177
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1A5CA6.xz",
+      "size": 5660462
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1ABB36",
+      "size": 5576529
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1ABB36.xz",
+      "size": 5636254
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1B0B4E",
+      "size": 5510993
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1B0B4E.xz",
+      "size": 5615750
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1B6A8E",
+      "size": 5445457
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1B6A8E.xz",
+      "size": 5591366
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1BD112",
+      "size": 5379921
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1BD112.xz",
+      "size": 5565122
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1C336E",
+      "size": 5314385
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1C336E.xz",
+      "size": 5539942
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1C91E2",
+      "size": 5248849
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1C91E2.xz",
+      "size": 5515762
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1D007E",
+      "size": 5183313
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1D007E.xz",
+      "size": 5487446
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1D6622",
+      "size": 5117777
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1D6622.xz",
+      "size": 5461426
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1DC87A",
+      "size": 5052241
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1DC87A.xz",
+      "size": 5436250
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1E093A",
+      "size": 4986705
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1E093A.xz",
+      "size": 5419674
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1E944E",
+      "size": 4921169
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1E944E.xz",
+      "size": 5384070
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1EE976",
+      "size": 4855633
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1EE976.xz",
+      "size": 5362270
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1EFB72",
+      "size": 4817661
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1EFB72.xz",
+      "size": 5357666
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1F3922",
+      "size": 4752125
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1F3922.xz",
+      "size": 5341874
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1F87F6",
+      "size": 4686589
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1F87F6.xz",
+      "size": 5321694
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1FD6FA",
+      "size": 4621053
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\1FD6FA.xz",
+      "size": 5301466
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\202942",
+      "size": 4555517
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\202942.xz",
+      "size": 5280402
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\20440",
+      "size": 4062288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\20440.7z",
+      "size": 7255956
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2082C6",
+      "size": 4489981
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2082C6.xz",
+      "size": 5257486
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\20D4EE",
+      "size": 4424445
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\20D4EE.xz",
+      "size": 5236454
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\211B8A",
+      "size": 4358909
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\211B8A.xz",
+      "size": 5218378
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\216BDA",
+      "size": 4293373
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\216BDA.xz",
+      "size": 5197818
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\21A3EA",
+      "size": 4227837
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\21A3EA.xz",
+      "size": 5183466
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\21F14E",
+      "size": 4162301
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\21F14E.xz",
+      "size": 5163654
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\22251E",
+      "size": 4096765
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\22251E.xz",
+      "size": 5150390
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\226DB6",
+      "size": 4031229
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\226DB6.xz",
+      "size": 5131806
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\22B6FA",
+      "size": 3965693
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\22B6FA.xz",
+      "size": 5113050
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\22FE92",
+      "size": 3900157
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\22FE92.xz",
+      "size": 5094722
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2346E2",
+      "size": 3834621
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2346E2.xz",
+      "size": 5076210
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\238C82",
+      "size": 3769085
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\238C82.xz",
+      "size": 5058386
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\23EC2A",
+      "size": 3703549
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\23EC2A.xz",
+      "size": 5033898
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\240",
+      "size": 167224
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\240.7z",
+      "size": 7387540
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\241F4A",
+      "size": 3638013
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\241F4A.xz",
+      "size": 5020810
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\24740A",
+      "size": 3572477
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\24740A.xz",
+      "size": 4999114
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\24B1DE",
+      "size": 3506941
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\24B1DE.xz",
+      "size": 4983286
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\24F506",
+      "size": 3441405
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\24F506.xz",
+      "size": 4966094
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2535E2",
+      "size": 3375869
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2535E2.xz",
+      "size": 4949490
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\256FA6",
+      "size": 3310333
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\256FA6.xz",
+      "size": 4934702
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\25A502",
+      "size": 3244797
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\25A502.xz",
+      "size": 4921042
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\25B1F2",
+      "size": 3210841
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\25B1F2.xz",
+      "size": 4917730
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\25FD0E",
+      "size": 3145305
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\25FD0E.xz",
+      "size": 4898502
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2658B2",
+      "size": 3079769
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2658B2.xz",
+      "size": 4875042
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\26AE3E",
+      "size": 3014233
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\26AE3E.xz",
+      "size": 4853142
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\27031E",
+      "size": 2948697
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\27031E.xz",
+      "size": 4831414
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\27679E",
+      "size": 2883161
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\27679E.xz",
+      "size": 4805686
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\27F68E",
+      "size": 2817625
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\27F68E.xz",
+      "size": 4769094
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2848E6",
+      "size": 2752089
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2848E6.xz",
+      "size": 4748014
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2887C2",
+      "size": 2686553
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2887C2.xz",
+      "size": 4731922
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\28A6A6",
+      "size": 2650973
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\28A6A6.xz",
+      "size": 4724014
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\29051E",
+      "size": 2585437
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\29051E.xz",
+      "size": 4699830
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2961F6",
+      "size": 2519901
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2961F6.xz",
+      "size": 4676062
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\29BFC2",
+      "size": 2454365
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\29BFC2.xz",
+      "size": 4652050
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2A1D96",
+      "size": 2388829
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2A1D96.xz",
+      "size": 4628030
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2A79AA",
+      "size": 2323293
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2A79AA.xz",
+      "size": 4604458
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2ADF66",
+      "size": 2257757
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2ADF66.xz",
+      "size": 4578414
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2B3FD6",
+      "size": 2192221
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2B3FD6.xz",
+      "size": 4553726
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2BA5C6",
+      "size": 2126685
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2BA5C6.xz",
+      "size": 4527630
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2C08BE",
+      "size": 2061149
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2C08BE.xz",
+      "size": 4502294
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2C5E1E",
+      "size": 1995613
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2C5E1E.xz",
+      "size": 4480438
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2CBADE",
+      "size": 1930077
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2CBADE.xz",
+      "size": 4456694
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2D1E4A",
+      "size": 1864541
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2D1E4A.xz",
+      "size": 4431242
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2D690A",
+      "size": 1799005
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2D690A.xz",
+      "size": 4412106
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2DA79E",
+      "size": 1740085
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2DA79E.xz",
+      "size": 4396086
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2DF11A",
+      "size": 1679241
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2DF11A.xz",
+      "size": 4377274
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2E43BA",
+      "size": 1613705
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2E43BA.xz",
+      "size": 4356122
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2EA38A",
+      "size": 1548169
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2EA38A.xz",
+      "size": 4331594
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2F036A",
+      "size": 1482633
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2F036A.xz",
+      "size": 4307050
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2F6416",
+      "size": 1417097
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2F6416.xz",
+      "size": 4282302
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2FC33E",
+      "size": 1351561
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\2FC33E.xz",
+      "size": 4257942
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\30571A",
+      "size": 1286025
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\30571A.xz",
+      "size": 4220090
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\307162",
+      "size": 1246953
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\307162.xz",
+      "size": 4213362
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\30AF5E",
+      "size": 1198799
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\30AF5E.xz",
+      "size": 4197494
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\30DD1A",
+      "size": 1161383
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\30DD1A.xz",
+      "size": 4185786
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\31427E",
+      "size": 1095847
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\31427E.xz",
+      "size": 4159830
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\31B2CA",
+      "size": 1030311
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\31B2CA.xz",
+      "size": 4131082
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\31E8B2",
+      "size": 990147
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\31E8B2.xz",
+      "size": 4117282
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3244DE",
+      "size": 924611
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3244DE.xz",
+      "size": 4093686
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\324AF2",
+      "size": 918347
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\324AF2.xz",
+      "size": 4092130
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\327DE6",
+      "size": 876695
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\327DE6.xz",
+      "size": 4079086
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\32FF3A",
+      "size": 811159
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\32FF3A.xz",
+      "size": 4045978
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3307A2",
+      "size": 802935
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3307A2.xz",
+      "size": 4043826
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\336372",
+      "size": 737399
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\336372.xz",
+      "size": 4020322
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\33CD22",
+      "size": 671863
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\33CD22.xz",
+      "size": 3993266
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\343862",
+      "size": 606327
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\343862.xz",
+      "size": 3965810
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\349FCA",
+      "size": 540791
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\349FCA.xz",
+      "size": 3939338
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3508FA",
+      "size": 475255
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3508FA.xz",
+      "size": 3912410
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\357482",
+      "size": 409719
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\357482.xz",
+      "size": 3884882
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\35E5C6",
+      "size": 344183
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\35E5C6.xz",
+      "size": 3855886
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3652B2",
+      "size": 278647
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3652B2.xz",
+      "size": 3828002
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\36BE3A",
+      "size": 213111
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\36BE3A.xz",
+      "size": 3800474
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\371446",
+      "size": 147575
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\371446.xz",
+      "size": 3778446
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\372B2E",
+      "size": 127419
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\372B2E.xz",
+      "size": 3772582
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3775E2",
+      "size": 64960
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\3775E2.xz",
+      "size": 3753458
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37DCA4",
+      "size": 8192
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37DCA4.xz",
+      "size": 3727152
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37E2F2",
+      "size": 7251
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37E2F2.xz",
+      "size": 3725538
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37EA58",
+      "size": 8192
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37EA58.xz",
+      "size": 3723644
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37F8DA",
+      "size": 1346
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37F8DA.xz",
+      "size": 3719930
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37FC40",
+      "size": 176
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37FC40.xz",
+      "size": 3719060
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37FCDE",
+      "size": 3624
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\37FCDE.xz",
+      "size": 3718902
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\380200.squashfs",
+      "size": 3659076
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\6FDC44.gz",
+      "size": 57232
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\bin\\impdbg",
+      "size": 175208
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\bin\\logcat",
+      "size": 24812
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\bin\\main",
+      "size": 3856820
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\config\\auto_detect_sensor\\detect_i2c_install_sensor.sh",
+      "size": 2721
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\config\\auto_detect_sensor\\sensor_db.cfg",
+      "size": 1990
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\config\\auto_detect_sensor\\modules\\sensor_sc2336p_t23.ko",
+      "size": 16752
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\dnsd.conf",
+      "size": 0
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\dsd_convert.json",
+      "size": 15592
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\hw_id.bin",
+      "size": 32
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\webrtc_profile.ini",
+      "size": 874
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-C0385-factorymode-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-C0385-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-CY6003-factorymode-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-CY6003-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\data\\dss_certificates\\dpss_public_key.pem",
+      "size": 177
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\data\\dss_certificates\\StarfieldClass2CertificationAuthority.pem",
+      "size": 1647
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\default_isp\\sc2336p-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\angle2560x1920.bin",
+      "size": 119192
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\angle960P.bin",
+      "size": 29648
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\logo1080P.bin",
+      "size": 2276
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\logo2304x1296.bin",
+      "size": 3208
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\logo2560x1440.bin",
+      "size": 4040
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\logo2688x1520.bin",
+      "size": 6187
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\logo360P.bin",
+      "size": 260
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\logo3840x2160.bin",
+      "size": 9080
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\logo720P.bin",
+      "size": 1016
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\time1080P.bin",
+      "size": 14696
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\time2304x1296.bin",
+      "size": 21700
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\time2560x1440.bin",
+      "size": 26120
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\time360P.bin",
+      "size": 1640
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\time3840x2160.bin",
+      "size": 58760
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\OSD\\time720P.bin",
+      "size": 6536
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\plugins\\icassp16k_opt.bin",
+      "size": 147308
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\plugins\\icassp16k_opt_param.bin",
+      "size": 392
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\plugins\\icassp_opt.bin.dsc",
+      "size": 115
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\load_isp_data",
+      "size": 792
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\Emergency.g711",
+      "size": 32000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\motion_deteck_alarm.g711",
+      "size": 19799
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\motion_deteck_cue.g711",
+      "size": 5266
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\prompt_tone_failed.g711",
+      "size": 9600
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\prompt_tone_sucess.g711",
+      "size": 11200
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\Red_Alert.g711",
+      "size": 35896
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\register_success.g711",
+      "size": 11200
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\reset_success.g711",
+      "size": 48000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\sd_abnormal.g711",
+      "size": 20000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\sd_not_formated.g711",
+      "size": 38666
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\Siren.g711",
+      "size": 32001
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\sweep_frequency.g711",
+      "size": 16000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\wlan_state_connecting.g711",
+      "size": 16000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\wlan_state_connect_suc.g711",
+      "size": 16000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\wlan_state_get_ip_fail.g711",
+      "size": 20000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\wlan_state_mode_switch_suc.g711",
+      "size": 28000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\audio\\wlan_state_password_err.g711",
+      "size": 20000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\audio.ko",
+      "size": 62444
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\esp32.ko",
+      "size": 15880
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\jzmmc_v12.ko",
+      "size": 33220
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\mmc_block.ko",
+      "size": 41376
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\mmc_core.ko",
+      "size": 131084
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\sinfo.ko",
+      "size": 16416
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\spi_tmi8150b_ir_cut.ko",
+      "size": 10092
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\spi_tmi8150b_motor.ko",
+      "size": 21368
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\lib\\modules\\3.10.14\\tx-isp-t23.ko",
+      "size": 1011580
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\bin\\iperf3",
+      "size": 83416
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\bin\\rtl8188fu_is_cal_real.script",
+      "size": 5694
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\bin\\rtl8188fu_wlan_operate",
+      "size": 7252
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\bin\\song-16-gb2312.bin",
+      "size": 243648
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\bin\\wq9001_is_cal_real.script",
+      "size": 5865
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\bin\\wq9001_wlan_operate",
+      "size": 8255
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libalog.so",
+      "size": 29548
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libaudioProcess.so",
+      "size": 608824
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libimp.so",
+      "size": 960812
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libstdc++.so.6.0.21",
+      "size": 1297116
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libsysutils.so",
+      "size": 31544
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libtss.so",
+      "size": 46296
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libudt.so",
+      "size": 239176
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\sbin\\fatlabel",
+      "size": 49916
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\sbin\\fsck.fat",
+      "size": 53308
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\sbin\\hostapd",
+      "size": 414012
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\sbin\\mkfs.fat",
+      "size": 31964
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertAssuredIDRootCA.cer",
+      "size": 1372
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertGlobalRootCA.cer",
+      "size": 1360
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertGlobalRootG2.cer",
+      "size": 1316
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertGlobalRootG3.cer",
+      "size": 854
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertHighAssuranceEVRootCA.cer",
+      "size": 1390
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertTLSRSA4096RootG5.cer",
+      "size": 1959
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertTrustedRootG4.cer",
+      "size": 2020
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\GlobalSignECCRootCA-R5.cer",
+      "size": 808
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\GlobalSignRootCA-R3.cer",
+      "size": 1250
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\GlobalSignRootCA.cer",
+      "size": 1282
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\GoDaddyClass2CertificationAuthority.cer",
+      "size": 1472
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\GoDaddyRootCertificateAuthority-G2.cer",
+      "size": 1390
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\IdenTrustCommercialRootCA1.cer",
+      "size": 1954
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\SectigoPublicServerAuthenticationRootE46.cer",
+      "size": 846
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\SectigoPublicServerAuthenticationRootR46.cer",
+      "size": 2010
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\StarfieldClass2CertificationAuthority.cer",
+      "size": 1492
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\www\\cert\\ca_crt\\StarfieldRootCertificateAuthority-G2.cer",
+      "size": 1422
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\_20440.extracted\\35354C.xz",
+      "size": 575236
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\_240.extracted\\1FEA8.lzo",
+      "size": 36496
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\166F9A",
+      "size": 6385091
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\166F9A.xz",
+      "size": 5917754
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\16E4B2",
+      "size": 6319555
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\16E4B2.xz",
+      "size": 5887778
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\175DB2",
+      "size": 6254019
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\175DB2.xz",
+      "size": 5856802
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\17D5AE",
+      "size": 6188483
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\17D5AE.xz",
+      "size": 5826086
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1851FE",
+      "size": 6122947
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1851FE.xz",
+      "size": 5794262
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1856A6",
+      "size": 6116151
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1856A6.xz",
+      "size": 5793070
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\18A60A",
+      "size": 6056483
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\18A60A.xz",
+      "size": 5772746
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\18E932",
+      "size": 5990947
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\18E932.xz",
+      "size": 5755554
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\192366",
+      "size": 5925411
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\192366.xz",
+      "size": 5740654
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\194B76",
+      "size": 5864107
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\194B76.xz",
+      "size": 5730398
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\196ED6",
+      "size": 5799511
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\196ED6.xz",
+      "size": 5721342
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\19CA8E",
+      "size": 5741905
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\19CA8E.xz",
+      "size": 5697862
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\19F296",
+      "size": 5719905
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\19F296.xz",
+      "size": 5687614
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1A44F6",
+      "size": 5654369
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1A44F6.xz",
+      "size": 5666526
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1A5CA6",
+      "size": 5635177
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1A5CA6.xz",
+      "size": 5660462
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1ABB36",
+      "size": 5576529
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1ABB36.xz",
+      "size": 5636254
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1B0B4E",
+      "size": 5510993
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1B0B4E.xz",
+      "size": 5615750
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1B6A8E",
+      "size": 5445457
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1B6A8E.xz",
+      "size": 5591366
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1BD112",
+      "size": 5379921
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1BD112.xz",
+      "size": 5565122
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1C336E",
+      "size": 5314385
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1C336E.xz",
+      "size": 5539942
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1C91E2",
+      "size": 5248849
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1C91E2.xz",
+      "size": 5515762
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1D007E",
+      "size": 5183313
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1D007E.xz",
+      "size": 5487446
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1D6622",
+      "size": 5117777
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1D6622.xz",
+      "size": 5461426
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1DC87A",
+      "size": 5052241
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1DC87A.xz",
+      "size": 5436250
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1E093A",
+      "size": 4986705
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1E093A.xz",
+      "size": 5419674
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1E944E",
+      "size": 4921169
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1E944E.xz",
+      "size": 5384070
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1EE976",
+      "size": 4855633
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1EE976.xz",
+      "size": 5362270
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1EFB72",
+      "size": 4817661
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1EFB72.xz",
+      "size": 5357666
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1F3922",
+      "size": 4752125
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1F3922.xz",
+      "size": 5341874
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1F87F6",
+      "size": 4686589
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1F87F6.xz",
+      "size": 5321694
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1FD6FA",
+      "size": 4621053
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\1FD6FA.xz",
+      "size": 5301466
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\202942",
+      "size": 4555517
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\202942.xz",
+      "size": 5280402
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\20440",
+      "size": 4062288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\20440.7z",
+      "size": 7255956
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2082C6",
+      "size": 4489981
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2082C6.xz",
+      "size": 5257486
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\20D4EE",
+      "size": 4424445
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\20D4EE.xz",
+      "size": 5236454
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\211B8A",
+      "size": 4358909
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\211B8A.xz",
+      "size": 5218378
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\216BDA",
+      "size": 4293373
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\216BDA.xz",
+      "size": 5197818
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\21A3EA",
+      "size": 4227837
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\21A3EA.xz",
+      "size": 5183466
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\21F14E",
+      "size": 4162301
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\21F14E.xz",
+      "size": 5163654
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\22251E",
+      "size": 4096765
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\22251E.xz",
+      "size": 5150390
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\226DB6",
+      "size": 4031229
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\226DB6.xz",
+      "size": 5131806
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\22B6FA",
+      "size": 3965693
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\22B6FA.xz",
+      "size": 5113050
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\22FE92",
+      "size": 3900157
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\22FE92.xz",
+      "size": 5094722
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2346E2",
+      "size": 3834621
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2346E2.xz",
+      "size": 5076210
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\238C82",
+      "size": 3769085
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\238C82.xz",
+      "size": 5058386
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\23EC2A",
+      "size": 3703549
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\23EC2A.xz",
+      "size": 5033898
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\240",
+      "size": 167224
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\240.7z",
+      "size": 7387540
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\241F4A",
+      "size": 3638013
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\241F4A.xz",
+      "size": 5020810
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\24740A",
+      "size": 3572477
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\24740A.xz",
+      "size": 4999114
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\24B1DE",
+      "size": 3506941
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\24B1DE.xz",
+      "size": 4983286
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\24F506",
+      "size": 3441405
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\24F506.xz",
+      "size": 4966094
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2535E2",
+      "size": 3375869
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2535E2.xz",
+      "size": 4949490
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\256FA6",
+      "size": 3310333
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\256FA6.xz",
+      "size": 4934702
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\25A502",
+      "size": 3244797
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\25A502.xz",
+      "size": 4921042
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\25B1F2",
+      "size": 3210841
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\25B1F2.xz",
+      "size": 4917730
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\25FD0E",
+      "size": 3145305
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\25FD0E.xz",
+      "size": 4898502
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2658B2",
+      "size": 3079769
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2658B2.xz",
+      "size": 4875042
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\26AE3E",
+      "size": 3014233
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\26AE3E.xz",
+      "size": 4853142
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\27031E",
+      "size": 2948697
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\27031E.xz",
+      "size": 4831414
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\27679E",
+      "size": 2883161
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\27679E.xz",
+      "size": 4805686
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\27F68E",
+      "size": 2817625
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\27F68E.xz",
+      "size": 4769094
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2848E6",
+      "size": 2752089
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2848E6.xz",
+      "size": 4748014
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2887C2",
+      "size": 2686553
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2887C2.xz",
+      "size": 4731922
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\28A6A6",
+      "size": 2650973
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\28A6A6.xz",
+      "size": 4724014
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\29051E",
+      "size": 2585437
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\29051E.xz",
+      "size": 4699830
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2961F6",
+      "size": 2519901
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2961F6.xz",
+      "size": 4676062
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\29BFC2",
+      "size": 2454365
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\29BFC2.xz",
+      "size": 4652050
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2A1D96",
+      "size": 2388829
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2A1D96.xz",
+      "size": 4628030
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2A79AA",
+      "size": 2323293
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2A79AA.xz",
+      "size": 4604458
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2ADF66",
+      "size": 2257757
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2ADF66.xz",
+      "size": 4578414
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2B3FD6",
+      "size": 2192221
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2B3FD6.xz",
+      "size": 4553726
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2BA5C6",
+      "size": 2126685
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2BA5C6.xz",
+      "size": 4527630
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2C08BE",
+      "size": 2061149
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2C08BE.xz",
+      "size": 4502294
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2C5E1E",
+      "size": 1995613
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2C5E1E.xz",
+      "size": 4480438
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2CBADE",
+      "size": 1930077
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2CBADE.xz",
+      "size": 4456694
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2D1E4A",
+      "size": 1864541
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2D1E4A.xz",
+      "size": 4431242
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2D690A",
+      "size": 1799005
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2D690A.xz",
+      "size": 4412106
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2DA79E",
+      "size": 1740085
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2DA79E.xz",
+      "size": 4396086
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2DF11A",
+      "size": 1679241
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2DF11A.xz",
+      "size": 4377274
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2E43BA",
+      "size": 1613705
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2E43BA.xz",
+      "size": 4356122
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2EA38A",
+      "size": 1548169
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2EA38A.xz",
+      "size": 4331594
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2F036A",
+      "size": 1482633
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2F036A.xz",
+      "size": 4307050
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2F6416",
+      "size": 1417097
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2F6416.xz",
+      "size": 4282302
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2FC33E",
+      "size": 1351561
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\2FC33E.xz",
+      "size": 4257942
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\30571A",
+      "size": 1286025
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\30571A.xz",
+      "size": 4220090
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\307162",
+      "size": 1246953
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\307162.xz",
+      "size": 4213362
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\30AF5E",
+      "size": 1198799
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\30AF5E.xz",
+      "size": 4197494
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\30DD1A",
+      "size": 1161383
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\30DD1A.xz",
+      "size": 4185786
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\31427E",
+      "size": 1095847
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\31427E.xz",
+      "size": 4159830
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\31B2CA",
+      "size": 1030311
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\31B2CA.xz",
+      "size": 4131082
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\31E8B2",
+      "size": 990147
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\31E8B2.xz",
+      "size": 4117282
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3244DE",
+      "size": 924611
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3244DE.xz",
+      "size": 4093686
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\324AF2",
+      "size": 918347
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\324AF2.xz",
+      "size": 4092130
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\327DE6",
+      "size": 876695
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\327DE6.xz",
+      "size": 4079086
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\32FF3A",
+      "size": 811159
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\32FF3A.xz",
+      "size": 4045978
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3307A2",
+      "size": 802935
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3307A2.xz",
+      "size": 4043826
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\336372",
+      "size": 737399
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\336372.xz",
+      "size": 4020322
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\33CD22",
+      "size": 671863
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\33CD22.xz",
+      "size": 3993266
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\343862",
+      "size": 606327
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\343862.xz",
+      "size": 3965810
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\349FCA",
+      "size": 540791
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\349FCA.xz",
+      "size": 3939338
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3508FA",
+      "size": 475255
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3508FA.xz",
+      "size": 3912410
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\357482",
+      "size": 409719
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\357482.xz",
+      "size": 3884882
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\35E5C6",
+      "size": 344183
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\35E5C6.xz",
+      "size": 3855886
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3652B2",
+      "size": 278647
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3652B2.xz",
+      "size": 3828002
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\36BE3A",
+      "size": 213111
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\36BE3A.xz",
+      "size": 3800474
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\371446",
+      "size": 147575
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\371446.xz",
+      "size": 3778446
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\372B2E",
+      "size": 127419
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\372B2E.xz",
+      "size": 3772582
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3775E2",
+      "size": 64960
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\3775E2.xz",
+      "size": 3753458
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37DCA4",
+      "size": 8192
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37DCA4.xz",
+      "size": 3727152
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37E2F2",
+      "size": 7251
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37E2F2.xz",
+      "size": 3725538
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37EA58",
+      "size": 8192
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37EA58.xz",
+      "size": 3723644
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37F8DA",
+      "size": 1346
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37F8DA.xz",
+      "size": 3719930
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37FC40",
+      "size": 176
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37FC40.xz",
+      "size": 3719060
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37FCDE",
+      "size": 3624
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\37FCDE.xz",
+      "size": 3718902
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\380200.squashfs",
+      "size": 3659076
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\6FDC44.gz",
+      "size": 57232
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\bin\\impdbg",
+      "size": 175208
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\bin\\logcat",
+      "size": 24812
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\bin\\main",
+      "size": 3856820
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\config\\auto_detect_sensor\\detect_i2c_install_sensor.sh",
+      "size": 2721
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\config\\auto_detect_sensor\\sensor_db.cfg",
+      "size": 1990
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\config\\auto_detect_sensor\\modules\\sensor_sc2336p_t23.ko",
+      "size": 16752
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\dnsd.conf",
+      "size": 0
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\dsd_convert.json",
+      "size": 15592
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\hw_id.bin",
+      "size": 32
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\webrtc_profile.ini",
+      "size": 874
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-C0385-factorymode-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-C0385-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-CY6003-factorymode-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-CY6003-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\data\\dss_certificates\\dpss_public_key.pem",
+      "size": 177
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\data\\dss_certificates\\StarfieldClass2CertificationAuthority.pem",
+      "size": 1647
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\default_isp\\sc2336p-t23.bin",
+      "size": 176288
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\angle2560x1920.bin",
+      "size": 119192
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\angle960P.bin",
+      "size": 29648
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\logo1080P.bin",
+      "size": 2276
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\logo2304x1296.bin",
+      "size": 3208
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\logo2560x1440.bin",
+      "size": 4040
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\logo2688x1520.bin",
+      "size": 6187
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\logo360P.bin",
+      "size": 260
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\logo3840x2160.bin",
+      "size": 9080
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\logo720P.bin",
+      "size": 1016
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\time1080P.bin",
+      "size": 14696
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\time2304x1296.bin",
+      "size": 21700
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\time2560x1440.bin",
+      "size": 26120
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\time360P.bin",
+      "size": 1640
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\time3840x2160.bin",
+      "size": 58760
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\OSD\\time720P.bin",
+      "size": 6536
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\plugins\\icassp16k_opt.bin",
+      "size": 147308
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\plugins\\icassp16k_opt_param.bin",
+      "size": 392
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\plugins\\icassp_opt.bin.dsc",
+      "size": 115
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\load_isp_data",
+      "size": 792
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\Emergency.g711",
+      "size": 32000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\motion_deteck_alarm.g711",
+      "size": 19799
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\motion_deteck_cue.g711",
+      "size": 5266
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\prompt_tone_failed.g711",
+      "size": 9600
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\prompt_tone_sucess.g711",
+      "size": 11200
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\Red_Alert.g711",
+      "size": 35896
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\register_success.g711",
+      "size": 11200
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\reset_success.g711",
+      "size": 48000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\sd_abnormal.g711",
+      "size": 20000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\sd_not_formated.g711",
+      "size": 38666
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\Siren.g711",
+      "size": 32001
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\sweep_frequency.g711",
+      "size": 16000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\wlan_state_connecting.g711",
+      "size": 16000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\wlan_state_connect_suc.g711",
+      "size": 16000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\wlan_state_get_ip_fail.g711",
+      "size": 20000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\wlan_state_mode_switch_suc.g711",
+      "size": 28000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\audio\\wlan_state_password_err.g711",
+      "size": 20000
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\audio.ko",
+      "size": 62444
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\esp32.ko",
+      "size": 15880
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\jzmmc_v12.ko",
+      "size": 33220
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\mmc_block.ko",
+      "size": 41376
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\mmc_core.ko",
+      "size": 131084
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\sinfo.ko",
+      "size": 16416
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\spi_tmi8150b_ir_cut.ko",
+      "size": 10092
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\spi_tmi8150b_motor.ko",
+      "size": 21368
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\lib\\modules\\3.10.14\\tx-isp-t23.ko",
+      "size": 1011580
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\bin\\iperf3",
+      "size": 83416
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\bin\\rtl8188fu_is_cal_real.script",
+      "size": 5694
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\bin\\rtl8188fu_wlan_operate",
+      "size": 7252
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\bin\\song-16-gb2312.bin",
+      "size": 243648
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\bin\\wq9001_is_cal_real.script",
+      "size": 5865
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\bin\\wq9001_wlan_operate",
+      "size": 8255
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libalog.so",
+      "size": 29548
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libaudioProcess.so",
+      "size": 608824
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libimp.so",
+      "size": 960812
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libstdc++.so.6.0.21",
+      "size": 1297116
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libsysutils.so",
+      "size": 31544
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libtss.so",
+      "size": 46296
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libudt.so",
+      "size": 239176
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\sbin\\fatlabel",
+      "size": 49916
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\sbin\\fsck.fat",
+      "size": 53308
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\sbin\\hostapd",
+      "size": 414012
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\sbin\\mkfs.fat",
+      "size": 31964
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertAssuredIDRootCA.cer",
+      "size": 1372
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertGlobalRootCA.cer",
+      "size": 1360
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertGlobalRootG2.cer",
+      "size": 1316
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertGlobalRootG3.cer",
+      "size": 854
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertHighAssuranceEVRootCA.cer",
+      "size": 1390
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertTLSRSA4096RootG5.cer",
+      "size": 1959
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\DigiCertTrustedRootG4.cer",
+      "size": 2020
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\GlobalSignECCRootCA-R5.cer",
+      "size": 808
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\GlobalSignRootCA-R3.cer",
+      "size": 1250
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\GlobalSignRootCA.cer",
+      "size": 1282
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\GoDaddyClass2CertificationAuthority.cer",
+      "size": 1472
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\GoDaddyRootCertificateAuthority-G2.cer",
+      "size": 1390
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\IdenTrustCommercialRootCA1.cer",
+      "size": 1954
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\SectigoPublicServerAuthenticationRootE46.cer",
+      "size": 846
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\SectigoPublicServerAuthenticationRootR46.cer",
+      "size": 2010
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\StarfieldClass2CertificationAuthority.cer",
+      "size": 1492
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\www\\cert\\ca_crt\\StarfieldRootCertificateAuthority-G2.cer",
+      "size": 1422
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\_20440.extracted\\35354C.xz",
+      "size": 575236
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\_240.extracted\\1FEA8.lzo",
+      "size": 36496
+    }
+  ],
+  "file_count": 656,
+  "skipped_entries": [
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\bin\\dmesg",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\bin\\\\dmesg'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\sensor",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\etc\\\\sensor'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-CY6025-factorymode-t23.bin",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\etc\\\\config\\\\isp_extra\\\\sc2336p-CY6025-factorymode-t23.bin'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-CY6025-t23.bin",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\etc\\\\config\\\\isp_extra\\\\sc2336p-CY6025-t23.bin'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\bin\\tail",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\usr\\\\bin\\\\tail'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libjson.so",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\usr\\\\lib\\\\libjson.so'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\lib\\libstdc++.so.6",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\usr\\\\lib\\\\libstdc++.so.6'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\sbin\\chroot",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\usr\\\\sbin\\\\chroot'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\squashfs-root\\usr\\sbin\\dnsd",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted\\\\squashfs-root\\\\usr\\\\sbin\\\\dnsd'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\bin\\dmesg",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\bin\\\\dmesg'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\sensor",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\etc\\\\sensor'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-CY6025-factorymode-t23.bin",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\etc\\\\config\\\\isp_extra\\\\sc2336p-CY6025-factorymode-t23.bin'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\etc\\config\\isp_extra\\sc2336p-CY6025-t23.bin",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\etc\\\\config\\\\isp_extra\\\\sc2336p-CY6025-t23.bin'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\bin\\tail",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\usr\\\\bin\\\\tail'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libjson.so",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\usr\\\\lib\\\\libjson.so'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\lib\\libstdc++.so.6",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\usr\\\\lib\\\\libstdc++.so.6'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\sbin\\chroot",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\usr\\\\sbin\\\\chroot'"
+    },
+    {
+      "path": "C:\\Users\\artbo\\PycharmProjects\\etude-tapoc200-v5\\analysis\\c200v5-142\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\squashfs-root\\usr\\sbin\\dnsd",
+      "reason": "OSError: [WinError 1920] Le système ne peut pas accéder au fichier: 'C:\\\\Users\\\\artbo\\\\PycharmProjects\\\\etude-tapoc200-v5\\\\analysis\\\\c200v5-142\\\\_Tapo_C200v5_1.4.2_260513.bin.dec.extracted\\\\squashfs-root\\\\usr\\\\sbin\\\\dnsd'"
+    }
+  ],
+  "skipped_entry_count": 18,
+  "walk_errors": [],
+  "walk_error_count": 0,
+  "stdout": "ht (c) 2003-2022, Jouni Malinen <j@w1.fi> and contributors\"\n268804        0x41A04         Unix path: /sys/devices/virtual/net/%s/bridge/multicast_snooping\n272912        0x42A10         Unix path: /sys/class/net/%s/phy80211\n282300        0x44EBC         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n309820        0x4BA3C         Unix path: /sys/class/ieee80211/%s/index\n317536        0x4D860         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n325220        0x4F664         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n329364        0x50694         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n342836        0x53B34         Executable script, shebang: \"/bin/sh\"\n343289        0x53CF9         Unix path: /var/run/storage/\"\n399703        0x61957         Base64 standard index table\n402255        0x6234F         Executable script, shebang: \"/bin/sh\"\n405154        0x62EA2         PEM certificate\n407876        0x63944         PEM RSA private key\n408763        0x63CBB         PEM certificate\n\n\nScan Time:     2026-09-03 22:24:11\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/35E5C6\nMD5 Checksum:  8ca27cd810e193f5f7310cccaa268eec\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n144368        0x233F0         Neighborly text, \"neighbor report\"\n162168        0x27978         XML document, version: \"1.0\"\n184651        0x2D14B         Neighborly text, \"Neighbor Report: bad SSID\"\n185520        0x2D4B0         Base64 standard index table\n187773        0x2DD7D         Neighborly text, \"neighbor=EUP_REJECT\"\n198478        0x3074E         Copyright string: \"Copyright (c) 2003-2022, Jouni Malinen <j@w1.fi> and contributors\"\n203268        0x31A04         Unix path: /sys/devices/virtual/net/%s/bridge/multicast_snooping\n207376        0x32A10         Unix path: /sys/class/net/%s/phy80211\n216764        0x34EBC         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n244284        0x3BA3C         Unix path: /sys/class/ieee80211/%s/index\n252000        0x3D860         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n259684        0x3F664         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n263828        0x40694         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n277300        0x43B34         Executable script, shebang: \"/bin/sh\"\n277753        0x43CF9         Unix path: /var/run/storage/\"\n334167        0x51957         Base64 standard index table\n336719        0x5234F         Executable script, shebang: \"/bin/sh\"\n339618        0x52EA2         PEM certificate\n342340        0x53944         PEM RSA private key\n343227        0x53CBB         PEM certificate\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/3652B2\nMD5 Checksum:  2e49965a91b1b2808c080994ff70864c\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n78832         0x133F0         Neighborly text, \"neighbor report\"\n96632         0x17978         XML document, version: \"1.0\"\n119115        0x1D14B         Neighborly text, \"Neighbor Report: bad SSID\"\n119984        0x1D4B0         Base64 standard index table\n122237        0x1DD7D         Neighborly text, \"neighbor=EUP_REJECT\"\n132942        0x2074E         Copyright string: \"Copyright (c) 2003-2022, Jouni Malinen <j@w1.fi> and contributors\"\n137732        0x21A04         Unix path: /sys/devices/virtual/net/%s/bridge/multicast_snooping\n141840        0x22A10         Unix path: /sys/class/net/%s/phy80211\n151228        0x24EBC         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n178748        0x2BA3C         Unix path: /sys/class/ieee80211/%s/index\n186464        0x2D860         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n194148        0x2F664         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n198292        0x30694         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n211764        0x33B34         Executable script, shebang: \"/bin/sh\"\n212217        0x33CF9         Unix path: /var/run/storage/\"\n268631        0x41957         Base64 standard index table\n271183        0x4234F         Executable script, shebang: \"/bin/sh\"\n274082        0x42EA2         PEM certificate\n276804        0x43944         PEM RSA private key\n277691        0x43CBB         PEM certificate\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/36BE3A\nMD5 Checksum:  5b9cb5c94be36749b96fae76c05b4c31\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n13296         0x33F0          Neighborly text, \"neighbor report\"\n31096         0x7978          XML document, version: \"1.0\"\n53579         0xD14B          Neighborly text, \"Neighbor Report: bad SSID\"\n54448         0xD4B0          Base64 standard index table\n56701         0xDD7D          Neighborly text, \"neighbor=EUP_REJECT\"\n67406         0x1074E         Copyright string: \"Copyright (c) 2003-2022, Jouni Malinen <j@w1.fi> and contributors\"\n72196         0x11A04         Unix path: /sys/devices/virtual/net/%s/bridge/multicast_snooping\n76304         0x12A10         Unix path: /sys/class/net/%s/phy80211\n85692         0x14EBC         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n113212        0x1BA3C         Unix path: /sys/class/ieee80211/%s/index\n120928        0x1D860         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n128612        0x1F664         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n132756        0x20694         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n146228        0x23B34         Executable script, shebang: \"/bin/sh\"\n146681        0x23CF9         Unix path: /var/run/storage/\"\n203095        0x31957         Base64 standard index table\n205647        0x3234F         Executable script, shebang: \"/bin/sh\"\n208546        0x32EA2         PEM certificate\n211268        0x33944         PEM RSA private key\n212155        0x33CBB         PEM certificate\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/371446\nMD5 Checksum:  42e2fab89c062427d3c18a257f263fbf\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n1870          0x74E           Copyright string: \"Copyright (c) 2003-2022, Jouni Malinen <j@w1.fi> and contributors\"\n6660          0x1A04          Unix path: /sys/devices/virtual/net/%s/bridge/multicast_snooping\n10768         0x2A10          Unix path: /sys/class/net/%s/phy80211\n20156         0x4EBC          ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n47676         0xBA3C          Unix path: /sys/class/ieee80211/%s/index\n55392         0xD860          ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n63076         0xF664          ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n67220         0x10694         ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n80692         0x13B34         Executable script, shebang: \"/bin/sh\"\n81145         0x13CF9         Unix path: /var/run/storage/\"\n137559        0x21957         Base64 standard index table\n140111        0x2234F         Executable script, shebang: \"/bin/sh\"\n143010        0x22EA2         PEM certificate\n145732        0x23944         PEM RSA private key\n146619        0x23CBB         PEM certificate\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/372B2E\nMD5 Checksum:  9ae8b07aaf8874985a4ebc8f45440165\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n0             0x0             ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n27520         0x6B80          Unix path: /sys/class/ieee80211/%s/index\n35236         0x89A4          ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n42920         0xA7A8          ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n47064         0xB7D8          ELF, 32-bit LSB MIPS64 shared object, MIPS, version 1 (SYSV)\n60536         0xEC78          Executable script, shebang: \"/bin/sh\"\n60989         0xEE3D          Unix path: /var/run/storage/\"\n117403        0x1CA9B         Base64 standard index table\n119955        0x1D493         Executable script, shebang: \"/bin/sh\"\n122854        0x1DFE6         PEM certificate\n125576        0x1EA88         PEM RSA private key\n126463        0x1EDFF         PEM certificate\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/3775E2\nMD5 Checksum:  9dbd7542d7422ece68351546d3176ac1\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n54944         0xD6A0          Base64 standard index table\n57496         0xE098          Executable script, shebang: \"/bin/sh\"\n60395         0xEBEB          PEM certificate\n63117         0xF68D          PEM RSA private key\n64004         0xFA04          PEM certificate\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/37DCA4\nMD5 Checksum:  b24cc6845b292aca146032de35d9ec4b\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/37E2F2\nMD5 Checksum:  17517815a0d3ca337ae4c7f0b9522b59\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/37EA58\nMD5 Checksum:  58fba2b488268576829d5596e6e35efb\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/37F8DA\nMD5 Checksum:  b4c7610857a7e56c7777693e06ad2e08\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/37FC40\nMD5 Checksum:  945c83ca75360aa9ef7364d504216f2c\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n\n\nScan Time:     2026-09-03 22:24:12\nTarget File:   /mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/_Tapo_C200v5_1.4.2_260513.bin.dec-0.extracted/37FCDE\nMD5 Checksum:  291935f7c2cec52bf03581ab3f6ac1eb\nSignatures:    411\n\nDECIMAL       HEXADECIMAL     DESCRIPTION\n--------------------------------------------------------------------------------\n\n",
+  "note": "SquashFS symlinks/reparse points are intentionally skipped during the Windows-side inventory. They remain in the extracted filesystem and do not indicate extraction failure."
+}

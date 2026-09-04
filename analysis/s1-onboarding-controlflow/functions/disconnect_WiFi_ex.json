@@ -1,0 +1,56 @@
+{
+  "name": "disconnect_WiFi_ex",
+  "address": 5438480,
+  "size": 24,
+  "end": 5438504,
+  "instruction_count": 6,
+  "direct_calls": [],
+  "indirect_calls": [],
+  "branches": [
+    {
+      "site": 5438496,
+      "mnemonic": "b",
+      "operands": "52ab94 <wlan_manager_sta_disconnect>",
+      "target": 5417876,
+      "target_symbol": "wlan_manager_sta_disconnect"
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "link"
+  ],
+  "direct_callers": [
+    {
+      "site": 5440132,
+      "mnemonic": "bal",
+      "target": 5438480,
+      "objdump_symbol": "disconnect_WiFi_ex",
+      "raw": "  530284:\t0411fe62 \tbal\t52fc10 <disconnect_WiFi_ex>",
+      "caller": null
+    },
+    {
+      "site": 5440188,
+      "mnemonic": "bal",
+      "target": 5438480,
+      "objdump_symbol": "disconnect_WiFi_ex",
+      "raw": "  5302bc:\t0411fe54 \tbal\t52fc10 <disconnect_WiFi_ex>",
+      "caller": null
+    },
+    {
+      "site": 5457820,
+      "mnemonic": "bal",
+      "target": 5438480,
+      "objdump_symbol": "disconnect_WiFi_ex",
+      "raw": "  53479c:\t0411ed1c \tbal\t52fc10 <disconnect_WiFi_ex>",
+      "caller": null
+    },
+    {
+      "site": 5461152,
+      "mnemonic": "bal",
+      "target": 5438480,
+      "objdump_symbol": "disconnect_WiFi_ex",
+      "raw": "  5354a0:\t0411e9db \tbal\t52fc10 <disconnect_WiFi_ex>",
+      "caller": null
+    }
+  ]
+}

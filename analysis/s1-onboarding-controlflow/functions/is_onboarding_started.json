@@ -1,0 +1,24 @@
+{
+  "name": "is_onboarding_started",
+  "address": 5464120,
+  "size": 24,
+  "end": 5464144,
+  "instruction_count": 6,
+  "direct_calls": [],
+  "indirect_calls": [],
+  "branches": [],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5433064,
+      "mnemonic": "bal",
+      "target": 5464120,
+      "objdump_symbol": "is_onboarding_started",
+      "raw": "  52e6e8:\t04111e53 \tbal\t536038 <is_onboarding_started>",
+      "caller": null
+    }
+  ]
+}

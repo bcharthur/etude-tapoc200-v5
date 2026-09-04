@@ -1,0 +1,69 @@
+{
+  "name": "set_onboarding_finished",
+  "address": 5467588,
+  "size": 128,
+  "end": 5467716,
+  "instruction_count": 32,
+  "direct_calls": [],
+  "indirect_calls": [
+    {
+      "site": 5467652,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  536de4:\t27b10018 \taddiu\ts1,sp,24",
+        "  536de8:\tafbf0034 \tsw\tra,52(sp)",
+        "  536dec:\tafbc0010 \tsw\tgp,16(sp)",
+        "  536df0:\t02202825 \tmove\ta1,s1",
+        "  536df4:\t2604d790 \taddiu\ta0,s0,-10352",
+        "  536df8:\tafa00018 \tsw\tzero,24(sp)",
+        "  536dfc:\tafa0001c \tsw\tzero,28(sp)",
+        "  536e00:\tafa00020 \tsw\tzero,32(sp)",
+        "  536e04:\t0320f809 \tjalr\tt9",
+        "  536e08:\t2406000c \tli\ta2,12",
+        "  536e0c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  536e10:\t24020001 \tli\tv0,1",
+        "  536e14:\t02202825 \tmove\ta1,s1",
+        "  536e18:\t8f998834 \tlw\tt9,-30668(gp)",
+        "  536e1c:\t2604d790 \taddiu\ta0,s0,-10352"
+      ]
+    },
+    {
+      "site": 5467688,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  536e08:\t2406000c \tli\ta2,12",
+        "  536e0c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  536e10:\t24020001 \tli\tv0,1",
+        "  536e14:\t02202825 \tmove\ta1,s1",
+        "  536e18:\t8f998834 \tlw\tt9,-30668(gp)",
+        "  536e1c:\t2604d790 \taddiu\ta0,s0,-10352",
+        "  536e20:\tafa20018 \tsw\tv0,24(sp)",
+        "  536e24:\t24070006 \tli\ta3,6",
+        "  536e28:\t0320f809 \tjalr\tt9",
+        "  536e2c:\t2406000c \tli\ta2,12",
+        "  536e30:\t8fbf0034 \tlw\tra,52(sp)",
+        "  536e34:\t8fb10030 \tlw\ts1,48(sp)",
+        "  536e38:\t8fb0002c \tlw\ts0,44(sp)",
+        "  536e3c:\t03e00008 \tjr\tra",
+        "  536e40:\t27bd0038 \taddiu\tsp,sp,56"
+      ]
+    }
+  ],
+  "branches": [],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5440948,
+      "mnemonic": "bal",
+      "target": 5467588,
+      "objdump_symbol": "set_onboarding_finished",
+      "raw": "  5305b4:\t04111a03 \tbal\t536dc4 <set_onboarding_finished>",
+      "caller": null
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+00537588 <wlan_manual_reconnect>:
+  537588:	3c1c0029 	lui	gp,0x29
+  53758c:	279cc7d8 	addiu	gp,gp,-14376
+  537590:	0399e021 	addu	gp,gp,t9
+  537594:	8f998858 	lw	t9,-30632(gp)
+  537598:	27bdffe0 	addiu	sp,sp,-32
+  53759c:	afbf001c 	sw	ra,28(sp)
+  5375a0:	afbc0010 	sw	gp,16(sp)
+  5375a4:	273971bc 	addiu	t9,t9,29116
+  5375a8:	0411ff04 	bal	5371bc <onboarding_execute_shell_cmd+0x330>
+  5375ac:	00000000 	nop
+  5375b0:	8fbc0010 	lw	gp,16(sp)
+  5375b4:	8f998858 	lw	t9,-30632(gp)
+  5375b8:	27396f68 	addiu	t9,t9,28520
+  5375bc:	0411fe6a 	bal	536f68 <onboarding_execute_shell_cmd+0xdc>
+  5375c0:	00000000 	nop
+  5375c4:	8fbc0010 	lw	gp,16(sp)
+  5375c8:	8f998858 	lw	t9,-30632(gp)
+  5375cc:	273970e0 	addiu	t9,t9,28896
+  5375d0:	0411fec3 	bal	5370e0 <onboarding_execute_shell_cmd+0x254>
+  5375d4:	00000000 	nop
+  5375d8:	8fbc0010 	lw	gp,16(sp)
+  5375dc:	8fbf001c 	lw	ra,28(sp)
+  5375e0:	8f998858 	lw	t9,-30632(gp)
+  5375e4:	27396fdc 	addiu	t9,t9,28636
+  5375e8:	1000fe7c 	b	536fdc <onboarding_execute_shell_cmd+0x150>
+  5375ec:	27bd0020 	addiu	sp,sp,32

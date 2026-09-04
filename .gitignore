@@ -8,3 +8,17 @@ captures/*
 !captures/.gitkeep
 firmware/dumps/*
 !firmware/dumps/.gitkeep
+
+# --- Local firmware reverse-engineering artifacts ---
+# Generated/vendor firmware extraction: keep locally, never commit.
+analysis/c200v5-142/_Tapo_C200v5_*/
+analysis/c200v5-142/main-1.4.2
+
+
+# Firmware images/decrypted images are local research inputs
+firmware/*.bin
+firmware/*.bin.dec
+
+# Temporary scratch script
+/test.py
+

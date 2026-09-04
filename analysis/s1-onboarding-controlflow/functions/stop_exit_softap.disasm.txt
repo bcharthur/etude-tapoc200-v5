@@ -1,0 +1,42 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+005308e4 <stop_exit_softap>:
+  5308e4:	3c1c0029 	lui	gp,0x29
+  5308e8:	279c347c 	addiu	gp,gp,13436
+  5308ec:	0399e021 	addu	gp,gp,t9
+  5308f0:	27bdffd0 	addiu	sp,sp,-48
+  5308f4:	afb00024 	sw	s0,36(sp)
+  5308f8:	8f90854c 	lw	s0,-31412(gp)
+  5308fc:	afb10028 	sw	s1,40(sp)
+  530900:	afbc0018 	sw	gp,24(sp)
+  530904:	8e046b30 	lw	a0,27440(s0)
+  530908:	2411ffff 	li	s1,-1
+  53090c:	afbf002c 	sw	ra,44(sp)
+  530910:	10910011 	beq	a0,s1,530958 <stop_exit_softap+0x74>
+  530914:	8f9987c4 	lw	t9,-30780(gp)
+  530918:	0320f809 	jalr	t9
+  53091c:	00000000 	nop
+  530920:	8fbc0018 	lw	gp,24(sp)
+  530924:	ae116b30 	sw	s1,27440(s0)
+  530928:	24060003 	li	a2,3
+  53092c:	8f82813c 	lw	v0,-32452(gp)
+  530930:	8f87813c 	lw	a3,-32452(gp)
+  530934:	8f998840 	lw	t9,-30656(gp)
+  530938:	2442de6c 	addiu	v0,v0,-8596
+  53093c:	afa20014 	sw	v0,20(sp)
+  530940:	24020389 	li	v0,905
+  530944:	afa20010 	sw	v0,16(sp)
+  530948:	24e7dec0 	addiu	a3,a3,-8512
+  53094c:	240503e7 	li	a1,999
+  530950:	0320f809 	jalr	t9
+  530954:	24040004 	li	a0,4
+  530958:	8fbf002c 	lw	ra,44(sp)
+  53095c:	8fb10028 	lw	s1,40(sp)
+  530960:	8fb00024 	lw	s0,36(sp)
+  530964:	00001025 	move	v0,zero
+  530968:	03e00008 	jr	ra
+  53096c:	27bd0030 	addiu	sp,sp,48

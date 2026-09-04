@@ -1,0 +1,126 @@
+{
+  "name": "wlan_sta_disconnect",
+  "address": 5444208,
+  "size": 148,
+  "end": 5444356,
+  "instruction_count": 37,
+  "direct_calls": [],
+  "indirect_calls": [
+    {
+      "site": 5444268,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  53128c:\tafa20018 \tsw\tv0,24(sp)",
+        "  531290:\t10000016 \tb\t5312ec <wlan_sta_disconnect+0x7c>",
+        "  531294:\t2402ffff \tli\tv0,-1",
+        "  531298:\t8cb90008 \tlw\tt9,8(a1)",
+        "  53129c:\t1320fffc \tbeqz\tt9,531290 <wlan_sta_disconnect+0x20>",
+        "  5312a0:\t00a08825 \tmove\ts1,a1",
+        "  5312a4:\t27a50018 \taddiu\ta1,sp,24",
+        "  5312a8:\t00809025 \tmove\ts2,a0",
+        "  5312ac:\t0320f809 \tjalr\tt9",
+        "  5312b0:\t00c08025 \tmove\ts0,a2",
+        "  5312b4:\t1440fff6 \tbnez\tv0,531290 <wlan_sta_disconnect+0x20>",
+        "  5312b8:\t24030001 \tli\tv1,1",
+        "  5312bc:\t8fa40018 \tlw\ta0,24(sp)",
+        "  5312c0:\t50830005 \tbeql\ta0,v1,5312d8 <wlan_sta_disconnect+0x68>",
+        "  5312c4:\t8e390010 \tlw\tt9,16(s1)"
+      ]
+    },
+    {
+      "site": 5444324,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  5312c4:\t8e390010 \tlw\tt9,16(s1)",
+        "  5312c8:\t12000008 \tbeqz\ts0,5312ec <wlan_sta_disconnect+0x7c>",
+        "  5312cc:\t2403ffff \tli\tv1,-1",
+        "  5312d0:\t10000006 \tb\t5312ec <wlan_sta_disconnect+0x7c>",
+        "  5312d4:\tae030000 \tsw\tv1,0(s0)",
+        "  5312d8:\t13200004 \tbeqz\tt9,5312ec <wlan_sta_disconnect+0x7c>",
+        "  5312dc:\t2402ffff \tli\tv0,-1",
+        "  5312e0:\t02002825 \tmove\ta1,s0",
+        "  5312e4:\t0320f809 \tjalr\tt9",
+        "  5312e8:\t02402025 \tmove\ta0,s2",
+        "  5312ec:\t8fbf002c \tlw\tra,44(sp)",
+        "  5312f0:\t8fb20028 \tlw\ts2,40(sp)",
+        "  5312f4:\t8fb10024 \tlw\ts1,36(sp)",
+        "  5312f8:\t8fb00020 \tlw\ts0,32(sp)",
+        "  5312fc:\t03e00008 \tjr\tra"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "site": 5444232,
+      "mnemonic": "bnez",
+      "operands": "a1,531298 <wlan_sta_disconnect+0x28>",
+      "target": 5444248,
+      "target_symbol": null
+    },
+    {
+      "site": 5444240,
+      "mnemonic": "b",
+      "operands": "5312ec <wlan_sta_disconnect+0x7c>",
+      "target": 5444332,
+      "target_symbol": null
+    },
+    {
+      "site": 5444252,
+      "mnemonic": "beqz",
+      "operands": "t9,531290 <wlan_sta_disconnect+0x20>",
+      "target": 5444240,
+      "target_symbol": null
+    },
+    {
+      "site": 5444276,
+      "mnemonic": "bnez",
+      "operands": "v0,531290 <wlan_sta_disconnect+0x20>",
+      "target": 5444240,
+      "target_symbol": null
+    },
+    {
+      "site": 5444288,
+      "mnemonic": "beql",
+      "operands": "a0,v1,5312d8 <wlan_sta_disconnect+0x68>",
+      "target": 5444312,
+      "target_symbol": null
+    },
+    {
+      "site": 5444296,
+      "mnemonic": "beqz",
+      "operands": "s0,5312ec <wlan_sta_disconnect+0x7c>",
+      "target": 5444332,
+      "target_symbol": null
+    },
+    {
+      "site": 5444304,
+      "mnemonic": "b",
+      "operands": "5312ec <wlan_sta_disconnect+0x7c>",
+      "target": 5444332,
+      "target_symbol": null
+    },
+    {
+      "site": 5444312,
+      "mnemonic": "beqz",
+      "operands": "t9,5312ec <wlan_sta_disconnect+0x7c>",
+      "target": 5444332,
+      "target_symbol": null
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "link"
+  ],
+  "direct_callers": [
+    {
+      "site": 5417932,
+      "mnemonic": "bal",
+      "target": 5444208,
+      "objdump_symbol": "wlan_sta_disconnect",
+      "raw": "  52abcc:\t041119a8 \tbal\t531270 <wlan_sta_disconnect>",
+      "caller": "wlan_manager_sta_disconnect"
+    }
+  ]
+}

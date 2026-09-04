@@ -1,0 +1,21 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+0052bfcc <wlan_manager_init_reconnect_ctx>:
+  52bfcc:	3c1c0029 	lui	gp,0x29
+  52bfd0:	279c7d94 	addiu	gp,gp,32148
+  52bfd4:	0399e021 	addu	gp,gp,t9
+  52bfd8:	8f828838 	lw	v0,-30664(gp)
+  52bfdc:	8c42e6f0 	lw	v0,-6416(v0)
+  52bfe0:	10400006 	beqz	v0,52bffc <wlan_manager_init_reconnect_ctx+0x30>
+  52bfe4:	00000000 	nop
+  52bfe8:	8c59002c 	lw	t9,44(v0)
+  52bfec:	13200003 	beqz	t9,52bffc <wlan_manager_init_reconnect_ctx+0x30>
+  52bff0:	00000000 	nop
+  52bff4:	03200008 	jr	t9
+  52bff8:	00000000 	nop
+  52bffc:	03e00008 	jr	ra
+  52c000:	00000000 	nop

@@ -1,0 +1,122 @@
+{
+  "name": "wlan_manager_reboot",
+  "address": 5428768,
+  "size": 192,
+  "end": 5428960,
+  "instruction_count": 48,
+  "direct_calls": [],
+  "indirect_calls": [
+    {
+      "site": 5428852,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  52d654:\t00008025 \tmove\ts0,zero",
+        "  52d658:\t8f87813c \tlw\ta3,-32452(gp)",
+        "  52d65c:\t8f85813c \tlw\ta1,-32452(gp)",
+        "  52d660:\t8f99879c \tlw\tt9,-30820(gp)",
+        "  52d664:\t00808025 \tmove\ts0,a0",
+        "  52d668:\t24e7d7b4 \taddiu\ta3,a3,-10316",
+        "  52d66c:\t24060b21 \tli\ta2,2849",
+        "  52d670:\t24a5db80 \taddiu\ta1,a1,-9344",
+        "  52d674:\t0320f809 \tjalr\tt9",
+        "  52d678:\t24040004 \tli\ta0,4",
+        "  52d67c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  52d680:\t24020001 \tli\tv0,1",
+        "  52d684:\t02003825 \tmove\ta3,s0",
+        "  52d688:\t8f9985d0 \tlw\tt9,-31280(gp)",
+        "  52d68c:\t8f86899c \tlw\ta2,-30308(gp)"
+      ]
+    },
+    {
+      "site": 5428888,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  52d678:\t24040004 \tli\ta0,4",
+        "  52d67c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  52d680:\t24020001 \tli\tv0,1",
+        "  52d684:\t02003825 \tmove\ta3,s0",
+        "  52d688:\t8f9985d0 \tlw\tt9,-31280(gp)",
+        "  52d68c:\t8f86899c \tlw\ta2,-30308(gp)",
+        "  52d690:\tae22e6d8 \tsw\tv0,-6440(s1)",
+        "  52d694:\t00002825 \tmove\ta1,zero",
+        "  52d698:\t0320f809 \tjalr\tt9",
+        "  52d69c:\t27a40018 \taddiu\ta0,sp,24",
+        "  52d6a0:\t00408025 \tmove\ts0,v0",
+        "  52d6a4:\t14400006 \tbnez\tv0,52d6c0 <wlan_manager_reboot+0xa0>",
+        "  52d6a8:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  52d6ac:\t8f99885c \tlw\tt9,-30628(gp)",
+        "  52d6b0:\t0320f809 \tjalr\tt9"
+      ]
+    },
+    {
+      "site": 5428912,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  52d690:\tae22e6d8 \tsw\tv0,-6440(s1)",
+        "  52d694:\t00002825 \tmove\ta1,zero",
+        "  52d698:\t0320f809 \tjalr\tt9",
+        "  52d69c:\t27a40018 \taddiu\ta0,sp,24",
+        "  52d6a0:\t00408025 \tmove\ts0,v0",
+        "  52d6a4:\t14400006 \tbnez\tv0,52d6c0 <wlan_manager_reboot+0xa0>",
+        "  52d6a8:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  52d6ac:\t8f99885c \tlw\tt9,-30628(gp)",
+        "  52d6b0:\t0320f809 \tjalr\tt9",
+        "  52d6b4:\t8fa40018 \tlw\ta0,24(sp)",
+        "  52d6b8:\t10000004 \tb\t52d6cc <wlan_manager_reboot+0xac>",
+        "  52d6bc:\t8fbf002c \tlw\tra,44(sp)",
+        "  52d6c0:\t3c10ffff \tlui\ts0,0xffff",
+        "  52d6c4:\t2610635b \taddiu\ts0,s0,25435",
+        "  52d6c8:\t8fbf002c \tlw\tra,44(sp)"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "site": 5428816,
+      "mnemonic": "bnez",
+      "operands": "v0,52d6c8 <wlan_manager_reboot+0xa8>",
+      "target": 5428936,
+      "target_symbol": null
+    },
+    {
+      "site": 5428900,
+      "mnemonic": "bnez",
+      "operands": "v0,52d6c0 <wlan_manager_reboot+0xa0>",
+      "target": 5428928,
+      "target_symbol": null
+    },
+    {
+      "site": 5428920,
+      "mnemonic": "b",
+      "operands": "52d6cc <wlan_manager_reboot+0xac>",
+      "target": 5428940,
+      "target_symbol": null
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "link",
+    "reboot"
+  ],
+  "direct_callers": [
+    {
+      "site": 5430472,
+      "mnemonic": "bal",
+      "target": 5428768,
+      "objdump_symbol": "wlan_manager_reboot",
+      "raw": "  52dcc8:\t0411fe55 \tbal\t52d620 <wlan_manager_reboot>",
+      "caller": null
+    },
+    {
+      "site": 5456000,
+      "mnemonic": "bal",
+      "target": 5428768,
+      "objdump_symbol": "wlan_manager_reboot",
+      "raw": "  534080:\t0411e567 \tbal\t52d620 <wlan_manager_reboot>",
+      "caller": null
+    }
+  ]
+}

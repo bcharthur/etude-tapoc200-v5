@@ -1,0 +1,135 @@
+{
+  "name": "onboarding_restart",
+  "address": 5465976,
+  "size": 108,
+  "end": 5466084,
+  "instruction_count": 27,
+  "direct_calls": [
+    {
+      "site": 5466004,
+      "mnemonic": "bal",
+      "target": 5465332,
+      "target_symbol": "onboarding_stop",
+      "objdump_symbol": "onboarding_stop",
+      "context": [
+        "  536778:\t3c1c0029 \tlui\tgp,0x29",
+        "  53677c:\t279cd5e8 \taddiu\tgp,gp,-10776",
+        "  536780:\t0399e021 \taddu\tgp,gp,t9",
+        "  536784:\t8f998964 \tlw\tt9,-30364(gp)",
+        "  536788:\t27bdffe0 \taddiu\tsp,sp,-32",
+        "  53678c:\tafbf001c \tsw\tra,28(sp)",
+        "  536790:\tafbc0010 \tsw\tgp,16(sp)",
+        "  536794:\t0411ff57 \tbal\t5364f4 <onboarding_stop>",
+        "  536798:\t00000000 \tnop",
+        "  53679c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5367a0:\t8f998a00 \tlw\tt9,-30208(gp)",
+        "  5367a4:\t0411ff87 \tbal\t5365c4 <onboarding_ctx_init>",
+        "  5367a8:\t00000000 \tnop",
+        "  5367ac:\t8fbc0010 \tlw\tgp,16(sp)"
+      ]
+    },
+    {
+      "site": 5466020,
+      "mnemonic": "bal",
+      "target": 5465540,
+      "target_symbol": "onboarding_ctx_init",
+      "objdump_symbol": "onboarding_ctx_init",
+      "context": [
+        "  536784:\t8f998964 \tlw\tt9,-30364(gp)",
+        "  536788:\t27bdffe0 \taddiu\tsp,sp,-32",
+        "  53678c:\tafbf001c \tsw\tra,28(sp)",
+        "  536790:\tafbc0010 \tsw\tgp,16(sp)",
+        "  536794:\t0411ff57 \tbal\t5364f4 <onboarding_stop>",
+        "  536798:\t00000000 \tnop",
+        "  53679c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5367a0:\t8f998a00 \tlw\tt9,-30208(gp)",
+        "  5367a4:\t0411ff87 \tbal\t5365c4 <onboarding_ctx_init>",
+        "  5367a8:\t00000000 \tnop",
+        "  5367ac:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5367b0:\t8f998994 \tlw\tt9,-30316(gp)",
+        "  5367b4:\t0411fe32 \tbal\t536080 <onboarding_set_start_flag>",
+        "  5367b8:\t24040001 \tli\ta0,1",
+        "  5367bc:\t8fbc0010 \tlw\tgp,16(sp)"
+      ]
+    },
+    {
+      "site": 5466036,
+      "mnemonic": "bal",
+      "target": 5464192,
+      "target_symbol": "onboarding_set_start_flag",
+      "objdump_symbol": "onboarding_set_start_flag",
+      "context": [
+        "  536794:\t0411ff57 \tbal\t5364f4 <onboarding_stop>",
+        "  536798:\t00000000 \tnop",
+        "  53679c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5367a0:\t8f998a00 \tlw\tt9,-30208(gp)",
+        "  5367a4:\t0411ff87 \tbal\t5365c4 <onboarding_ctx_init>",
+        "  5367a8:\t00000000 \tnop",
+        "  5367ac:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5367b0:\t8f998994 \tlw\tt9,-30316(gp)",
+        "  5367b4:\t0411fe32 \tbal\t536080 <onboarding_set_start_flag>",
+        "  5367b8:\t24040001 \tli\ta0,1",
+        "  5367bc:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5367c0:\t8f828838 \tlw\tv0,-30664(gp)",
+        "  5367c4:\t8c42e964 \tlw\tv0,-5788(v0)",
+        "  5367c8:\t10400004 \tbeqz\tv0,5367dc <onboarding_restart+0x64>",
+        "  5367cc:\t8fbf001c \tlw\tra,28(sp)"
+      ]
+    }
+  ],
+  "indirect_calls": [],
+  "branches": [
+    {
+      "site": 5466056,
+      "mnemonic": "beqz",
+      "operands": "v0,5367dc <onboarding_restart+0x64>",
+      "target": 5466076,
+      "target_symbol": null
+    },
+    {
+      "site": 5466068,
+      "mnemonic": "b",
+      "operands": "5360b8 <onboarding_module_start>",
+      "target": 5464248,
+      "target_symbol": "onboarding_module_start"
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5427224,
+      "mnemonic": "bal",
+      "target": 5465976,
+      "objdump_symbol": "onboarding_restart",
+      "raw": "  52d018:\t041125d7 \tbal\t536778 <onboarding_restart>",
+      "caller": null
+    },
+    {
+      "site": 5427648,
+      "mnemonic": "bal",
+      "target": 5465976,
+      "objdump_symbol": "onboarding_restart",
+      "raw": "  52d1c0:\t0411256d \tbal\t536778 <onboarding_restart>",
+      "caller": null
+    },
+    {
+      "site": 5428332,
+      "mnemonic": "bal",
+      "target": 5465976,
+      "objdump_symbol": "onboarding_restart",
+      "raw": "  52d46c:\t041124c2 \tbal\t536778 <onboarding_restart>",
+      "caller": null
+    },
+    {
+      "site": 5466148,
+      "mnemonic": "bal",
+      "target": 5465976,
+      "objdump_symbol": "onboarding_restart",
+      "raw": "  536824:\t0411ffd4 \tbal\t536778 <onboarding_restart>",
+      "caller": null
+    }
+  ]
+}

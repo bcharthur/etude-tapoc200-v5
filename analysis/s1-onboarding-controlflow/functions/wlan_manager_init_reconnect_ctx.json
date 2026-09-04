@@ -1,0 +1,39 @@
+{
+  "name": "wlan_manager_init_reconnect_ctx",
+  "address": 5423052,
+  "size": 56,
+  "end": 5423108,
+  "instruction_count": 14,
+  "direct_calls": [],
+  "indirect_calls": [],
+  "branches": [
+    {
+      "site": 5423072,
+      "mnemonic": "beqz",
+      "operands": "v0,52bffc <wlan_manager_init_reconnect_ctx+0x30>",
+      "target": 5423100,
+      "target_symbol": null
+    },
+    {
+      "site": 5423084,
+      "mnemonic": "beqz",
+      "operands": "t9,52bffc <wlan_manager_init_reconnect_ctx+0x30>",
+      "target": 5423100,
+      "target_symbol": null
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "link"
+  ],
+  "direct_callers": [
+    {
+      "site": 5466132,
+      "mnemonic": "bal",
+      "target": 5423052,
+      "objdump_symbol": "wlan_manager_init_reconnect_ctx",
+      "raw": "  536814:\t0411d5ed \tbal\t52bfcc <wlan_manager_init_reconnect_ctx>",
+      "caller": null
+    }
+  ]
+}

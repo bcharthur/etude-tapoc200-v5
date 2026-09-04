@@ -1,0 +1,13 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+0052fc10 <disconnect_WiFi_ex>:
+  52fc10:	3c1c0029 	lui	gp,0x29
+  52fc14:	279c4150 	addiu	gp,gp,16720
+  52fc18:	0399e021 	addu	gp,gp,t9
+  52fc1c:	8f998a30 	lw	t9,-30160(gp)
+  52fc20:	1000ebdc 	b	52ab94 <wlan_manager_sta_disconnect>
+  52fc24:	00002025 	move	a0,zero

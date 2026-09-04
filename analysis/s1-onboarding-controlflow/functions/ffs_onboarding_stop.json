@@ -1,0 +1,62 @@
+{
+  "name": "ffs_onboarding_stop",
+  "address": 5448900,
+  "size": 68,
+  "end": 5448968,
+  "instruction_count": 17,
+  "direct_calls": [],
+  "indirect_calls": [
+    {
+      "site": 5448944,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  5324d0:\t8f9988a0 \tlw\tt9,-30560(gp)",
+        "  5324d4:\t27bdffd8 \taddiu\tsp,sp,-40",
+        "  5324d8:\t24020002 \tli\tv0,2",
+        "  5324dc:\t27a50018 \taddiu\ta1,sp,24",
+        "  5324e0:\tafbf0024 \tsw\tra,36(sp)",
+        "  5324e4:\tafbc0010 \tsw\tgp,16(sp)",
+        "  5324e8:\tafa20018 \tsw\tv0,24(sp)",
+        "  5324ec:\t24060004 \tli\ta2,4",
+        "  5324f0:\t0320f809 \tjalr\tt9",
+        "  5324f4:\t3404816c \tli\ta0,0x816c",
+        "  5324f8:\t8fbf0024 \tlw\tra,36(sp)",
+        "  5324fc:\t00001025 \tmove\tv0,zero",
+        "  532500:\t03e00008 \tjr\tra",
+        "  532504:\t27bd0028 \taddiu\tsp,sp,40"
+      ]
+    }
+  ],
+  "branches": [],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5449948,
+      "mnemonic": "bal",
+      "target": 5448900,
+      "objdump_symbol": "ffs_onboarding_stop",
+      "raw": "  5328dc:\t0411fef9 \tbal\t5324c4 <ffs_onboarding_stop>",
+      "caller": null
+    },
+    {
+      "site": 5463716,
+      "mnemonic": "bal",
+      "target": 5448900,
+      "objdump_symbol": "ffs_onboarding_stop",
+      "raw": "  535ea4:\t0411f187 \tbal\t5324c4 <ffs_onboarding_stop>",
+      "caller": null
+    },
+    {
+      "site": 5465432,
+      "mnemonic": "bal",
+      "target": 5448900,
+      "objdump_symbol": "ffs_onboarding_stop",
+      "raw": "  536558:\t0411efda \tbal\t5324c4 <ffs_onboarding_stop>",
+      "caller": "onboarding_stop"
+    }
+  ]
+}

@@ -144,6 +144,8 @@ def approximate_xrefs(path: str | Path, seeds: list[str]) -> dict:
         symbols = _symbols(elf)
 
     insns = _disassemble_exec(sections)
+    by_addr = {i["address"]: i for i in insns}
+
     seed_rows = {}
 
     for seed in seeds:
@@ -187,6 +189,7 @@ def approximate_xrefs(path: str | Path, seeds: list[str]) -> dict:
                 if address not in wanted:
                     continue
 
+                # Context around the materialization site.
                 start = max(0, idx - 12)
                 end = min(len(insns), j + 20)
                 context = insns[start:end]

@@ -1,0 +1,13 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+00530970 <set_exit_softap_fast_flag>:
+  530970:	3c1c0029 	lui	gp,0x29
+  530974:	279c33f0 	addiu	gp,gp,13296
+  530978:	0399e021 	addu	gp,gp,t9
+  53097c:	8f828838 	lw	v0,-30664(gp)
+  530980:	03e00008 	jr	ra
+  530984:	ac44e6f8 	sw	a0,-6408(v0)

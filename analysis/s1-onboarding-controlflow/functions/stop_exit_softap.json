@@ -1,0 +1,77 @@
+{
+  "name": "stop_exit_softap",
+  "address": 5441764,
+  "size": 140,
+  "end": 5441904,
+  "instruction_count": 35,
+  "direct_calls": [],
+  "indirect_calls": [
+    {
+      "site": 5441816,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  5308f8:\t8f90854c \tlw\ts0,-31412(gp)",
+        "  5308fc:\tafb10028 \tsw\ts1,40(sp)",
+        "  530900:\tafbc0018 \tsw\tgp,24(sp)",
+        "  530904:\t8e046b30 \tlw\ta0,27440(s0)",
+        "  530908:\t2411ffff \tli\ts1,-1",
+        "  53090c:\tafbf002c \tsw\tra,44(sp)",
+        "  530910:\t10910011 \tbeq\ta0,s1,530958 <stop_exit_softap+0x74>",
+        "  530914:\t8f9987c4 \tlw\tt9,-30780(gp)",
+        "  530918:\t0320f809 \tjalr\tt9",
+        "  53091c:\t00000000 \tnop",
+        "  530920:\t8fbc0018 \tlw\tgp,24(sp)",
+        "  530924:\tae116b30 \tsw\ts1,27440(s0)",
+        "  530928:\t24060003 \tli\ta2,3",
+        "  53092c:\t8f82813c \tlw\tv0,-32452(gp)",
+        "  530930:\t8f87813c \tlw\ta3,-32452(gp)"
+      ]
+    },
+    {
+      "site": 5441872,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  530930:\t8f87813c \tlw\ta3,-32452(gp)",
+        "  530934:\t8f998840 \tlw\tt9,-30656(gp)",
+        "  530938:\t2442de6c \taddiu\tv0,v0,-8596",
+        "  53093c:\tafa20014 \tsw\tv0,20(sp)",
+        "  530940:\t24020389 \tli\tv0,905",
+        "  530944:\tafa20010 \tsw\tv0,16(sp)",
+        "  530948:\t24e7dec0 \taddiu\ta3,a3,-8512",
+        "  53094c:\t240503e7 \tli\ta1,999",
+        "  530950:\t0320f809 \tjalr\tt9",
+        "  530954:\t24040004 \tli\ta0,4",
+        "  530958:\t8fbf002c \tlw\tra,44(sp)",
+        "  53095c:\t8fb10028 \tlw\ts1,40(sp)",
+        "  530960:\t8fb00024 \tlw\ts0,36(sp)",
+        "  530964:\t00001025 \tmove\tv0,zero",
+        "  530968:\t03e00008 \tjr\tra"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "site": 5441808,
+      "mnemonic": "beq",
+      "operands": "a0,s1,530958 <stop_exit_softap+0x74>",
+      "target": 5441880,
+      "target_symbol": null
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "softap"
+  ],
+  "direct_callers": [
+    {
+      "site": 5463312,
+      "mnemonic": "bal",
+      "target": 5441764,
+      "objdump_symbol": "stop_exit_softap",
+      "raw": "  535d10:\t0411eaf4 \tbal\t5308e4 <stop_exit_softap>",
+      "caller": null
+    }
+  ]
+}

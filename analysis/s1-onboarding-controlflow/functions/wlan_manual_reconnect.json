@@ -1,0 +1,105 @@
+{
+  "name": "wlan_manual_reconnect",
+  "address": 5469576,
+  "size": 104,
+  "end": 5469680,
+  "instruction_count": 26,
+  "direct_calls": [
+    {
+      "site": 5469608,
+      "mnemonic": "bal",
+      "target": 5468604,
+      "target_symbol": null,
+      "objdump_symbol": "onboarding_execute_shell_cmd+0x330",
+      "context": [
+        "  537588:\t3c1c0029 \tlui\tgp,0x29",
+        "  53758c:\t279cc7d8 \taddiu\tgp,gp,-14376",
+        "  537590:\t0399e021 \taddu\tgp,gp,t9",
+        "  537594:\t8f998858 \tlw\tt9,-30632(gp)",
+        "  537598:\t27bdffe0 \taddiu\tsp,sp,-32",
+        "  53759c:\tafbf001c \tsw\tra,28(sp)",
+        "  5375a0:\tafbc0010 \tsw\tgp,16(sp)",
+        "  5375a4:\t273971bc \taddiu\tt9,t9,29116",
+        "  5375a8:\t0411ff04 \tbal\t5371bc <onboarding_execute_shell_cmd+0x330>",
+        "  5375ac:\t00000000 \tnop",
+        "  5375b0:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5375b4:\t8f998858 \tlw\tt9,-30632(gp)",
+        "  5375b8:\t27396f68 \taddiu\tt9,t9,28520",
+        "  5375bc:\t0411fe6a \tbal\t536f68 <onboarding_execute_shell_cmd+0xdc>",
+        "  5375c0:\t00000000 \tnop"
+      ]
+    },
+    {
+      "site": 5469628,
+      "mnemonic": "bal",
+      "target": 5468008,
+      "target_symbol": null,
+      "objdump_symbol": "onboarding_execute_shell_cmd+0xdc",
+      "context": [
+        "  53759c:\tafbf001c \tsw\tra,28(sp)",
+        "  5375a0:\tafbc0010 \tsw\tgp,16(sp)",
+        "  5375a4:\t273971bc \taddiu\tt9,t9,29116",
+        "  5375a8:\t0411ff04 \tbal\t5371bc <onboarding_execute_shell_cmd+0x330>",
+        "  5375ac:\t00000000 \tnop",
+        "  5375b0:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5375b4:\t8f998858 \tlw\tt9,-30632(gp)",
+        "  5375b8:\t27396f68 \taddiu\tt9,t9,28520",
+        "  5375bc:\t0411fe6a \tbal\t536f68 <onboarding_execute_shell_cmd+0xdc>",
+        "  5375c0:\t00000000 \tnop",
+        "  5375c4:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5375c8:\t8f998858 \tlw\tt9,-30632(gp)",
+        "  5375cc:\t273970e0 \taddiu\tt9,t9,28896",
+        "  5375d0:\t0411fec3 \tbal\t5370e0 <onboarding_execute_shell_cmd+0x254>",
+        "  5375d4:\t00000000 \tnop"
+      ]
+    },
+    {
+      "site": 5469648,
+      "mnemonic": "bal",
+      "target": 5468384,
+      "target_symbol": null,
+      "objdump_symbol": "onboarding_execute_shell_cmd+0x254",
+      "context": [
+        "  5375b0:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5375b4:\t8f998858 \tlw\tt9,-30632(gp)",
+        "  5375b8:\t27396f68 \taddiu\tt9,t9,28520",
+        "  5375bc:\t0411fe6a \tbal\t536f68 <onboarding_execute_shell_cmd+0xdc>",
+        "  5375c0:\t00000000 \tnop",
+        "  5375c4:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5375c8:\t8f998858 \tlw\tt9,-30632(gp)",
+        "  5375cc:\t273970e0 \taddiu\tt9,t9,28896",
+        "  5375d0:\t0411fec3 \tbal\t5370e0 <onboarding_execute_shell_cmd+0x254>",
+        "  5375d4:\t00000000 \tnop",
+        "  5375d8:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5375dc:\t8fbf001c \tlw\tra,28(sp)",
+        "  5375e0:\t8f998858 \tlw\tt9,-30632(gp)",
+        "  5375e4:\t27396fdc \taddiu\tt9,t9,28636",
+        "  5375e8:\t1000fe7c \tb\t536fdc <onboarding_execute_shell_cmd+0x150>"
+      ]
+    }
+  ],
+  "indirect_calls": [],
+  "branches": [
+    {
+      "site": 5469672,
+      "mnemonic": "b",
+      "operands": "536fdc <onboarding_execute_shell_cmd+0x150>",
+      "target": 5468124,
+      "target_symbol": null
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "link"
+  ],
+  "direct_callers": [
+    {
+      "site": 5453688,
+      "mnemonic": "bal",
+      "target": 5469576,
+      "objdump_symbol": "wlan_manual_reconnect",
+      "raw": "  533778:\t04110f83 \tbal\t537588 <wlan_manual_reconnect>",
+      "caller": null
+    }
+  ]
+}

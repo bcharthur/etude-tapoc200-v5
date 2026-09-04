@@ -1,0 +1,13 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+00536068 <get_cur_onboarding_mode>:
+  536068:	3c1c0029 	lui	gp,0x29
+  53606c:	279cdcf8 	addiu	gp,gp,-8968
+  536070:	0399e021 	addu	gp,gp,t9
+  536074:	8f828adc 	lw	v0,-29988(gp)
+  536078:	03e00008 	jr	ra
+  53607c:	8c420000 	lw	v0,0(v0)

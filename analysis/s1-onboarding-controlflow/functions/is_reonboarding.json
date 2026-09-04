@@ -1,0 +1,24 @@
+{
+  "name": "is_reonboarding",
+  "address": 5464096,
+  "size": 24,
+  "end": 5464120,
+  "instruction_count": 6,
+  "direct_calls": [],
+  "indirect_calls": [],
+  "branches": [],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5440720,
+      "mnemonic": "bal",
+      "target": 5464096,
+      "objdump_symbol": "is_reonboarding",
+      "raw": "  5304d0:\t041116d3 \tbal\t536020 <is_reonboarding>",
+      "caller": null
+    }
+  ]
+}

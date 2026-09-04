@@ -1,0 +1,24 @@
+{
+  "name": "get_cur_onboarding_mode",
+  "address": 5464168,
+  "size": 24,
+  "end": 5464192,
+  "instruction_count": 6,
+  "direct_calls": [],
+  "indirect_calls": [],
+  "branches": [],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5440980,
+      "mnemonic": "bal",
+      "target": 5464168,
+      "objdump_symbol": "get_cur_onboarding_mode",
+      "raw": "  5305d4:\t041116a4 \tbal\t536068 <get_cur_onboarding_mode>",
+      "caller": null
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "name": "onboarding_phy_link_status_change_handle",
+  "address": 5465760,
+  "size": 216,
+  "end": 5465976,
+  "instruction_count": 54,
+  "direct_calls": [
+    {
+      "site": 5465816,
+      "mnemonic": "bal",
+      "target": 5465540,
+      "target_symbol": "onboarding_ctx_init",
+      "objdump_symbol": "onboarding_ctx_init",
+      "context": [
+        "  5366b8:\tafbc0010 \tsw\tgp,16(sp)",
+        "  5366bc:\t24100001 \tli\ts0,1",
+        "  5366c0:\tafbf0024 \tsw\tra,36(sp)",
+        "  5366c4:\t10900025 \tbeq\ta0,s0,53675c <onboarding_phy_link_status_change_handle+0xbc>",
+        "  5366c8:\t8f998964 \tlw\tt9,-30364(gp)",
+        "  5366cc:\t14800026 \tbnez\ta0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+        "  5366d0:\t8fbf0024 \tlw\tra,36(sp)",
+        "  5366d4:\t8f998a00 \tlw\tt9,-30208(gp)",
+        "  5366d8:\t0411ffba \tbal\t5365c4 <onboarding_ctx_init>",
+        "  5366dc:\t00000000 \tnop",
+        "  5366e0:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5366e4:\t24020008 \tli\tv0,8",
+        "  5366e8:\tafa2001c \tsw\tv0,28(sp)",
+        "  5366ec:\t8f9988bc \tlw\tt9,-30532(gp)",
+        "  5366f0:\t24020005 \tli\tv0,5"
+      ]
+    },
+    {
+      "site": 5465852,
+      "mnemonic": "bal",
+      "target": 5415976,
+      "target_symbol": "wlan_manager_ap_get_status",
+      "objdump_symbol": "wlan_manager_ap_get_status",
+      "context": [
+        "  5366dc:\t00000000 \tnop",
+        "  5366e0:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  5366e4:\t24020008 \tli\tv0,8",
+        "  5366e8:\tafa2001c \tsw\tv0,28(sp)",
+        "  5366ec:\t8f9988bc \tlw\tt9,-30532(gp)",
+        "  5366f0:\t24020005 \tli\tv0,5",
+        "  5366f4:\t27a5001c \taddiu\ta1,sp,28",
+        "  5366f8:\t00002025 \tmove\ta0,zero",
+        "  5366fc:\t0411cf4a \tbal\t52a428 <wlan_manager_ap_get_status>",
+        "  536700:\tafa20018 \tsw\tv0,24(sp)",
+        "  536704:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  536708:\t00002025 \tmove\ta0,zero",
+        "  53670c:\t8f9989dc \tlw\tt9,-30244(gp)",
+        "  536710:\t0411d446 \tbal\t52b82c <wlan_manager_monitor_get_status>",
+        "  536714:\t27a50018 \taddiu\ta1,sp,24"
+      ]
+    },
+    {
+      "site": 5465872,
+      "mnemonic": "bal",
+      "target": 5421100,
+      "target_symbol": "wlan_manager_monitor_get_status",
+      "objdump_symbol": "wlan_manager_monitor_get_status",
+      "context": [
+        "  5366f0:\t24020005 \tli\tv0,5",
+        "  5366f4:\t27a5001c \taddiu\ta1,sp,28",
+        "  5366f8:\t00002025 \tmove\ta0,zero",
+        "  5366fc:\t0411cf4a \tbal\t52a428 <wlan_manager_ap_get_status>",
+        "  536700:\tafa20018 \tsw\tv0,24(sp)",
+        "  536704:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  536708:\t00002025 \tmove\ta0,zero",
+        "  53670c:\t8f9989dc \tlw\tt9,-30244(gp)",
+        "  536710:\t0411d446 \tbal\t52b82c <wlan_manager_monitor_get_status>",
+        "  536714:\t27a50018 \taddiu\ta1,sp,24",
+        "  536718:\t8fa2001c \tlw\tv0,28(sp)",
+        "  53671c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  536720:\t10500005 \tbeq\tv0,s0,536738 <onboarding_phy_link_status_change_handle+0x98>",
+        "  536724:\t00002025 \tmove\ta0,zero",
+        "  536728:\t8fa20018 \tlw\tv0,24(sp)"
+      ]
+    },
+    {
+      "site": 5465916,
+      "mnemonic": "bal",
+      "target": 5428468,
+      "target_symbol": "wlan_manager_onboarding_start",
+      "objdump_symbol": "wlan_manager_onboarding_start",
+      "context": [
+        "  53671c:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  536720:\t10500005 \tbeq\tv0,s0,536738 <onboarding_phy_link_status_change_handle+0x98>",
+        "  536724:\t00002025 \tmove\ta0,zero",
+        "  536728:\t8fa20018 \tlw\tv0,24(sp)",
+        "  53672c:\t14500007 \tbne\tv0,s0,53674c <onboarding_phy_link_status_change_handle+0xac>",
+        "  536730:\t8f828838 \tlw\tv0,-30664(gp)",
+        "  536734:\t24040004 \tli\ta0,4",
+        "  536738:\t8f9989e0 \tlw\tt9,-30240(gp)",
+        "  53673c:\t0411db6d \tbal\t52d4f4 <wlan_manager_onboarding_start>",
+        "  536740:\t00000000 \tnop",
+        "  536744:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  536748:\t8f828838 \tlw\tv0,-30664(gp)",
+        "  53674c:\t8c42e964 \tlw\tv0,-5788(v0)",
+        "  536750:\t10400005 \tbeqz\tv0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+        "  536754:\t8fbf0024 \tlw\tra,36(sp)"
+      ]
+    }
+  ],
+  "indirect_calls": [
+    {
+      "site": 5465948,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  53673c:\t0411db6d \tbal\t52d4f4 <wlan_manager_onboarding_start>",
+        "  536740:\t00000000 \tnop",
+        "  536744:\t8fbc0010 \tlw\tgp,16(sp)",
+        "  536748:\t8f828838 \tlw\tv0,-30664(gp)",
+        "  53674c:\t8c42e964 \tlw\tv0,-5788(v0)",
+        "  536750:\t10400005 \tbeqz\tv0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+        "  536754:\t8fbf0024 \tlw\tra,36(sp)",
+        "  536758:\t8f998a0c \tlw\tt9,-30196(gp)",
+        "  53675c:\t0320f809 \tjalr\tt9",
+        "  536760:\t00000000 \tnop",
+        "  536764:\t8fbf0024 \tlw\tra,36(sp)",
+        "  536768:\t8fb00020 \tlw\ts0,32(sp)",
+        "  53676c:\t00001025 \tmove\tv0,zero",
+        "  536770:\t03e00008 \tjr\tra",
+        "  536774:\t27bd0028 \taddiu\tsp,sp,40"
+      ]
+    }
+  ],
+  "branches": [
+    {
+      "site": 5465796,
+      "mnemonic": "beq",
+      "operands": "a0,s0,53675c <onboarding_phy_link_status_change_handle+0xbc>",
+      "target": 5465948,
+      "target_symbol": null
+    },
+    {
+      "site": 5465804,
+      "mnemonic": "bnez",
+      "operands": "a0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+      "target": 5465960,
+      "target_symbol": null
+    },
+    {
+      "site": 5465888,
+      "mnemonic": "beq",
+      "operands": "v0,s0,536738 <onboarding_phy_link_status_change_handle+0x98>",
+      "target": 5465912,
+      "target_symbol": null
+    },
+    {
+      "site": 5465900,
+      "mnemonic": "bne",
+      "operands": "v0,s0,53674c <onboarding_phy_link_status_change_handle+0xac>",
+      "target": 5465932,
+      "target_symbol": null
+    },
+    {
+      "site": 5465936,
+      "mnemonic": "beqz",
+      "operands": "v0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+      "target": 5465960,
+      "target_symbol": null
+    }
+  ],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "link",
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5455304,
+      "mnemonic": "bal",
+      "target": 5465760,
+      "objdump_symbol": "onboarding_phy_link_status_change_handle",
+      "raw": "  533dc8:\t04110a35 \tbal\t5366a0 <onboarding_phy_link_status_change_handle>",
+      "caller": null
+    },
+    {
+      "site": 5455372,
+      "mnemonic": "bal",
+      "target": 5465760,
+      "objdump_symbol": "onboarding_phy_link_status_change_handle",
+      "raw": "  533e0c:\t04110a24 \tbal\t5366a0 <onboarding_phy_link_status_change_handle>",
+      "caller": null
+    }
+  ]
+}

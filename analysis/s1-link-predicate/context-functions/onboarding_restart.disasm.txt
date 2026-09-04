@@ -1,0 +1,34 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+00536778 <onboarding_restart>:
+  536778:	3c1c0029 	lui	gp,0x29
+  53677c:	279cd5e8 	addiu	gp,gp,-10776
+  536780:	0399e021 	addu	gp,gp,t9
+  536784:	8f998964 	lw	t9,-30364(gp)
+  536788:	27bdffe0 	addiu	sp,sp,-32
+  53678c:	afbf001c 	sw	ra,28(sp)
+  536790:	afbc0010 	sw	gp,16(sp)
+  536794:	0411ff57 	bal	5364f4 <onboarding_stop>
+  536798:	00000000 	nop
+  53679c:	8fbc0010 	lw	gp,16(sp)
+  5367a0:	8f998a00 	lw	t9,-30208(gp)
+  5367a4:	0411ff87 	bal	5365c4 <onboarding_ctx_init>
+  5367a8:	00000000 	nop
+  5367ac:	8fbc0010 	lw	gp,16(sp)
+  5367b0:	8f998994 	lw	t9,-30316(gp)
+  5367b4:	0411fe32 	bal	536080 <onboarding_set_start_flag>
+  5367b8:	24040001 	li	a0,1
+  5367bc:	8fbc0010 	lw	gp,16(sp)
+  5367c0:	8f828838 	lw	v0,-30664(gp)
+  5367c4:	8c42e964 	lw	v0,-5788(v0)
+  5367c8:	10400004 	beqz	v0,5367dc <onboarding_restart+0x64>
+  5367cc:	8fbf001c 	lw	ra,28(sp)
+  5367d0:	8f998a0c 	lw	t9,-30196(gp)
+  5367d4:	1000fe38 	b	5360b8 <onboarding_module_start>
+  5367d8:	27bd0020 	addiu	sp,sp,32
+  5367dc:	03e00008 	jr	ra
+  5367e0:	27bd0020 	addiu	sp,sp,32

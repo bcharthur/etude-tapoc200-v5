@@ -1,0 +1,27 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+0052ab94 <wlan_manager_sta_disconnect>:
+  52ab94:	3c1c002a 	lui	gp,0x2a
+  52ab98:	279c91cc 	addiu	gp,gp,-28212
+  52ab9c:	0399e021 	addu	gp,gp,t9
+  52aba0:	8f828838 	lw	v0,-30664(gp)
+  52aba4:	27bdffd8 	addiu	sp,sp,-40
+  52aba8:	afbc0010 	sw	gp,16(sp)
+  52abac:	8c43e6f0 	lw	v1,-6416(v0)
+  52abb0:	afbf0024 	sw	ra,36(sp)
+  52abb4:	afa00018 	sw	zero,24(sp)
+  52abb8:	10600007 	beqz	v1,52abd8 <wlan_manager_sta_disconnect+0x44>
+  52abbc:	2402ffff 	li	v0,-1
+  52abc0:	8c650008 	lw	a1,8(v1)
+  52abc4:	10a00004 	beqz	a1,52abd8 <wlan_manager_sta_disconnect+0x44>
+  52abc8:	8f9988b0 	lw	t9,-30544(gp)
+  52abcc:	041119a8 	bal	531270 <wlan_sta_disconnect>
+  52abd0:	27a60018 	addiu	a2,sp,24
+  52abd4:	8fa20018 	lw	v0,24(sp)
+  52abd8:	8fbf0024 	lw	ra,36(sp)
+  52abdc:	03e00008 	jr	ra
+  52abe0:	27bd0028 	addiu	sp,sp,40

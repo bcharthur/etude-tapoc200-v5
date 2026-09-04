@@ -1,0 +1,55 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+0052d620 <wlan_manager_reboot>:
+  52d620:	3c1c0029 	lui	gp,0x29
+  52d624:	279c6740 	addiu	gp,gp,26432
+  52d628:	0399e021 	addu	gp,gp,t9
+  52d62c:	27bdffd0 	addiu	sp,sp,-48
+  52d630:	afb10028 	sw	s1,40(sp)
+  52d634:	8f918838 	lw	s1,-30664(gp)
+  52d638:	2402ffff 	li	v0,-1
+  52d63c:	afa20018 	sw	v0,24(sp)
+  52d640:	8e22e6d8 	lw	v0,-6440(s1)
+  52d644:	afbc0010 	sw	gp,16(sp)
+  52d648:	afb00024 	sw	s0,36(sp)
+  52d64c:	afbf002c 	sw	ra,44(sp)
+  52d650:	1440001d 	bnez	v0,52d6c8 <wlan_manager_reboot+0xa8>
+  52d654:	00008025 	move	s0,zero
+  52d658:	8f87813c 	lw	a3,-32452(gp)
+  52d65c:	8f85813c 	lw	a1,-32452(gp)
+  52d660:	8f99879c 	lw	t9,-30820(gp)
+  52d664:	00808025 	move	s0,a0
+  52d668:	24e7d7b4 	addiu	a3,a3,-10316
+  52d66c:	24060b21 	li	a2,2849
+  52d670:	24a5db80 	addiu	a1,a1,-9344
+  52d674:	0320f809 	jalr	t9
+  52d678:	24040004 	li	a0,4
+  52d67c:	8fbc0010 	lw	gp,16(sp)
+  52d680:	24020001 	li	v0,1
+  52d684:	02003825 	move	a3,s0
+  52d688:	8f9985d0 	lw	t9,-31280(gp)
+  52d68c:	8f86899c 	lw	a2,-30308(gp)
+  52d690:	ae22e6d8 	sw	v0,-6440(s1)
+  52d694:	00002825 	move	a1,zero
+  52d698:	0320f809 	jalr	t9
+  52d69c:	27a40018 	addiu	a0,sp,24
+  52d6a0:	00408025 	move	s0,v0
+  52d6a4:	14400006 	bnez	v0,52d6c0 <wlan_manager_reboot+0xa0>
+  52d6a8:	8fbc0010 	lw	gp,16(sp)
+  52d6ac:	8f99885c 	lw	t9,-30628(gp)
+  52d6b0:	0320f809 	jalr	t9
+  52d6b4:	8fa40018 	lw	a0,24(sp)
+  52d6b8:	10000004 	b	52d6cc <wlan_manager_reboot+0xac>
+  52d6bc:	8fbf002c 	lw	ra,44(sp)
+  52d6c0:	3c10ffff 	lui	s0,0xffff
+  52d6c4:	2610635b 	addiu	s0,s0,25435
+  52d6c8:	8fbf002c 	lw	ra,44(sp)
+  52d6cc:	02001025 	move	v0,s0
+  52d6d0:	8fb10028 	lw	s1,40(sp)
+  52d6d4:	8fb00024 	lw	s0,36(sp)
+  52d6d8:	03e00008 	jr	ra
+  52d6dc:	27bd0030 	addiu	sp,sp,48

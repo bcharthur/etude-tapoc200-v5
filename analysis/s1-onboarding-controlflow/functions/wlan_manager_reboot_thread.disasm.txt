@@ -1,0 +1,113 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+0052e4dc <wlan_manager_reboot_thread>:
+  52e4dc:	3c1c0029 	lui	gp,0x29
+  52e4e0:	279c5884 	addiu	gp,gp,22660
+  52e4e4:	0399e021 	addu	gp,gp,t9
+  52e4e8:	27bdffc8 	addiu	sp,sp,-56
+  52e4ec:	2482ffff 	addiu	v0,a0,-1
+  52e4f0:	2c42000f 	sltiu	v0,v0,15
+  52e4f4:	afbc0020 	sw	gp,32(sp)
+  52e4f8:	afb10030 	sw	s1,48(sp)
+  52e4fc:	afb0002c 	sw	s0,44(sp)
+  52e500:	afbf0034 	sw	ra,52(sp)
+  52e504:	00808025 	move	s0,a0
+  52e508:	8f91813c 	lw	s1,-32452(gp)
+  52e50c:	1040000f 	beqz	v0,52e54c <wlan_manager_reboot_thread+0x70>
+  52e510:	8f998840 	lw	t9,-30656(gp)
+  52e514:	8f82813c 	lw	v0,-32452(gp)
+  52e518:	afa40018 	sw	a0,24(sp)
+  52e51c:	2627db94 	addiu	a3,s1,-9324
+  52e520:	2442da80 	addiu	v0,v0,-9600
+  52e524:	afa20014 	sw	v0,20(sp)
+  52e528:	24020afe 	li	v0,2814
+  52e52c:	24040004 	li	a0,4
+  52e530:	afa20010 	sw	v0,16(sp)
+  52e534:	24060003 	li	a2,3
+  52e538:	0320f809 	jalr	t9
+  52e53c:	240503e7 	li	a1,999
+  52e540:	8fbc0020 	lw	gp,32(sp)
+  52e544:	10000011 	b	52e58c <wlan_manager_reboot_thread+0xb0>
+  52e548:	02002025 	move	a0,s0
+  52e54c:	28820010 	slti	v0,a0,16
+  52e550:	14400013 	bnez	v0,52e5a0 <wlan_manager_reboot_thread+0xc4>
+  52e554:	8f82813c 	lw	v0,-32452(gp)
+  52e558:	8f82813c 	lw	v0,-32452(gp)
+  52e55c:	afa40018 	sw	a0,24(sp)
+  52e560:	2627db94 	addiu	a3,s1,-9324
+  52e564:	2442da98 	addiu	v0,v0,-9576
+  52e568:	afa20014 	sw	v0,20(sp)
+  52e56c:	24020b03 	li	v0,2819
+  52e570:	24040004 	li	a0,4
+  52e574:	afa20010 	sw	v0,16(sp)
+  52e578:	24060003 	li	a2,3
+  52e57c:	0320f809 	jalr	t9
+  52e580:	240503e7 	li	a1,999
+  52e584:	8fbc0020 	lw	gp,32(sp)
+  52e588:	2404000f 	li	a0,15
+  52e58c:	8f9988f0 	lw	t9,-30480(gp)
+  52e590:	0320f809 	jalr	t9
+  52e594:	00000000 	nop
+  52e598:	8fbc0020 	lw	gp,32(sp)
+  52e59c:	8f82813c 	lw	v0,-32452(gp)
+  52e5a0:	8f998840 	lw	t9,-30656(gp)
+  52e5a4:	2627db94 	addiu	a3,s1,-9324
+  52e5a8:	2442dad4 	addiu	v0,v0,-9516
+  52e5ac:	afa20014 	sw	v0,20(sp)
+  52e5b0:	24020b06 	li	v0,2822
+  52e5b4:	24060003 	li	a2,3
+  52e5b8:	240503e7 	li	a1,999
+  52e5bc:	24040004 	li	a0,4
+  52e5c0:	0320f809 	jalr	t9
+  52e5c4:	afa20010 	sw	v0,16(sp)
+  52e5c8:	8fbc0020 	lw	gp,32(sp)
+  52e5cc:	8f9989fc 	lw	t9,-30212(gp)
+  52e5d0:	0411ff89 	bal	52e3f8 <wlan_manager_stop>
+  52e5d4:	00000000 	nop
+  52e5d8:	8fbc0020 	lw	gp,32(sp)
+  52e5dc:	8f848838 	lw	a0,-30664(gp)
+  52e5e0:	8f9989b0 	lw	t9,-30288(gp)
+  52e5e4:	04112446 	bal	537700 <wlan_adapter_init>
+  52e5e8:	2484e6f0 	addiu	a0,a0,-6416
+  52e5ec:	8fbc0020 	lw	gp,32(sp)
+  52e5f0:	8f828838 	lw	v0,-30664(gp)
+  52e5f4:	8f998a00 	lw	t9,-30208(gp)
+  52e5f8:	04111ff2 	bal	5365c4 <onboarding_ctx_init>
+  52e5fc:	ac40e6e8 	sw	zero,-6424(v0)
+  52e600:	8fbc0020 	lw	gp,32(sp)
+  52e604:	8f998a04 	lw	t9,-30204(gp)
+  52e608:	0411fe68 	bal	52dfac <wlan_manager_start>
+  52e60c:	00002025 	move	a0,zero
+  52e610:	8fbc0020 	lw	gp,32(sp)
+  52e614:	8f998a08 	lw	t9,-30200(gp)
+  52e618:	04111e8d 	bal	536050 <is_onboarding_ds_module_start>
+  52e61c:	00000000 	nop
+  52e620:	10400005 	beqz	v0,52e638 <wlan_manager_reboot_thread+0x15c>
+  52e624:	8fbc0020 	lw	gp,32(sp)
+  52e628:	8f998a0c 	lw	t9,-30196(gp)
+  52e62c:	04111ea2 	bal	5360b8 <onboarding_module_start>
+  52e630:	00000000 	nop
+  52e634:	8fbc0020 	lw	gp,32(sp)
+  52e638:	8f828838 	lw	v0,-30664(gp)
+  52e63c:	8f998840 	lw	t9,-30656(gp)
+  52e640:	2627db94 	addiu	a3,s1,-9324
+  52e644:	ac40e6d8 	sw	zero,-6440(v0)
+  52e648:	8f82813c 	lw	v0,-32452(gp)
+  52e64c:	24060003 	li	a2,3
+  52e650:	240503e7 	li	a1,999
+  52e654:	2442dae8 	addiu	v0,v0,-9496
+  52e658:	afa20014 	sw	v0,20(sp)
+  52e65c:	24020b13 	li	v0,2835
+  52e660:	afa20010 	sw	v0,16(sp)
+  52e664:	0320f809 	jalr	t9
+  52e668:	24040004 	li	a0,4
+  52e66c:	8fbf0034 	lw	ra,52(sp)
+  52e670:	8fb10030 	lw	s1,48(sp)
+  52e674:	8fb0002c 	lw	s0,44(sp)
+  52e678:	00001025 	move	v0,zero
+  52e67c:	03e00008 	jr	ra
+  52e680:	27bd0038 	addiu	sp,sp,56

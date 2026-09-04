@@ -1,0 +1,2423 @@
+{
+  "version": "1.0.16",
+  "main": {
+    "path": "analysis\\c200v5-142\\main-1.4.2",
+    "sha256": "3d5d7d8a35fdad2766848c6de2edd8fcb1db6f1392013d2d9556cb192cdfab37",
+    "elf": {
+      "machine": "EM_MIPS",
+      "elfclass": 32,
+      "little_endian": true,
+      "entry": 4282112
+    }
+  },
+  "objective": "Recover the exact static junction from Wi-Fi link-state events into re-onboarding/SoftAP/reboot state logic before designing an RF trigger.",
+  "requested_targets": [
+    "onboarding_phy_link_status_change_handle",
+    "wlan_manager_onboarding_start",
+    "onboarding_restart",
+    "wlan_manager_init_reconnect_ctx",
+    "wlan_manual_reconnect",
+    "wlan_manager_sta_disconnect",
+    "wlan_sta_disconnect",
+    "disconnect_WiFi_ex",
+    "is_reonboarding",
+    "get_cur_onboarding_mode",
+    "set_exit_softap_fast_flag",
+    "stop_exit_softap",
+    "set_onboarding_finished",
+    "onboarding_set_start_flag",
+    "is_onboarding_finished",
+    "is_onboarding_started",
+    "ffs_onboarding_start",
+    "ffs_onboarding_stop",
+    "wlan_manager_reboot",
+    "wlan_manager_reboot_thread"
+  ],
+  "missing_targets": [],
+  "functions": {
+    "onboarding_phy_link_status_change_handle": {
+      "name": "onboarding_phy_link_status_change_handle",
+      "address": 5465760,
+      "size": 216,
+      "end": 5465976,
+      "instruction_count": 54,
+      "direct_calls": [
+        {
+          "site": 5465816,
+          "mnemonic": "bal",
+          "target": 5465540,
+          "target_symbol": "onboarding_ctx_init",
+          "objdump_symbol": "onboarding_ctx_init",
+          "context": [
+            "  5366b8:\tafbc0010 \tsw\tgp,16(sp)",
+            "  5366bc:\t24100001 \tli\ts0,1",
+            "  5366c0:\tafbf0024 \tsw\tra,36(sp)",
+            "  5366c4:\t10900025 \tbeq\ta0,s0,53675c <onboarding_phy_link_status_change_handle+0xbc>",
+            "  5366c8:\t8f998964 \tlw\tt9,-30364(gp)",
+            "  5366cc:\t14800026 \tbnez\ta0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+            "  5366d0:\t8fbf0024 \tlw\tra,36(sp)",
+            "  5366d4:\t8f998a00 \tlw\tt9,-30208(gp)",
+            "  5366d8:\t0411ffba \tbal\t5365c4 <onboarding_ctx_init>",
+            "  5366dc:\t00000000 \tnop",
+            "  5366e0:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5366e4:\t24020008 \tli\tv0,8",
+            "  5366e8:\tafa2001c \tsw\tv0,28(sp)",
+            "  5366ec:\t8f9988bc \tlw\tt9,-30532(gp)",
+            "  5366f0:\t24020005 \tli\tv0,5"
+          ]
+        },
+        {
+          "site": 5465852,
+          "mnemonic": "bal",
+          "target": 5415976,
+          "target_symbol": "wlan_manager_ap_get_status",
+          "objdump_symbol": "wlan_manager_ap_get_status",
+          "context": [
+            "  5366dc:\t00000000 \tnop",
+            "  5366e0:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5366e4:\t24020008 \tli\tv0,8",
+            "  5366e8:\tafa2001c \tsw\tv0,28(sp)",
+            "  5366ec:\t8f9988bc \tlw\tt9,-30532(gp)",
+            "  5366f0:\t24020005 \tli\tv0,5",
+            "  5366f4:\t27a5001c \taddiu\ta1,sp,28",
+            "  5366f8:\t00002025 \tmove\ta0,zero",
+            "  5366fc:\t0411cf4a \tbal\t52a428 <wlan_manager_ap_get_status>",
+            "  536700:\tafa20018 \tsw\tv0,24(sp)",
+            "  536704:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  536708:\t00002025 \tmove\ta0,zero",
+            "  53670c:\t8f9989dc \tlw\tt9,-30244(gp)",
+            "  536710:\t0411d446 \tbal\t52b82c <wlan_manager_monitor_get_status>",
+            "  536714:\t27a50018 \taddiu\ta1,sp,24"
+          ]
+        },
+        {
+          "site": 5465872,
+          "mnemonic": "bal",
+          "target": 5421100,
+          "target_symbol": "wlan_manager_monitor_get_status",
+          "objdump_symbol": "wlan_manager_monitor_get_status",
+          "context": [
+            "  5366f0:\t24020005 \tli\tv0,5",
+            "  5366f4:\t27a5001c \taddiu\ta1,sp,28",
+            "  5366f8:\t00002025 \tmove\ta0,zero",
+            "  5366fc:\t0411cf4a \tbal\t52a428 <wlan_manager_ap_get_status>",
+            "  536700:\tafa20018 \tsw\tv0,24(sp)",
+            "  536704:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  536708:\t00002025 \tmove\ta0,zero",
+            "  53670c:\t8f9989dc \tlw\tt9,-30244(gp)",
+            "  536710:\t0411d446 \tbal\t52b82c <wlan_manager_monitor_get_status>",
+            "  536714:\t27a50018 \taddiu\ta1,sp,24",
+            "  536718:\t8fa2001c \tlw\tv0,28(sp)",
+            "  53671c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  536720:\t10500005 \tbeq\tv0,s0,536738 <onboarding_phy_link_status_change_handle+0x98>",
+            "  536724:\t00002025 \tmove\ta0,zero",
+            "  536728:\t8fa20018 \tlw\tv0,24(sp)"
+          ]
+        },
+        {
+          "site": 5465916,
+          "mnemonic": "bal",
+          "target": 5428468,
+          "target_symbol": "wlan_manager_onboarding_start",
+          "objdump_symbol": "wlan_manager_onboarding_start",
+          "context": [
+            "  53671c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  536720:\t10500005 \tbeq\tv0,s0,536738 <onboarding_phy_link_status_change_handle+0x98>",
+            "  536724:\t00002025 \tmove\ta0,zero",
+            "  536728:\t8fa20018 \tlw\tv0,24(sp)",
+            "  53672c:\t14500007 \tbne\tv0,s0,53674c <onboarding_phy_link_status_change_handle+0xac>",
+            "  536730:\t8f828838 \tlw\tv0,-30664(gp)",
+            "  536734:\t24040004 \tli\ta0,4",
+            "  536738:\t8f9989e0 \tlw\tt9,-30240(gp)",
+            "  53673c:\t0411db6d \tbal\t52d4f4 <wlan_manager_onboarding_start>",
+            "  536740:\t00000000 \tnop",
+            "  536744:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  536748:\t8f828838 \tlw\tv0,-30664(gp)",
+            "  53674c:\t8c42e964 \tlw\tv0,-5788(v0)",
+            "  536750:\t10400005 \tbeqz\tv0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+            "  536754:\t8fbf0024 \tlw\tra,36(sp)"
+          ]
+        }
+      ],
+      "indirect_calls": [
+        {
+          "site": 5465948,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  53673c:\t0411db6d \tbal\t52d4f4 <wlan_manager_onboarding_start>",
+            "  536740:\t00000000 \tnop",
+            "  536744:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  536748:\t8f828838 \tlw\tv0,-30664(gp)",
+            "  53674c:\t8c42e964 \tlw\tv0,-5788(v0)",
+            "  536750:\t10400005 \tbeqz\tv0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+            "  536754:\t8fbf0024 \tlw\tra,36(sp)",
+            "  536758:\t8f998a0c \tlw\tt9,-30196(gp)",
+            "  53675c:\t0320f809 \tjalr\tt9",
+            "  536760:\t00000000 \tnop",
+            "  536764:\t8fbf0024 \tlw\tra,36(sp)",
+            "  536768:\t8fb00020 \tlw\ts0,32(sp)",
+            "  53676c:\t00001025 \tmove\tv0,zero",
+            "  536770:\t03e00008 \tjr\tra",
+            "  536774:\t27bd0028 \taddiu\tsp,sp,40"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "site": 5465796,
+          "mnemonic": "beq",
+          "operands": "a0,s0,53675c <onboarding_phy_link_status_change_handle+0xbc>",
+          "target": 5465948,
+          "target_symbol": null
+        },
+        {
+          "site": 5465804,
+          "mnemonic": "bnez",
+          "operands": "a0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+          "target": 5465960,
+          "target_symbol": null
+        },
+        {
+          "site": 5465888,
+          "mnemonic": "beq",
+          "operands": "v0,s0,536738 <onboarding_phy_link_status_change_handle+0x98>",
+          "target": 5465912,
+          "target_symbol": null
+        },
+        {
+          "site": 5465900,
+          "mnemonic": "bne",
+          "operands": "v0,s0,53674c <onboarding_phy_link_status_change_handle+0xac>",
+          "target": 5465932,
+          "target_symbol": null
+        },
+        {
+          "site": 5465936,
+          "mnemonic": "beqz",
+          "operands": "v0,536768 <onboarding_phy_link_status_change_handle+0xc8>",
+          "target": 5465960,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link",
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n005366a0 <onboarding_phy_link_status_change_handle>:\n  5366a0:\t3c1c0029 \tlui\tgp,0x29\n  5366a4:\t279cd6c0 \taddiu\tgp,gp,-10560\n  5366a8:\t0399e021 \taddu\tgp,gp,t9\n  5366ac:\t27bdffd8 \taddiu\tsp,sp,-40\n  5366b0:\t3084ffff \tandi\ta0,a0,0xffff\n  5366b4:\tafb00020 \tsw\ts0,32(sp)\n  5366b8:\tafbc0010 \tsw\tgp,16(sp)\n  5366bc:\t24100001 \tli\ts0,1\n  5366c0:\tafbf0024 \tsw\tra,36(sp)\n  5366c4:\t10900025 \tbeq\ta0,s0,53675c <onboarding_phy_link_status_change_handle+0xbc>\n  5366c8:\t8f998964 \tlw\tt9,-30364(gp)\n  5366cc:\t14800026 \tbnez\ta0,536768 <onboarding_phy_link_status_change_handle+0xc8>\n  5366d0:\t8fbf0024 \tlw\tra,36(sp)\n  5366d4:\t8f998a00 \tlw\tt9,-30208(gp)\n  5366d8:\t0411ffba \tbal\t5365c4 <onboarding_ctx_init>\n  5366dc:\t00000000 \tnop\n  5366e0:\t8fbc0010 \tlw\tgp,16(sp)\n  5366e4:\t24020008 \tli\tv0,8\n  5366e8:\tafa2001c \tsw\tv0,28(sp)\n  5366ec:\t8f9988bc \tlw\tt9,-30532(gp)\n  5366f0:\t24020005 \tli\tv0,5\n  5366f4:\t27a5001c \taddiu\ta1,sp,28\n  5366f8:\t00002025 \tmove\ta0,zero\n  5366fc:\t0411cf4a \tbal\t52a428 <wlan_manager_ap_get_status>\n  536700:\tafa20018 \tsw\tv0,24(sp)\n  536704:\t8fbc0010 \tlw\tgp,16(sp)\n  536708:\t00002025 \tmove\ta0,zero\n  53670c:\t8f9989dc \tlw\tt9,-30244(gp)\n  536710:\t0411d446 \tbal\t52b82c <wlan_manager_monitor_get_status>\n  536714:\t27a50018 \taddiu\ta1,sp,24\n  536718:\t8fa2001c \tlw\tv0,28(sp)\n  53671c:\t8fbc0010 \tlw\tgp,16(sp)\n  536720:\t10500005 \tbeq\tv0,s0,536738 <onboarding_phy_link_status_change_handle+0x98>\n  536724:\t00002025 \tmove\ta0,zero\n  536728:\t8fa20018 \tlw\tv0,24(sp)\n  53672c:\t14500007 \tbne\tv0,s0,53674c <onboarding_phy_link_status_change_handle+0xac>\n  536730:\t8f828838 \tlw\tv0,-30664(gp)\n  536734:\t24040004 \tli\ta0,4\n  536738:\t8f9989e0 \tlw\tt9,-30240(gp)\n  53673c:\t0411db6d \tbal\t52d4f4 <wlan_manager_onboarding_start>\n  536740:\t00000000 \tnop\n  536744:\t8fbc0010 \tlw\tgp,16(sp)\n  536748:\t8f828838 \tlw\tv0,-30664(gp)\n  53674c:\t8c42e964 \tlw\tv0,-5788(v0)\n  536750:\t10400005 \tbeqz\tv0,536768 <onboarding_phy_link_status_change_handle+0xc8>\n  536754:\t8fbf0024 \tlw\tra,36(sp)\n  536758:\t8f998a0c \tlw\tt9,-30196(gp)\n  53675c:\t0320f809 \tjalr\tt9\n  536760:\t00000000 \tnop\n  536764:\t8fbf0024 \tlw\tra,36(sp)\n  536768:\t8fb00020 \tlw\ts0,32(sp)\n  53676c:\t00001025 \tmove\tv0,zero\n  536770:\t03e00008 \tjr\tra\n  536774:\t27bd0028 \taddiu\tsp,sp,40\n"
+    },
+    "wlan_manager_onboarding_start": {
+      "name": "wlan_manager_onboarding_start",
+      "address": 5428468,
+      "size": 292,
+      "end": 5428760,
+      "instruction_count": 73,
+      "direct_calls": [
+        {
+          "site": 5428592,
+          "mnemonic": "bal",
+          "target": 5415476,
+          "target_symbol": "wlan_manager_support_host_ap",
+          "objdump_symbol": "wlan_manager_support_host_ap",
+          "context": [
+            "  52d550:\t12400006 \tbeqz\ts2,52d56c <wlan_manager_onboarding_start+0x78>",
+            "  52d554:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d558:\t24020004 \tli\tv0,4",
+            "  52d55c:\t52420009 \tbeql\ts2,v0,52d584 <wlan_manager_onboarding_start+0x90>",
+            "  52d560:\t8f998990 \tlw\tt9,-30320(gp)",
+            "  52d564:\t10000024 \tb\t52d5f8 <wlan_manager_onboarding_start+0x104>",
+            "  52d568:\t8f998994 \tlw\tt9,-30316(gp)",
+            "  52d56c:\t8f998998 \tlw\tt9,-30312(gp)",
+            "  52d570:\t0411f330 \tbal\t52a234 <wlan_manager_support_host_ap>",
+            "  52d574:\t00000000 \tnop",
+            "  52d578:\t14400009 \tbnez\tv0,52d5a0 <wlan_manager_onboarding_start+0xac>",
+            "  52d57c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d580:\t8f998990 \tlw\tt9,-30320(gp)",
+            "  52d584:\t04110586 \tbal\t52eba0 <wlan_is_fac_test_mode>",
+            "  52d588:\t00000000 \tnop"
+          ]
+        },
+        {
+          "site": 5428612,
+          "mnemonic": "bal",
+          "target": 5434272,
+          "target_symbol": "wlan_is_fac_test_mode",
+          "objdump_symbol": "wlan_is_fac_test_mode",
+          "context": [
+            "  52d564:\t10000024 \tb\t52d5f8 <wlan_manager_onboarding_start+0x104>",
+            "  52d568:\t8f998994 \tlw\tt9,-30316(gp)",
+            "  52d56c:\t8f998998 \tlw\tt9,-30312(gp)",
+            "  52d570:\t0411f330 \tbal\t52a234 <wlan_manager_support_host_ap>",
+            "  52d574:\t00000000 \tnop",
+            "  52d578:\t14400009 \tbnez\tv0,52d5a0 <wlan_manager_onboarding_start+0xac>",
+            "  52d57c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d580:\t8f998990 \tlw\tt9,-30320(gp)",
+            "  52d584:\t04110586 \tbal\t52eba0 <wlan_is_fac_test_mode>",
+            "  52d588:\t00000000 \tnop",
+            "  52d58c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d590:\t1440001c \tbnez\tv0,52d604 <wlan_manager_onboarding_start+0x110>",
+            "  52d594:\t8fbf0364 \tlw\tra,868(sp)",
+            "  52d598:\t10000017 \tb\t52d5f8 <wlan_manager_onboarding_start+0x104>",
+            "  52d59c:\t8f998994 \tlw\tt9,-30316(gp)"
+          ]
+        },
+        {
+          "site": 5428648,
+          "mnemonic": "bal",
+          "target": 5416832,
+          "target_symbol": "wlan_manager_sta_get_config",
+          "objdump_symbol": "wlan_manager_sta_get_config",
+          "context": [
+            "  52d588:\t00000000 \tnop",
+            "  52d58c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d590:\t1440001c \tbnez\tv0,52d604 <wlan_manager_onboarding_start+0x110>",
+            "  52d594:\t8fbf0364 \tlw\tra,868(sp)",
+            "  52d598:\t10000017 \tb\t52d5f8 <wlan_manager_onboarding_start+0x104>",
+            "  52d59c:\t8f998994 \tlw\tt9,-30316(gp)",
+            "  52d5a0:\t8f998898 \tlw\tt9,-30568(gp)",
+            "  52d5a4:\t02202825 \tmove\ta1,s1",
+            "  52d5a8:\t0411f475 \tbal\t52a780 <wlan_manager_sta_get_config>",
+            "  52d5ac:\t00002025 \tmove\ta0,zero",
+            "  52d5b0:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d5b4:\t02002825 \tmove\ta1,s0",
+            "  52d5b8:\t8f99887c \tlw\tt9,-30596(gp)",
+            "  52d5bc:\t0411f3ac \tbal\t52a470 <wlan_manager_ap_get_config>",
+            "  52d5c0:\t00002025 \tmove\ta0,zero"
+          ]
+        },
+        {
+          "site": 5428668,
+          "mnemonic": "bal",
+          "target": 5416048,
+          "target_symbol": "wlan_manager_ap_get_config",
+          "objdump_symbol": "wlan_manager_ap_get_config",
+          "context": [
+            "  52d59c:\t8f998994 \tlw\tt9,-30316(gp)",
+            "  52d5a0:\t8f998898 \tlw\tt9,-30568(gp)",
+            "  52d5a4:\t02202825 \tmove\ta1,s1",
+            "  52d5a8:\t0411f475 \tbal\t52a780 <wlan_manager_sta_get_config>",
+            "  52d5ac:\t00002025 \tmove\ta0,zero",
+            "  52d5b0:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d5b4:\t02002825 \tmove\ta1,s0",
+            "  52d5b8:\t8f99887c \tlw\tt9,-30596(gp)",
+            "  52d5bc:\t0411f3ac \tbal\t52a470 <wlan_manager_ap_get_config>",
+            "  52d5c0:\t00002025 \tmove\ta0,zero",
+            "  52d5c4:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d5c8:\t8f998990 \tlw\tt9,-30320(gp)",
+            "  52d5cc:\t04110574 \tbal\t52eba0 <wlan_is_fac_test_mode>",
+            "  52d5d0:\t00000000 \tnop",
+            "  52d5d4:\t1440000a \tbnez\tv0,52d600 <wlan_manager_onboarding_start+0x10c>"
+          ]
+        },
+        {
+          "site": 5428684,
+          "mnemonic": "bal",
+          "target": 5434272,
+          "target_symbol": "wlan_is_fac_test_mode",
+          "objdump_symbol": "wlan_is_fac_test_mode",
+          "context": [
+            "  52d5ac:\t00002025 \tmove\ta0,zero",
+            "  52d5b0:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d5b4:\t02002825 \tmove\ta1,s0",
+            "  52d5b8:\t8f99887c \tlw\tt9,-30596(gp)",
+            "  52d5bc:\t0411f3ac \tbal\t52a470 <wlan_manager_ap_get_config>",
+            "  52d5c0:\t00002025 \tmove\ta0,zero",
+            "  52d5c4:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d5c8:\t8f998990 \tlw\tt9,-30320(gp)",
+            "  52d5cc:\t04110574 \tbal\t52eba0 <wlan_is_fac_test_mode>",
+            "  52d5d0:\t00000000 \tnop",
+            "  52d5d4:\t1440000a \tbnez\tv0,52d600 <wlan_manager_onboarding_start+0x10c>",
+            "  52d5d8:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d5dc:\t8fa202bc \tlw\tv0,700(sp)",
+            "  52d5e0:\t14400007 \tbnez\tv0,52d600 <wlan_manager_onboarding_start+0x10c>",
+            "  52d5e4:\t8fa20058 \tlw\tv0,88(sp)"
+          ]
+        },
+        {
+          "site": 5428728,
+          "mnemonic": "bal",
+          "target": 5464192,
+          "target_symbol": "onboarding_set_start_flag",
+          "objdump_symbol": "onboarding_set_start_flag",
+          "context": [
+            "  52d5d8:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d5dc:\t8fa202bc \tlw\tv0,700(sp)",
+            "  52d5e0:\t14400007 \tbnez\tv0,52d600 <wlan_manager_onboarding_start+0x10c>",
+            "  52d5e4:\t8fa20058 \tlw\tv0,88(sp)",
+            "  52d5e8:\t14400005 \tbnez\tv0,52d600 <wlan_manager_onboarding_start+0x10c>",
+            "  52d5ec:\t83a20060 \tlb\tv0,96(sp)",
+            "  52d5f0:\t1000ffe7 \tb\t52d590 <wlan_manager_onboarding_start+0x9c>",
+            "  52d5f4:\t00000000 \tnop",
+            "  52d5f8:\t041122a1 \tbal\t536080 <onboarding_set_start_flag>",
+            "  52d5fc:\t24040001 \tli\ta0,1",
+            "  52d600:\t8fbf0364 \tlw\tra,868(sp)",
+            "  52d604:\t8fb20360 \tlw\ts2,864(sp)",
+            "  52d608:\t8fb1035c \tlw\ts1,860(sp)",
+            "  52d60c:\t8fb00358 \tlw\ts0,856(sp)",
+            "  52d610:\t03e00008 \tjr\tra"
+          ]
+        }
+      ],
+      "indirect_calls": [
+        {
+          "site": 5428524,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52d50c:\t27b102b8 \taddiu\ts1,sp,696",
+            "  52d510:\tafbc0010 \tsw\tgp,16(sp)",
+            "  52d514:\tafbf0364 \tsw\tra,868(sp)",
+            "  52d518:\tafb20360 \tsw\ts2,864(sp)",
+            "  52d51c:\tafb00358 \tsw\ts0,856(sp)",
+            "  52d520:\t240600a0 \tli\ta2,160",
+            "  52d524:\t00002825 \tmove\ta1,zero",
+            "  52d528:\t00809025 \tmove\ts2,a0",
+            "  52d52c:\t0320f809 \tjalr\tt9",
+            "  52d530:\t02202025 \tmove\ta0,s1",
+            "  52d534:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d538:\t27b00018 \taddiu\ts0,sp,24",
+            "  52d53c:\t240602a0 \tli\ta2,672",
+            "  52d540:\t8f99804c \tlw\tt9,-32692(gp)",
+            "  52d544:\t00002825 \tmove\ta1,zero"
+          ]
+        },
+        {
+          "site": 5428552,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52d528:\t00809025 \tmove\ts2,a0",
+            "  52d52c:\t0320f809 \tjalr\tt9",
+            "  52d530:\t02202025 \tmove\ta0,s1",
+            "  52d534:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d538:\t27b00018 \taddiu\ts0,sp,24",
+            "  52d53c:\t240602a0 \tli\ta2,672",
+            "  52d540:\t8f99804c \tlw\tt9,-32692(gp)",
+            "  52d544:\t00002825 \tmove\ta1,zero",
+            "  52d548:\t0320f809 \tjalr\tt9",
+            "  52d54c:\t02002025 \tmove\ta0,s0",
+            "  52d550:\t12400006 \tbeqz\ts2,52d56c <wlan_manager_onboarding_start+0x78>",
+            "  52d554:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d558:\t24020004 \tli\tv0,4",
+            "  52d55c:\t52420009 \tbeql\ts2,v0,52d584 <wlan_manager_onboarding_start+0x90>",
+            "  52d560:\t8f998990 \tlw\tt9,-30320(gp)"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "site": 5428560,
+          "mnemonic": "beqz",
+          "operands": "s2,52d56c <wlan_manager_onboarding_start+0x78>",
+          "target": 5428588,
+          "target_symbol": null
+        },
+        {
+          "site": 5428572,
+          "mnemonic": "beql",
+          "operands": "s2,v0,52d584 <wlan_manager_onboarding_start+0x90>",
+          "target": 5428612,
+          "target_symbol": null
+        },
+        {
+          "site": 5428580,
+          "mnemonic": "b",
+          "operands": "52d5f8 <wlan_manager_onboarding_start+0x104>",
+          "target": 5428728,
+          "target_symbol": null
+        },
+        {
+          "site": 5428600,
+          "mnemonic": "bnez",
+          "operands": "v0,52d5a0 <wlan_manager_onboarding_start+0xac>",
+          "target": 5428640,
+          "target_symbol": null
+        },
+        {
+          "site": 5428624,
+          "mnemonic": "bnez",
+          "operands": "v0,52d604 <wlan_manager_onboarding_start+0x110>",
+          "target": 5428740,
+          "target_symbol": null
+        },
+        {
+          "site": 5428632,
+          "mnemonic": "b",
+          "operands": "52d5f8 <wlan_manager_onboarding_start+0x104>",
+          "target": 5428728,
+          "target_symbol": null
+        },
+        {
+          "site": 5428692,
+          "mnemonic": "bnez",
+          "operands": "v0,52d600 <wlan_manager_onboarding_start+0x10c>",
+          "target": 5428736,
+          "target_symbol": null
+        },
+        {
+          "site": 5428704,
+          "mnemonic": "bnez",
+          "operands": "v0,52d600 <wlan_manager_onboarding_start+0x10c>",
+          "target": 5428736,
+          "target_symbol": null
+        },
+        {
+          "site": 5428712,
+          "mnemonic": "bnez",
+          "operands": "v0,52d600 <wlan_manager_onboarding_start+0x10c>",
+          "target": 5428736,
+          "target_symbol": null
+        },
+        {
+          "site": 5428720,
+          "mnemonic": "b",
+          "operands": "52d590 <wlan_manager_onboarding_start+0x9c>",
+          "target": 5428624,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link",
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n0052d4f4 <wlan_manager_onboarding_start>:\n  52d4f4:\t3c1c0029 \tlui\tgp,0x29\n  52d4f8:\t279c686c \taddiu\tgp,gp,26732\n  52d4fc:\t0399e021 \taddu\tgp,gp,t9\n  52d500:\t27bdfc98 \taddiu\tsp,sp,-872\n  52d504:\t8f99804c \tlw\tt9,-32692(gp)\n  52d508:\tafb1035c \tsw\ts1,860(sp)\n  52d50c:\t27b102b8 \taddiu\ts1,sp,696\n  52d510:\tafbc0010 \tsw\tgp,16(sp)\n  52d514:\tafbf0364 \tsw\tra,868(sp)\n  52d518:\tafb20360 \tsw\ts2,864(sp)\n  52d51c:\tafb00358 \tsw\ts0,856(sp)\n  52d520:\t240600a0 \tli\ta2,160\n  52d524:\t00002825 \tmove\ta1,zero\n  52d528:\t00809025 \tmove\ts2,a0\n  52d52c:\t0320f809 \tjalr\tt9\n  52d530:\t02202025 \tmove\ta0,s1\n  52d534:\t8fbc0010 \tlw\tgp,16(sp)\n  52d538:\t27b00018 \taddiu\ts0,sp,24\n  52d53c:\t240602a0 \tli\ta2,672\n  52d540:\t8f99804c \tlw\tt9,-32692(gp)\n  52d544:\t00002825 \tmove\ta1,zero\n  52d548:\t0320f809 \tjalr\tt9\n  52d54c:\t02002025 \tmove\ta0,s0\n  52d550:\t12400006 \tbeqz\ts2,52d56c <wlan_manager_onboarding_start+0x78>\n  52d554:\t8fbc0010 \tlw\tgp,16(sp)\n  52d558:\t24020004 \tli\tv0,4\n  52d55c:\t52420009 \tbeql\ts2,v0,52d584 <wlan_manager_onboarding_start+0x90>\n  52d560:\t8f998990 \tlw\tt9,-30320(gp)\n  52d564:\t10000024 \tb\t52d5f8 <wlan_manager_onboarding_start+0x104>\n  52d568:\t8f998994 \tlw\tt9,-30316(gp)\n  52d56c:\t8f998998 \tlw\tt9,-30312(gp)\n  52d570:\t0411f330 \tbal\t52a234 <wlan_manager_support_host_ap>\n  52d574:\t00000000 \tnop\n  52d578:\t14400009 \tbnez\tv0,52d5a0 <wlan_manager_onboarding_start+0xac>\n  52d57c:\t8fbc0010 \tlw\tgp,16(sp)\n  52d580:\t8f998990 \tlw\tt9,-30320(gp)\n  52d584:\t04110586 \tbal\t52eba0 <wlan_is_fac_test_mode>\n  52d588:\t00000000 \tnop\n  52d58c:\t8fbc0010 \tlw\tgp,16(sp)\n  52d590:\t1440001c \tbnez\tv0,52d604 <wlan_manager_onboarding_start+0x110>\n  52d594:\t8fbf0364 \tlw\tra,868(sp)\n  52d598:\t10000017 \tb\t52d5f8 <wlan_manager_onboarding_start+0x104>\n  52d59c:\t8f998994 \tlw\tt9,-30316(gp)\n  52d5a0:\t8f998898 \tlw\tt9,-30568(gp)\n  52d5a4:\t02202825 \tmove\ta1,s1\n  52d5a8:\t0411f475 \tbal\t52a780 <wlan_manager_sta_get_config>\n  52d5ac:\t00002025 \tmove\ta0,zero\n  52d5b0:\t8fbc0010 \tlw\tgp,16(sp)\n  52d5b4:\t02002825 \tmove\ta1,s0\n  52d5b8:\t8f99887c \tlw\tt9,-30596(gp)\n  52d5bc:\t0411f3ac \tbal\t52a470 <wlan_manager_ap_get_config>\n  52d5c0:\t00002025 \tmove\ta0,zero\n  52d5c4:\t8fbc0010 \tlw\tgp,16(sp)\n  52d5c8:\t8f998990 \tlw\tt9,-30320(gp)\n  52d5cc:\t04110574 \tbal\t52eba0 <wlan_is_fac_test_mode>\n  52d5d0:\t00000000 \tnop\n  52d5d4:\t1440000a \tbnez\tv0,52d600 <wlan_manager_onboarding_start+0x10c>\n  52d5d8:\t8fbc0010 \tlw\tgp,16(sp)\n  52d5dc:\t8fa202bc \tlw\tv0,700(sp)\n  52d5e0:\t14400007 \tbnez\tv0,52d600 <wlan_manager_onboarding_start+0x10c>\n  52d5e4:\t8fa20058 \tlw\tv0,88(sp)\n  52d5e8:\t14400005 \tbnez\tv0,52d600 <wlan_manager_onboarding_start+0x10c>\n  52d5ec:\t83a20060 \tlb\tv0,96(sp)\n  52d5f0:\t1000ffe7 \tb\t52d590 <wlan_manager_onboarding_start+0x9c>\n  52d5f4:\t00000000 \tnop\n  52d5f8:\t041122a1 \tbal\t536080 <onboarding_set_start_flag>\n  52d5fc:\t24040001 \tli\ta0,1\n  52d600:\t8fbf0364 \tlw\tra,868(sp)\n  52d604:\t8fb20360 \tlw\ts2,864(sp)\n  52d608:\t8fb1035c \tlw\ts1,860(sp)\n  52d60c:\t8fb00358 \tlw\ts0,856(sp)\n  52d610:\t03e00008 \tjr\tra\n  52d614:\t27bd0368 \taddiu\tsp,sp,872\n"
+    },
+    "onboarding_restart": {
+      "name": "onboarding_restart",
+      "address": 5465976,
+      "size": 108,
+      "end": 5466084,
+      "instruction_count": 27,
+      "direct_calls": [
+        {
+          "site": 5466004,
+          "mnemonic": "bal",
+          "target": 5465332,
+          "target_symbol": "onboarding_stop",
+          "objdump_symbol": "onboarding_stop",
+          "context": [
+            "  536778:\t3c1c0029 \tlui\tgp,0x29",
+            "  53677c:\t279cd5e8 \taddiu\tgp,gp,-10776",
+            "  536780:\t0399e021 \taddu\tgp,gp,t9",
+            "  536784:\t8f998964 \tlw\tt9,-30364(gp)",
+            "  536788:\t27bdffe0 \taddiu\tsp,sp,-32",
+            "  53678c:\tafbf001c \tsw\tra,28(sp)",
+            "  536790:\tafbc0010 \tsw\tgp,16(sp)",
+            "  536794:\t0411ff57 \tbal\t5364f4 <onboarding_stop>",
+            "  536798:\t00000000 \tnop",
+            "  53679c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5367a0:\t8f998a00 \tlw\tt9,-30208(gp)",
+            "  5367a4:\t0411ff87 \tbal\t5365c4 <onboarding_ctx_init>",
+            "  5367a8:\t00000000 \tnop",
+            "  5367ac:\t8fbc0010 \tlw\tgp,16(sp)"
+          ]
+        },
+        {
+          "site": 5466020,
+          "mnemonic": "bal",
+          "target": 5465540,
+          "target_symbol": "onboarding_ctx_init",
+          "objdump_symbol": "onboarding_ctx_init",
+          "context": [
+            "  536784:\t8f998964 \tlw\tt9,-30364(gp)",
+            "  536788:\t27bdffe0 \taddiu\tsp,sp,-32",
+            "  53678c:\tafbf001c \tsw\tra,28(sp)",
+            "  536790:\tafbc0010 \tsw\tgp,16(sp)",
+            "  536794:\t0411ff57 \tbal\t5364f4 <onboarding_stop>",
+            "  536798:\t00000000 \tnop",
+            "  53679c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5367a0:\t8f998a00 \tlw\tt9,-30208(gp)",
+            "  5367a4:\t0411ff87 \tbal\t5365c4 <onboarding_ctx_init>",
+            "  5367a8:\t00000000 \tnop",
+            "  5367ac:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5367b0:\t8f998994 \tlw\tt9,-30316(gp)",
+            "  5367b4:\t0411fe32 \tbal\t536080 <onboarding_set_start_flag>",
+            "  5367b8:\t24040001 \tli\ta0,1",
+            "  5367bc:\t8fbc0010 \tlw\tgp,16(sp)"
+          ]
+        },
+        {
+          "site": 5466036,
+          "mnemonic": "bal",
+          "target": 5464192,
+          "target_symbol": "onboarding_set_start_flag",
+          "objdump_symbol": "onboarding_set_start_flag",
+          "context": [
+            "  536794:\t0411ff57 \tbal\t5364f4 <onboarding_stop>",
+            "  536798:\t00000000 \tnop",
+            "  53679c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5367a0:\t8f998a00 \tlw\tt9,-30208(gp)",
+            "  5367a4:\t0411ff87 \tbal\t5365c4 <onboarding_ctx_init>",
+            "  5367a8:\t00000000 \tnop",
+            "  5367ac:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5367b0:\t8f998994 \tlw\tt9,-30316(gp)",
+            "  5367b4:\t0411fe32 \tbal\t536080 <onboarding_set_start_flag>",
+            "  5367b8:\t24040001 \tli\ta0,1",
+            "  5367bc:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5367c0:\t8f828838 \tlw\tv0,-30664(gp)",
+            "  5367c4:\t8c42e964 \tlw\tv0,-5788(v0)",
+            "  5367c8:\t10400004 \tbeqz\tv0,5367dc <onboarding_restart+0x64>",
+            "  5367cc:\t8fbf001c \tlw\tra,28(sp)"
+          ]
+        }
+      ],
+      "indirect_calls": [],
+      "branches": [
+        {
+          "site": 5466056,
+          "mnemonic": "beqz",
+          "operands": "v0,5367dc <onboarding_restart+0x64>",
+          "target": 5466076,
+          "target_symbol": null
+        },
+        {
+          "site": 5466068,
+          "mnemonic": "b",
+          "operands": "5360b8 <onboarding_module_start>",
+          "target": 5464248,
+          "target_symbol": "onboarding_module_start"
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00536778 <onboarding_restart>:\n  536778:\t3c1c0029 \tlui\tgp,0x29\n  53677c:\t279cd5e8 \taddiu\tgp,gp,-10776\n  536780:\t0399e021 \taddu\tgp,gp,t9\n  536784:\t8f998964 \tlw\tt9,-30364(gp)\n  536788:\t27bdffe0 \taddiu\tsp,sp,-32\n  53678c:\tafbf001c \tsw\tra,28(sp)\n  536790:\tafbc0010 \tsw\tgp,16(sp)\n  536794:\t0411ff57 \tbal\t5364f4 <onboarding_stop>\n  536798:\t00000000 \tnop\n  53679c:\t8fbc0010 \tlw\tgp,16(sp)\n  5367a0:\t8f998a00 \tlw\tt9,-30208(gp)\n  5367a4:\t0411ff87 \tbal\t5365c4 <onboarding_ctx_init>\n  5367a8:\t00000000 \tnop\n  5367ac:\t8fbc0010 \tlw\tgp,16(sp)\n  5367b0:\t8f998994 \tlw\tt9,-30316(gp)\n  5367b4:\t0411fe32 \tbal\t536080 <onboarding_set_start_flag>\n  5367b8:\t24040001 \tli\ta0,1\n  5367bc:\t8fbc0010 \tlw\tgp,16(sp)\n  5367c0:\t8f828838 \tlw\tv0,-30664(gp)\n  5367c4:\t8c42e964 \tlw\tv0,-5788(v0)\n  5367c8:\t10400004 \tbeqz\tv0,5367dc <onboarding_restart+0x64>\n  5367cc:\t8fbf001c \tlw\tra,28(sp)\n  5367d0:\t8f998a0c \tlw\tt9,-30196(gp)\n  5367d4:\t1000fe38 \tb\t5360b8 <onboarding_module_start>\n  5367d8:\t27bd0020 \taddiu\tsp,sp,32\n  5367dc:\t03e00008 \tjr\tra\n  5367e0:\t27bd0020 \taddiu\tsp,sp,32\n"
+    },
+    "wlan_manager_init_reconnect_ctx": {
+      "name": "wlan_manager_init_reconnect_ctx",
+      "address": 5423052,
+      "size": 56,
+      "end": 5423108,
+      "instruction_count": 14,
+      "direct_calls": [],
+      "indirect_calls": [],
+      "branches": [
+        {
+          "site": 5423072,
+          "mnemonic": "beqz",
+          "operands": "v0,52bffc <wlan_manager_init_reconnect_ctx+0x30>",
+          "target": 5423100,
+          "target_symbol": null
+        },
+        {
+          "site": 5423084,
+          "mnemonic": "beqz",
+          "operands": "t9,52bffc <wlan_manager_init_reconnect_ctx+0x30>",
+          "target": 5423100,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n0052bfcc <wlan_manager_init_reconnect_ctx>:\n  52bfcc:\t3c1c0029 \tlui\tgp,0x29\n  52bfd0:\t279c7d94 \taddiu\tgp,gp,32148\n  52bfd4:\t0399e021 \taddu\tgp,gp,t9\n  52bfd8:\t8f828838 \tlw\tv0,-30664(gp)\n  52bfdc:\t8c42e6f0 \tlw\tv0,-6416(v0)\n  52bfe0:\t10400006 \tbeqz\tv0,52bffc <wlan_manager_init_reconnect_ctx+0x30>\n  52bfe4:\t00000000 \tnop\n  52bfe8:\t8c59002c \tlw\tt9,44(v0)\n  52bfec:\t13200003 \tbeqz\tt9,52bffc <wlan_manager_init_reconnect_ctx+0x30>\n  52bff0:\t00000000 \tnop\n  52bff4:\t03200008 \tjr\tt9\n  52bff8:\t00000000 \tnop\n  52bffc:\t03e00008 \tjr\tra\n  52c000:\t00000000 \tnop\n"
+    },
+    "wlan_manual_reconnect": {
+      "name": "wlan_manual_reconnect",
+      "address": 5469576,
+      "size": 104,
+      "end": 5469680,
+      "instruction_count": 26,
+      "direct_calls": [
+        {
+          "site": 5469608,
+          "mnemonic": "bal",
+          "target": 5468604,
+          "target_symbol": null,
+          "objdump_symbol": "onboarding_execute_shell_cmd+0x330",
+          "context": [
+            "  537588:\t3c1c0029 \tlui\tgp,0x29",
+            "  53758c:\t279cc7d8 \taddiu\tgp,gp,-14376",
+            "  537590:\t0399e021 \taddu\tgp,gp,t9",
+            "  537594:\t8f998858 \tlw\tt9,-30632(gp)",
+            "  537598:\t27bdffe0 \taddiu\tsp,sp,-32",
+            "  53759c:\tafbf001c \tsw\tra,28(sp)",
+            "  5375a0:\tafbc0010 \tsw\tgp,16(sp)",
+            "  5375a4:\t273971bc \taddiu\tt9,t9,29116",
+            "  5375a8:\t0411ff04 \tbal\t5371bc <onboarding_execute_shell_cmd+0x330>",
+            "  5375ac:\t00000000 \tnop",
+            "  5375b0:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5375b4:\t8f998858 \tlw\tt9,-30632(gp)",
+            "  5375b8:\t27396f68 \taddiu\tt9,t9,28520",
+            "  5375bc:\t0411fe6a \tbal\t536f68 <onboarding_execute_shell_cmd+0xdc>",
+            "  5375c0:\t00000000 \tnop"
+          ]
+        },
+        {
+          "site": 5469628,
+          "mnemonic": "bal",
+          "target": 5468008,
+          "target_symbol": null,
+          "objdump_symbol": "onboarding_execute_shell_cmd+0xdc",
+          "context": [
+            "  53759c:\tafbf001c \tsw\tra,28(sp)",
+            "  5375a0:\tafbc0010 \tsw\tgp,16(sp)",
+            "  5375a4:\t273971bc \taddiu\tt9,t9,29116",
+            "  5375a8:\t0411ff04 \tbal\t5371bc <onboarding_execute_shell_cmd+0x330>",
+            "  5375ac:\t00000000 \tnop",
+            "  5375b0:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5375b4:\t8f998858 \tlw\tt9,-30632(gp)",
+            "  5375b8:\t27396f68 \taddiu\tt9,t9,28520",
+            "  5375bc:\t0411fe6a \tbal\t536f68 <onboarding_execute_shell_cmd+0xdc>",
+            "  5375c0:\t00000000 \tnop",
+            "  5375c4:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5375c8:\t8f998858 \tlw\tt9,-30632(gp)",
+            "  5375cc:\t273970e0 \taddiu\tt9,t9,28896",
+            "  5375d0:\t0411fec3 \tbal\t5370e0 <onboarding_execute_shell_cmd+0x254>",
+            "  5375d4:\t00000000 \tnop"
+          ]
+        },
+        {
+          "site": 5469648,
+          "mnemonic": "bal",
+          "target": 5468384,
+          "target_symbol": null,
+          "objdump_symbol": "onboarding_execute_shell_cmd+0x254",
+          "context": [
+            "  5375b0:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5375b4:\t8f998858 \tlw\tt9,-30632(gp)",
+            "  5375b8:\t27396f68 \taddiu\tt9,t9,28520",
+            "  5375bc:\t0411fe6a \tbal\t536f68 <onboarding_execute_shell_cmd+0xdc>",
+            "  5375c0:\t00000000 \tnop",
+            "  5375c4:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5375c8:\t8f998858 \tlw\tt9,-30632(gp)",
+            "  5375cc:\t273970e0 \taddiu\tt9,t9,28896",
+            "  5375d0:\t0411fec3 \tbal\t5370e0 <onboarding_execute_shell_cmd+0x254>",
+            "  5375d4:\t00000000 \tnop",
+            "  5375d8:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  5375dc:\t8fbf001c \tlw\tra,28(sp)",
+            "  5375e0:\t8f998858 \tlw\tt9,-30632(gp)",
+            "  5375e4:\t27396fdc \taddiu\tt9,t9,28636",
+            "  5375e8:\t1000fe7c \tb\t536fdc <onboarding_execute_shell_cmd+0x150>"
+          ]
+        }
+      ],
+      "indirect_calls": [],
+      "branches": [
+        {
+          "site": 5469672,
+          "mnemonic": "b",
+          "operands": "536fdc <onboarding_execute_shell_cmd+0x150>",
+          "target": 5468124,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00537588 <wlan_manual_reconnect>:\n  537588:\t3c1c0029 \tlui\tgp,0x29\n  53758c:\t279cc7d8 \taddiu\tgp,gp,-14376\n  537590:\t0399e021 \taddu\tgp,gp,t9\n  537594:\t8f998858 \tlw\tt9,-30632(gp)\n  537598:\t27bdffe0 \taddiu\tsp,sp,-32\n  53759c:\tafbf001c \tsw\tra,28(sp)\n  5375a0:\tafbc0010 \tsw\tgp,16(sp)\n  5375a4:\t273971bc \taddiu\tt9,t9,29116\n  5375a8:\t0411ff04 \tbal\t5371bc <onboarding_execute_shell_cmd+0x330>\n  5375ac:\t00000000 \tnop\n  5375b0:\t8fbc0010 \tlw\tgp,16(sp)\n  5375b4:\t8f998858 \tlw\tt9,-30632(gp)\n  5375b8:\t27396f68 \taddiu\tt9,t9,28520\n  5375bc:\t0411fe6a \tbal\t536f68 <onboarding_execute_shell_cmd+0xdc>\n  5375c0:\t00000000 \tnop\n  5375c4:\t8fbc0010 \tlw\tgp,16(sp)\n  5375c8:\t8f998858 \tlw\tt9,-30632(gp)\n  5375cc:\t273970e0 \taddiu\tt9,t9,28896\n  5375d0:\t0411fec3 \tbal\t5370e0 <onboarding_execute_shell_cmd+0x254>\n  5375d4:\t00000000 \tnop\n  5375d8:\t8fbc0010 \tlw\tgp,16(sp)\n  5375dc:\t8fbf001c \tlw\tra,28(sp)\n  5375e0:\t8f998858 \tlw\tt9,-30632(gp)\n  5375e4:\t27396fdc \taddiu\tt9,t9,28636\n  5375e8:\t1000fe7c \tb\t536fdc <onboarding_execute_shell_cmd+0x150>\n  5375ec:\t27bd0020 \taddiu\tsp,sp,32\n"
+    },
+    "wlan_manager_sta_disconnect": {
+      "name": "wlan_manager_sta_disconnect",
+      "address": 5417876,
+      "size": 80,
+      "end": 5417956,
+      "instruction_count": 20,
+      "direct_calls": [
+        {
+          "site": 5417932,
+          "mnemonic": "bal",
+          "target": 5444208,
+          "target_symbol": "wlan_sta_disconnect",
+          "objdump_symbol": "wlan_sta_disconnect",
+          "context": [
+            "  52abac:\t8c43e6f0 \tlw\tv1,-6416(v0)",
+            "  52abb0:\tafbf0024 \tsw\tra,36(sp)",
+            "  52abb4:\tafa00018 \tsw\tzero,24(sp)",
+            "  52abb8:\t10600007 \tbeqz\tv1,52abd8 <wlan_manager_sta_disconnect+0x44>",
+            "  52abbc:\t2402ffff \tli\tv0,-1",
+            "  52abc0:\t8c650008 \tlw\ta1,8(v1)",
+            "  52abc4:\t10a00004 \tbeqz\ta1,52abd8 <wlan_manager_sta_disconnect+0x44>",
+            "  52abc8:\t8f9988b0 \tlw\tt9,-30544(gp)",
+            "  52abcc:\t041119a8 \tbal\t531270 <wlan_sta_disconnect>",
+            "  52abd0:\t27a60018 \taddiu\ta2,sp,24",
+            "  52abd4:\t8fa20018 \tlw\tv0,24(sp)",
+            "  52abd8:\t8fbf0024 \tlw\tra,36(sp)",
+            "  52abdc:\t03e00008 \tjr\tra",
+            "  52abe0:\t27bd0028 \taddiu\tsp,sp,40"
+          ]
+        }
+      ],
+      "indirect_calls": [],
+      "branches": [
+        {
+          "site": 5417912,
+          "mnemonic": "beqz",
+          "operands": "v1,52abd8 <wlan_manager_sta_disconnect+0x44>",
+          "target": 5417944,
+          "target_symbol": null
+        },
+        {
+          "site": 5417924,
+          "mnemonic": "beqz",
+          "operands": "a1,52abd8 <wlan_manager_sta_disconnect+0x44>",
+          "target": 5417944,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n0052ab94 <wlan_manager_sta_disconnect>:\n  52ab94:\t3c1c002a \tlui\tgp,0x2a\n  52ab98:\t279c91cc \taddiu\tgp,gp,-28212\n  52ab9c:\t0399e021 \taddu\tgp,gp,t9\n  52aba0:\t8f828838 \tlw\tv0,-30664(gp)\n  52aba4:\t27bdffd8 \taddiu\tsp,sp,-40\n  52aba8:\tafbc0010 \tsw\tgp,16(sp)\n  52abac:\t8c43e6f0 \tlw\tv1,-6416(v0)\n  52abb0:\tafbf0024 \tsw\tra,36(sp)\n  52abb4:\tafa00018 \tsw\tzero,24(sp)\n  52abb8:\t10600007 \tbeqz\tv1,52abd8 <wlan_manager_sta_disconnect+0x44>\n  52abbc:\t2402ffff \tli\tv0,-1\n  52abc0:\t8c650008 \tlw\ta1,8(v1)\n  52abc4:\t10a00004 \tbeqz\ta1,52abd8 <wlan_manager_sta_disconnect+0x44>\n  52abc8:\t8f9988b0 \tlw\tt9,-30544(gp)\n  52abcc:\t041119a8 \tbal\t531270 <wlan_sta_disconnect>\n  52abd0:\t27a60018 \taddiu\ta2,sp,24\n  52abd4:\t8fa20018 \tlw\tv0,24(sp)\n  52abd8:\t8fbf0024 \tlw\tra,36(sp)\n  52abdc:\t03e00008 \tjr\tra\n  52abe0:\t27bd0028 \taddiu\tsp,sp,40\n"
+    },
+    "wlan_sta_disconnect": {
+      "name": "wlan_sta_disconnect",
+      "address": 5444208,
+      "size": 148,
+      "end": 5444356,
+      "instruction_count": 37,
+      "direct_calls": [],
+      "indirect_calls": [
+        {
+          "site": 5444268,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  53128c:\tafa20018 \tsw\tv0,24(sp)",
+            "  531290:\t10000016 \tb\t5312ec <wlan_sta_disconnect+0x7c>",
+            "  531294:\t2402ffff \tli\tv0,-1",
+            "  531298:\t8cb90008 \tlw\tt9,8(a1)",
+            "  53129c:\t1320fffc \tbeqz\tt9,531290 <wlan_sta_disconnect+0x20>",
+            "  5312a0:\t00a08825 \tmove\ts1,a1",
+            "  5312a4:\t27a50018 \taddiu\ta1,sp,24",
+            "  5312a8:\t00809025 \tmove\ts2,a0",
+            "  5312ac:\t0320f809 \tjalr\tt9",
+            "  5312b0:\t00c08025 \tmove\ts0,a2",
+            "  5312b4:\t1440fff6 \tbnez\tv0,531290 <wlan_sta_disconnect+0x20>",
+            "  5312b8:\t24030001 \tli\tv1,1",
+            "  5312bc:\t8fa40018 \tlw\ta0,24(sp)",
+            "  5312c0:\t50830005 \tbeql\ta0,v1,5312d8 <wlan_sta_disconnect+0x68>",
+            "  5312c4:\t8e390010 \tlw\tt9,16(s1)"
+          ]
+        },
+        {
+          "site": 5444324,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  5312c4:\t8e390010 \tlw\tt9,16(s1)",
+            "  5312c8:\t12000008 \tbeqz\ts0,5312ec <wlan_sta_disconnect+0x7c>",
+            "  5312cc:\t2403ffff \tli\tv1,-1",
+            "  5312d0:\t10000006 \tb\t5312ec <wlan_sta_disconnect+0x7c>",
+            "  5312d4:\tae030000 \tsw\tv1,0(s0)",
+            "  5312d8:\t13200004 \tbeqz\tt9,5312ec <wlan_sta_disconnect+0x7c>",
+            "  5312dc:\t2402ffff \tli\tv0,-1",
+            "  5312e0:\t02002825 \tmove\ta1,s0",
+            "  5312e4:\t0320f809 \tjalr\tt9",
+            "  5312e8:\t02402025 \tmove\ta0,s2",
+            "  5312ec:\t8fbf002c \tlw\tra,44(sp)",
+            "  5312f0:\t8fb20028 \tlw\ts2,40(sp)",
+            "  5312f4:\t8fb10024 \tlw\ts1,36(sp)",
+            "  5312f8:\t8fb00020 \tlw\ts0,32(sp)",
+            "  5312fc:\t03e00008 \tjr\tra"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "site": 5444232,
+          "mnemonic": "bnez",
+          "operands": "a1,531298 <wlan_sta_disconnect+0x28>",
+          "target": 5444248,
+          "target_symbol": null
+        },
+        {
+          "site": 5444240,
+          "mnemonic": "b",
+          "operands": "5312ec <wlan_sta_disconnect+0x7c>",
+          "target": 5444332,
+          "target_symbol": null
+        },
+        {
+          "site": 5444252,
+          "mnemonic": "beqz",
+          "operands": "t9,531290 <wlan_sta_disconnect+0x20>",
+          "target": 5444240,
+          "target_symbol": null
+        },
+        {
+          "site": 5444276,
+          "mnemonic": "bnez",
+          "operands": "v0,531290 <wlan_sta_disconnect+0x20>",
+          "target": 5444240,
+          "target_symbol": null
+        },
+        {
+          "site": 5444288,
+          "mnemonic": "beql",
+          "operands": "a0,v1,5312d8 <wlan_sta_disconnect+0x68>",
+          "target": 5444312,
+          "target_symbol": null
+        },
+        {
+          "site": 5444296,
+          "mnemonic": "beqz",
+          "operands": "s0,5312ec <wlan_sta_disconnect+0x7c>",
+          "target": 5444332,
+          "target_symbol": null
+        },
+        {
+          "site": 5444304,
+          "mnemonic": "b",
+          "operands": "5312ec <wlan_sta_disconnect+0x7c>",
+          "target": 5444332,
+          "target_symbol": null
+        },
+        {
+          "site": 5444312,
+          "mnemonic": "beqz",
+          "operands": "t9,5312ec <wlan_sta_disconnect+0x7c>",
+          "target": 5444332,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00531270 <wlan_sta_disconnect>:\n  531270:\t27bdffd0 \taddiu\tsp,sp,-48\n  531274:\t24020005 \tli\tv0,5\n  531278:\tafbf002c \tsw\tra,44(sp)\n  53127c:\tafb20028 \tsw\ts2,40(sp)\n  531280:\tafb10024 \tsw\ts1,36(sp)\n  531284:\tafb00020 \tsw\ts0,32(sp)\n  531288:\t14a00003 \tbnez\ta1,531298 <wlan_sta_disconnect+0x28>\n  53128c:\tafa20018 \tsw\tv0,24(sp)\n  531290:\t10000016 \tb\t5312ec <wlan_sta_disconnect+0x7c>\n  531294:\t2402ffff \tli\tv0,-1\n  531298:\t8cb90008 \tlw\tt9,8(a1)\n  53129c:\t1320fffc \tbeqz\tt9,531290 <wlan_sta_disconnect+0x20>\n  5312a0:\t00a08825 \tmove\ts1,a1\n  5312a4:\t27a50018 \taddiu\ta1,sp,24\n  5312a8:\t00809025 \tmove\ts2,a0\n  5312ac:\t0320f809 \tjalr\tt9\n  5312b0:\t00c08025 \tmove\ts0,a2\n  5312b4:\t1440fff6 \tbnez\tv0,531290 <wlan_sta_disconnect+0x20>\n  5312b8:\t24030001 \tli\tv1,1\n  5312bc:\t8fa40018 \tlw\ta0,24(sp)\n  5312c0:\t50830005 \tbeql\ta0,v1,5312d8 <wlan_sta_disconnect+0x68>\n  5312c4:\t8e390010 \tlw\tt9,16(s1)\n  5312c8:\t12000008 \tbeqz\ts0,5312ec <wlan_sta_disconnect+0x7c>\n  5312cc:\t2403ffff \tli\tv1,-1\n  5312d0:\t10000006 \tb\t5312ec <wlan_sta_disconnect+0x7c>\n  5312d4:\tae030000 \tsw\tv1,0(s0)\n  5312d8:\t13200004 \tbeqz\tt9,5312ec <wlan_sta_disconnect+0x7c>\n  5312dc:\t2402ffff \tli\tv0,-1\n  5312e0:\t02002825 \tmove\ta1,s0\n  5312e4:\t0320f809 \tjalr\tt9\n  5312e8:\t02402025 \tmove\ta0,s2\n  5312ec:\t8fbf002c \tlw\tra,44(sp)\n  5312f0:\t8fb20028 \tlw\ts2,40(sp)\n  5312f4:\t8fb10024 \tlw\ts1,36(sp)\n  5312f8:\t8fb00020 \tlw\ts0,32(sp)\n  5312fc:\t03e00008 \tjr\tra\n  531300:\t27bd0030 \taddiu\tsp,sp,48\n"
+    },
+    "disconnect_WiFi_ex": {
+      "name": "disconnect_WiFi_ex",
+      "address": 5438480,
+      "size": 24,
+      "end": 5438504,
+      "instruction_count": 6,
+      "direct_calls": [],
+      "indirect_calls": [],
+      "branches": [
+        {
+          "site": 5438496,
+          "mnemonic": "b",
+          "operands": "52ab94 <wlan_manager_sta_disconnect>",
+          "target": 5417876,
+          "target_symbol": "wlan_manager_sta_disconnect"
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n0052fc10 <disconnect_WiFi_ex>:\n  52fc10:\t3c1c0029 \tlui\tgp,0x29\n  52fc14:\t279c4150 \taddiu\tgp,gp,16720\n  52fc18:\t0399e021 \taddu\tgp,gp,t9\n  52fc1c:\t8f998a30 \tlw\tt9,-30160(gp)\n  52fc20:\t1000ebdc \tb\t52ab94 <wlan_manager_sta_disconnect>\n  52fc24:\t00002025 \tmove\ta0,zero\n"
+    },
+    "is_reonboarding": {
+      "name": "is_reonboarding",
+      "address": 5464096,
+      "size": 24,
+      "end": 5464120,
+      "instruction_count": 6,
+      "direct_calls": [],
+      "indirect_calls": [],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00536020 <is_reonboarding>:\n  536020:\t3c1c0029 \tlui\tgp,0x29\n  536024:\t279cdd40 \taddiu\tgp,gp,-8896\n  536028:\t0399e021 \taddu\tgp,gp,t9\n  53602c:\t8f828838 \tlw\tv0,-30664(gp)\n  536030:\t03e00008 \tjr\tra\n  536034:\t8c42e968 \tlw\tv0,-5784(v0)\n"
+    },
+    "get_cur_onboarding_mode": {
+      "name": "get_cur_onboarding_mode",
+      "address": 5464168,
+      "size": 24,
+      "end": 5464192,
+      "instruction_count": 6,
+      "direct_calls": [],
+      "indirect_calls": [],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00536068 <get_cur_onboarding_mode>:\n  536068:\t3c1c0029 \tlui\tgp,0x29\n  53606c:\t279cdcf8 \taddiu\tgp,gp,-8968\n  536070:\t0399e021 \taddu\tgp,gp,t9\n  536074:\t8f828adc \tlw\tv0,-29988(gp)\n  536078:\t03e00008 \tjr\tra\n  53607c:\t8c420000 \tlw\tv0,0(v0)\n"
+    },
+    "set_exit_softap_fast_flag": {
+      "name": "set_exit_softap_fast_flag",
+      "address": 5441904,
+      "size": 24,
+      "end": 5441928,
+      "instruction_count": 6,
+      "direct_calls": [],
+      "indirect_calls": [],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "softap"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00530970 <set_exit_softap_fast_flag>:\n  530970:\t3c1c0029 \tlui\tgp,0x29\n  530974:\t279c33f0 \taddiu\tgp,gp,13296\n  530978:\t0399e021 \taddu\tgp,gp,t9\n  53097c:\t8f828838 \tlw\tv0,-30664(gp)\n  530980:\t03e00008 \tjr\tra\n  530984:\tac44e6f8 \tsw\ta0,-6408(v0)\n"
+    },
+    "stop_exit_softap": {
+      "name": "stop_exit_softap",
+      "address": 5441764,
+      "size": 140,
+      "end": 5441904,
+      "instruction_count": 35,
+      "direct_calls": [],
+      "indirect_calls": [
+        {
+          "site": 5441816,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  5308f8:\t8f90854c \tlw\ts0,-31412(gp)",
+            "  5308fc:\tafb10028 \tsw\ts1,40(sp)",
+            "  530900:\tafbc0018 \tsw\tgp,24(sp)",
+            "  530904:\t8e046b30 \tlw\ta0,27440(s0)",
+            "  530908:\t2411ffff \tli\ts1,-1",
+            "  53090c:\tafbf002c \tsw\tra,44(sp)",
+            "  530910:\t10910011 \tbeq\ta0,s1,530958 <stop_exit_softap+0x74>",
+            "  530914:\t8f9987c4 \tlw\tt9,-30780(gp)",
+            "  530918:\t0320f809 \tjalr\tt9",
+            "  53091c:\t00000000 \tnop",
+            "  530920:\t8fbc0018 \tlw\tgp,24(sp)",
+            "  530924:\tae116b30 \tsw\ts1,27440(s0)",
+            "  530928:\t24060003 \tli\ta2,3",
+            "  53092c:\t8f82813c \tlw\tv0,-32452(gp)",
+            "  530930:\t8f87813c \tlw\ta3,-32452(gp)"
+          ]
+        },
+        {
+          "site": 5441872,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  530930:\t8f87813c \tlw\ta3,-32452(gp)",
+            "  530934:\t8f998840 \tlw\tt9,-30656(gp)",
+            "  530938:\t2442de6c \taddiu\tv0,v0,-8596",
+            "  53093c:\tafa20014 \tsw\tv0,20(sp)",
+            "  530940:\t24020389 \tli\tv0,905",
+            "  530944:\tafa20010 \tsw\tv0,16(sp)",
+            "  530948:\t24e7dec0 \taddiu\ta3,a3,-8512",
+            "  53094c:\t240503e7 \tli\ta1,999",
+            "  530950:\t0320f809 \tjalr\tt9",
+            "  530954:\t24040004 \tli\ta0,4",
+            "  530958:\t8fbf002c \tlw\tra,44(sp)",
+            "  53095c:\t8fb10028 \tlw\ts1,40(sp)",
+            "  530960:\t8fb00024 \tlw\ts0,36(sp)",
+            "  530964:\t00001025 \tmove\tv0,zero",
+            "  530968:\t03e00008 \tjr\tra"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "site": 5441808,
+          "mnemonic": "beq",
+          "operands": "a0,s1,530958 <stop_exit_softap+0x74>",
+          "target": 5441880,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "softap"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n005308e4 <stop_exit_softap>:\n  5308e4:\t3c1c0029 \tlui\tgp,0x29\n  5308e8:\t279c347c \taddiu\tgp,gp,13436\n  5308ec:\t0399e021 \taddu\tgp,gp,t9\n  5308f0:\t27bdffd0 \taddiu\tsp,sp,-48\n  5308f4:\tafb00024 \tsw\ts0,36(sp)\n  5308f8:\t8f90854c \tlw\ts0,-31412(gp)\n  5308fc:\tafb10028 \tsw\ts1,40(sp)\n  530900:\tafbc0018 \tsw\tgp,24(sp)\n  530904:\t8e046b30 \tlw\ta0,27440(s0)\n  530908:\t2411ffff \tli\ts1,-1\n  53090c:\tafbf002c \tsw\tra,44(sp)\n  530910:\t10910011 \tbeq\ta0,s1,530958 <stop_exit_softap+0x74>\n  530914:\t8f9987c4 \tlw\tt9,-30780(gp)\n  530918:\t0320f809 \tjalr\tt9\n  53091c:\t00000000 \tnop\n  530920:\t8fbc0018 \tlw\tgp,24(sp)\n  530924:\tae116b30 \tsw\ts1,27440(s0)\n  530928:\t24060003 \tli\ta2,3\n  53092c:\t8f82813c \tlw\tv0,-32452(gp)\n  530930:\t8f87813c \tlw\ta3,-32452(gp)\n  530934:\t8f998840 \tlw\tt9,-30656(gp)\n  530938:\t2442de6c \taddiu\tv0,v0,-8596\n  53093c:\tafa20014 \tsw\tv0,20(sp)\n  530940:\t24020389 \tli\tv0,905\n  530944:\tafa20010 \tsw\tv0,16(sp)\n  530948:\t24e7dec0 \taddiu\ta3,a3,-8512\n  53094c:\t240503e7 \tli\ta1,999\n  530950:\t0320f809 \tjalr\tt9\n  530954:\t24040004 \tli\ta0,4\n  530958:\t8fbf002c \tlw\tra,44(sp)\n  53095c:\t8fb10028 \tlw\ts1,40(sp)\n  530960:\t8fb00024 \tlw\ts0,36(sp)\n  530964:\t00001025 \tmove\tv0,zero\n  530968:\t03e00008 \tjr\tra\n  53096c:\t27bd0030 \taddiu\tsp,sp,48\n"
+    },
+    "set_onboarding_finished": {
+      "name": "set_onboarding_finished",
+      "address": 5467588,
+      "size": 128,
+      "end": 5467716,
+      "instruction_count": 32,
+      "direct_calls": [],
+      "indirect_calls": [
+        {
+          "site": 5467652,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  536de4:\t27b10018 \taddiu\ts1,sp,24",
+            "  536de8:\tafbf0034 \tsw\tra,52(sp)",
+            "  536dec:\tafbc0010 \tsw\tgp,16(sp)",
+            "  536df0:\t02202825 \tmove\ta1,s1",
+            "  536df4:\t2604d790 \taddiu\ta0,s0,-10352",
+            "  536df8:\tafa00018 \tsw\tzero,24(sp)",
+            "  536dfc:\tafa0001c \tsw\tzero,28(sp)",
+            "  536e00:\tafa00020 \tsw\tzero,32(sp)",
+            "  536e04:\t0320f809 \tjalr\tt9",
+            "  536e08:\t2406000c \tli\ta2,12",
+            "  536e0c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  536e10:\t24020001 \tli\tv0,1",
+            "  536e14:\t02202825 \tmove\ta1,s1",
+            "  536e18:\t8f998834 \tlw\tt9,-30668(gp)",
+            "  536e1c:\t2604d790 \taddiu\ta0,s0,-10352"
+          ]
+        },
+        {
+          "site": 5467688,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  536e08:\t2406000c \tli\ta2,12",
+            "  536e0c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  536e10:\t24020001 \tli\tv0,1",
+            "  536e14:\t02202825 \tmove\ta1,s1",
+            "  536e18:\t8f998834 \tlw\tt9,-30668(gp)",
+            "  536e1c:\t2604d790 \taddiu\ta0,s0,-10352",
+            "  536e20:\tafa20018 \tsw\tv0,24(sp)",
+            "  536e24:\t24070006 \tli\ta3,6",
+            "  536e28:\t0320f809 \tjalr\tt9",
+            "  536e2c:\t2406000c \tli\ta2,12",
+            "  536e30:\t8fbf0034 \tlw\tra,52(sp)",
+            "  536e34:\t8fb10030 \tlw\ts1,48(sp)",
+            "  536e38:\t8fb0002c \tlw\ts0,44(sp)",
+            "  536e3c:\t03e00008 \tjr\tra",
+            "  536e40:\t27bd0038 \taddiu\tsp,sp,56"
+          ]
+        }
+      ],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00536dc4 <set_onboarding_finished>:\n  536dc4:\t3c1c0029 \tlui\tgp,0x29\n  536dc8:\t279ccf9c \taddiu\tgp,gp,-12388\n  536dcc:\t0399e021 \taddu\tgp,gp,t9\n  536dd0:\t27bdffc8 \taddiu\tsp,sp,-56\n  536dd4:\tafb0002c \tsw\ts0,44(sp)\n  536dd8:\t8f90813c \tlw\ts0,-32452(gp)\n  536ddc:\t8f998528 \tlw\tt9,-31448(gp)\n  536de0:\tafb10030 \tsw\ts1,48(sp)\n  536de4:\t27b10018 \taddiu\ts1,sp,24\n  536de8:\tafbf0034 \tsw\tra,52(sp)\n  536dec:\tafbc0010 \tsw\tgp,16(sp)\n  536df0:\t02202825 \tmove\ta1,s1\n  536df4:\t2604d790 \taddiu\ta0,s0,-10352\n  536df8:\tafa00018 \tsw\tzero,24(sp)\n  536dfc:\tafa0001c \tsw\tzero,28(sp)\n  536e00:\tafa00020 \tsw\tzero,32(sp)\n  536e04:\t0320f809 \tjalr\tt9\n  536e08:\t2406000c \tli\ta2,12\n  536e0c:\t8fbc0010 \tlw\tgp,16(sp)\n  536e10:\t24020001 \tli\tv0,1\n  536e14:\t02202825 \tmove\ta1,s1\n  536e18:\t8f998834 \tlw\tt9,-30668(gp)\n  536e1c:\t2604d790 \taddiu\ta0,s0,-10352\n  536e20:\tafa20018 \tsw\tv0,24(sp)\n  536e24:\t24070006 \tli\ta3,6\n  536e28:\t0320f809 \tjalr\tt9\n  536e2c:\t2406000c \tli\ta2,12\n  536e30:\t8fbf0034 \tlw\tra,52(sp)\n  536e34:\t8fb10030 \tlw\ts1,48(sp)\n  536e38:\t8fb0002c \tlw\ts0,44(sp)\n  536e3c:\t03e00008 \tjr\tra\n  536e40:\t27bd0038 \taddiu\tsp,sp,56\n"
+    },
+    "onboarding_set_start_flag": {
+      "name": "onboarding_set_start_flag",
+      "address": 5464192,
+      "size": 28,
+      "end": 5464220,
+      "instruction_count": 7,
+      "direct_calls": [],
+      "indirect_calls": [],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00536080 <onboarding_set_start_flag>:\n  536080:\t3c1c0029 \tlui\tgp,0x29\n  536084:\t279cdce0 \taddiu\tgp,gp,-8992\n  536088:\t0399e021 \taddu\tgp,gp,t9\n  53608c:\t8f828838 \tlw\tv0,-30664(gp)\n  536090:\tac44e970 \tsw\ta0,-5776(v0)\n  536094:\t03e00008 \tjr\tra\n  536098:\t00001025 \tmove\tv0,zero\n"
+    },
+    "is_onboarding_finished": {
+      "name": "is_onboarding_finished",
+      "address": 5467508,
+      "size": 80,
+      "end": 5467588,
+      "instruction_count": 20,
+      "direct_calls": [],
+      "indirect_calls": [
+        {
+          "site": 5467560,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  536d88:\t27bdffd0 \taddiu\tsp,sp,-48",
+            "  536d8c:\t27a50018 \taddiu\ta1,sp,24",
+            "  536d90:\t2406000c \tli\ta2,12",
+            "  536d94:\tafbf002c \tsw\tra,44(sp)",
+            "  536d98:\tafbc0010 \tsw\tgp,16(sp)",
+            "  536d9c:\tafa00018 \tsw\tzero,24(sp)",
+            "  536da0:\tafa0001c \tsw\tzero,28(sp)",
+            "  536da4:\tafa00020 \tsw\tzero,32(sp)",
+            "  536da8:\t0320f809 \tjalr\tt9",
+            "  536dac:\t2484d790 \taddiu\ta0,a0,-10352",
+            "  536db0:\t8fa20018 \tlw\tv0,24(sp)",
+            "  536db4:\t8fbf002c \tlw\tra,44(sp)",
+            "  536db8:\t27bd0030 \taddiu\tsp,sp,48",
+            "  536dbc:\t03e00008 \tjr\tra",
+            "  536dc0:\t0002102b \tsltu\tv0,zero,v0"
+          ]
+        }
+      ],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00536d74 <is_onboarding_finished>:\n  536d74:\t3c1c0029 \tlui\tgp,0x29\n  536d78:\t279ccfec \taddiu\tgp,gp,-12308\n  536d7c:\t0399e021 \taddu\tgp,gp,t9\n  536d80:\t8f84813c \tlw\ta0,-32452(gp)\n  536d84:\t8f998528 \tlw\tt9,-31448(gp)\n  536d88:\t27bdffd0 \taddiu\tsp,sp,-48\n  536d8c:\t27a50018 \taddiu\ta1,sp,24\n  536d90:\t2406000c \tli\ta2,12\n  536d94:\tafbf002c \tsw\tra,44(sp)\n  536d98:\tafbc0010 \tsw\tgp,16(sp)\n  536d9c:\tafa00018 \tsw\tzero,24(sp)\n  536da0:\tafa0001c \tsw\tzero,28(sp)\n  536da4:\tafa00020 \tsw\tzero,32(sp)\n  536da8:\t0320f809 \tjalr\tt9\n  536dac:\t2484d790 \taddiu\ta0,a0,-10352\n  536db0:\t8fa20018 \tlw\tv0,24(sp)\n  536db4:\t8fbf002c \tlw\tra,44(sp)\n  536db8:\t27bd0030 \taddiu\tsp,sp,48\n  536dbc:\t03e00008 \tjr\tra\n  536dc0:\t0002102b \tsltu\tv0,zero,v0\n"
+    },
+    "is_onboarding_started": {
+      "name": "is_onboarding_started",
+      "address": 5464120,
+      "size": 24,
+      "end": 5464144,
+      "instruction_count": 6,
+      "direct_calls": [],
+      "indirect_calls": [],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00536038 <is_onboarding_started>:\n  536038:\t3c1c0029 \tlui\tgp,0x29\n  53603c:\t279cdd28 \taddiu\tgp,gp,-8920\n  536040:\t0399e021 \taddu\tgp,gp,t9\n  536044:\t8f828838 \tlw\tv0,-30664(gp)\n  536048:\t03e00008 \tjr\tra\n  53604c:\t8c42e974 \tlw\tv0,-5772(v0)\n"
+    },
+    "ffs_onboarding_start": {
+      "name": "ffs_onboarding_start",
+      "address": 5448832,
+      "size": 68,
+      "end": 5448900,
+      "instruction_count": 17,
+      "direct_calls": [],
+      "indirect_calls": [
+        {
+          "site": 5448876,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  53248c:\t8f9988a0 \tlw\tt9,-30560(gp)",
+            "  532490:\t27bdffd8 \taddiu\tsp,sp,-40",
+            "  532494:\t24020001 \tli\tv0,1",
+            "  532498:\t27a50018 \taddiu\ta1,sp,24",
+            "  53249c:\tafbf0024 \tsw\tra,36(sp)",
+            "  5324a0:\tafbc0010 \tsw\tgp,16(sp)",
+            "  5324a4:\tafa20018 \tsw\tv0,24(sp)",
+            "  5324a8:\t24060004 \tli\ta2,4",
+            "  5324ac:\t0320f809 \tjalr\tt9",
+            "  5324b0:\t3404816c \tli\ta0,0x816c",
+            "  5324b4:\t8fbf0024 \tlw\tra,36(sp)",
+            "  5324b8:\t00001025 \tmove\tv0,zero",
+            "  5324bc:\t03e00008 \tjr\tra",
+            "  5324c0:\t27bd0028 \taddiu\tsp,sp,40"
+          ]
+        }
+      ],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n00532480 <ffs_onboarding_start>:\n  532480:\t3c1c0029 \tlui\tgp,0x29\n  532484:\t279c18e0 \taddiu\tgp,gp,6368\n  532488:\t0399e021 \taddu\tgp,gp,t9\n  53248c:\t8f9988a0 \tlw\tt9,-30560(gp)\n  532490:\t27bdffd8 \taddiu\tsp,sp,-40\n  532494:\t24020001 \tli\tv0,1\n  532498:\t27a50018 \taddiu\ta1,sp,24\n  53249c:\tafbf0024 \tsw\tra,36(sp)\n  5324a0:\tafbc0010 \tsw\tgp,16(sp)\n  5324a4:\tafa20018 \tsw\tv0,24(sp)\n  5324a8:\t24060004 \tli\ta2,4\n  5324ac:\t0320f809 \tjalr\tt9\n  5324b0:\t3404816c \tli\ta0,0x816c\n  5324b4:\t8fbf0024 \tlw\tra,36(sp)\n  5324b8:\t00001025 \tmove\tv0,zero\n  5324bc:\t03e00008 \tjr\tra\n  5324c0:\t27bd0028 \taddiu\tsp,sp,40\n"
+    },
+    "ffs_onboarding_stop": {
+      "name": "ffs_onboarding_stop",
+      "address": 5448900,
+      "size": 68,
+      "end": 5448968,
+      "instruction_count": 17,
+      "direct_calls": [],
+      "indirect_calls": [
+        {
+          "site": 5448944,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  5324d0:\t8f9988a0 \tlw\tt9,-30560(gp)",
+            "  5324d4:\t27bdffd8 \taddiu\tsp,sp,-40",
+            "  5324d8:\t24020002 \tli\tv0,2",
+            "  5324dc:\t27a50018 \taddiu\ta1,sp,24",
+            "  5324e0:\tafbf0024 \tsw\tra,36(sp)",
+            "  5324e4:\tafbc0010 \tsw\tgp,16(sp)",
+            "  5324e8:\tafa20018 \tsw\tv0,24(sp)",
+            "  5324ec:\t24060004 \tli\ta2,4",
+            "  5324f0:\t0320f809 \tjalr\tt9",
+            "  5324f4:\t3404816c \tli\ta0,0x816c",
+            "  5324f8:\t8fbf0024 \tlw\tra,36(sp)",
+            "  5324fc:\t00001025 \tmove\tv0,zero",
+            "  532500:\t03e00008 \tjr\tra",
+            "  532504:\t27bd0028 \taddiu\tsp,sp,40"
+          ]
+        }
+      ],
+      "branches": [],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "onboarding"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n005324c4 <ffs_onboarding_stop>:\n  5324c4:\t3c1c0029 \tlui\tgp,0x29\n  5324c8:\t279c189c \taddiu\tgp,gp,6300\n  5324cc:\t0399e021 \taddu\tgp,gp,t9\n  5324d0:\t8f9988a0 \tlw\tt9,-30560(gp)\n  5324d4:\t27bdffd8 \taddiu\tsp,sp,-40\n  5324d8:\t24020002 \tli\tv0,2\n  5324dc:\t27a50018 \taddiu\ta1,sp,24\n  5324e0:\tafbf0024 \tsw\tra,36(sp)\n  5324e4:\tafbc0010 \tsw\tgp,16(sp)\n  5324e8:\tafa20018 \tsw\tv0,24(sp)\n  5324ec:\t24060004 \tli\ta2,4\n  5324f0:\t0320f809 \tjalr\tt9\n  5324f4:\t3404816c \tli\ta0,0x816c\n  5324f8:\t8fbf0024 \tlw\tra,36(sp)\n  5324fc:\t00001025 \tmove\tv0,zero\n  532500:\t03e00008 \tjr\tra\n  532504:\t27bd0028 \taddiu\tsp,sp,40\n"
+    },
+    "wlan_manager_reboot": {
+      "name": "wlan_manager_reboot",
+      "address": 5428768,
+      "size": 192,
+      "end": 5428960,
+      "instruction_count": 48,
+      "direct_calls": [],
+      "indirect_calls": [
+        {
+          "site": 5428852,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52d654:\t00008025 \tmove\ts0,zero",
+            "  52d658:\t8f87813c \tlw\ta3,-32452(gp)",
+            "  52d65c:\t8f85813c \tlw\ta1,-32452(gp)",
+            "  52d660:\t8f99879c \tlw\tt9,-30820(gp)",
+            "  52d664:\t00808025 \tmove\ts0,a0",
+            "  52d668:\t24e7d7b4 \taddiu\ta3,a3,-10316",
+            "  52d66c:\t24060b21 \tli\ta2,2849",
+            "  52d670:\t24a5db80 \taddiu\ta1,a1,-9344",
+            "  52d674:\t0320f809 \tjalr\tt9",
+            "  52d678:\t24040004 \tli\ta0,4",
+            "  52d67c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d680:\t24020001 \tli\tv0,1",
+            "  52d684:\t02003825 \tmove\ta3,s0",
+            "  52d688:\t8f9985d0 \tlw\tt9,-31280(gp)",
+            "  52d68c:\t8f86899c \tlw\ta2,-30308(gp)"
+          ]
+        },
+        {
+          "site": 5428888,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52d678:\t24040004 \tli\ta0,4",
+            "  52d67c:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d680:\t24020001 \tli\tv0,1",
+            "  52d684:\t02003825 \tmove\ta3,s0",
+            "  52d688:\t8f9985d0 \tlw\tt9,-31280(gp)",
+            "  52d68c:\t8f86899c \tlw\ta2,-30308(gp)",
+            "  52d690:\tae22e6d8 \tsw\tv0,-6440(s1)",
+            "  52d694:\t00002825 \tmove\ta1,zero",
+            "  52d698:\t0320f809 \tjalr\tt9",
+            "  52d69c:\t27a40018 \taddiu\ta0,sp,24",
+            "  52d6a0:\t00408025 \tmove\ts0,v0",
+            "  52d6a4:\t14400006 \tbnez\tv0,52d6c0 <wlan_manager_reboot+0xa0>",
+            "  52d6a8:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d6ac:\t8f99885c \tlw\tt9,-30628(gp)",
+            "  52d6b0:\t0320f809 \tjalr\tt9"
+          ]
+        },
+        {
+          "site": 5428912,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52d690:\tae22e6d8 \tsw\tv0,-6440(s1)",
+            "  52d694:\t00002825 \tmove\ta1,zero",
+            "  52d698:\t0320f809 \tjalr\tt9",
+            "  52d69c:\t27a40018 \taddiu\ta0,sp,24",
+            "  52d6a0:\t00408025 \tmove\ts0,v0",
+            "  52d6a4:\t14400006 \tbnez\tv0,52d6c0 <wlan_manager_reboot+0xa0>",
+            "  52d6a8:\t8fbc0010 \tlw\tgp,16(sp)",
+            "  52d6ac:\t8f99885c \tlw\tt9,-30628(gp)",
+            "  52d6b0:\t0320f809 \tjalr\tt9",
+            "  52d6b4:\t8fa40018 \tlw\ta0,24(sp)",
+            "  52d6b8:\t10000004 \tb\t52d6cc <wlan_manager_reboot+0xac>",
+            "  52d6bc:\t8fbf002c \tlw\tra,44(sp)",
+            "  52d6c0:\t3c10ffff \tlui\ts0,0xffff",
+            "  52d6c4:\t2610635b \taddiu\ts0,s0,25435",
+            "  52d6c8:\t8fbf002c \tlw\tra,44(sp)"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "site": 5428816,
+          "mnemonic": "bnez",
+          "operands": "v0,52d6c8 <wlan_manager_reboot+0xa8>",
+          "target": 5428936,
+          "target_symbol": null
+        },
+        {
+          "site": 5428900,
+          "mnemonic": "bnez",
+          "operands": "v0,52d6c0 <wlan_manager_reboot+0xa0>",
+          "target": 5428928,
+          "target_symbol": null
+        },
+        {
+          "site": 5428920,
+          "mnemonic": "b",
+          "operands": "52d6cc <wlan_manager_reboot+0xac>",
+          "target": 5428940,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link",
+        "reboot"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n0052d620 <wlan_manager_reboot>:\n  52d620:\t3c1c0029 \tlui\tgp,0x29\n  52d624:\t279c6740 \taddiu\tgp,gp,26432\n  52d628:\t0399e021 \taddu\tgp,gp,t9\n  52d62c:\t27bdffd0 \taddiu\tsp,sp,-48\n  52d630:\tafb10028 \tsw\ts1,40(sp)\n  52d634:\t8f918838 \tlw\ts1,-30664(gp)\n  52d638:\t2402ffff \tli\tv0,-1\n  52d63c:\tafa20018 \tsw\tv0,24(sp)\n  52d640:\t8e22e6d8 \tlw\tv0,-6440(s1)\n  52d644:\tafbc0010 \tsw\tgp,16(sp)\n  52d648:\tafb00024 \tsw\ts0,36(sp)\n  52d64c:\tafbf002c \tsw\tra,44(sp)\n  52d650:\t1440001d \tbnez\tv0,52d6c8 <wlan_manager_reboot+0xa8>\n  52d654:\t00008025 \tmove\ts0,zero\n  52d658:\t8f87813c \tlw\ta3,-32452(gp)\n  52d65c:\t8f85813c \tlw\ta1,-32452(gp)\n  52d660:\t8f99879c \tlw\tt9,-30820(gp)\n  52d664:\t00808025 \tmove\ts0,a0\n  52d668:\t24e7d7b4 \taddiu\ta3,a3,-10316\n  52d66c:\t24060b21 \tli\ta2,2849\n  52d670:\t24a5db80 \taddiu\ta1,a1,-9344\n  52d674:\t0320f809 \tjalr\tt9\n  52d678:\t24040004 \tli\ta0,4\n  52d67c:\t8fbc0010 \tlw\tgp,16(sp)\n  52d680:\t24020001 \tli\tv0,1\n  52d684:\t02003825 \tmove\ta3,s0\n  52d688:\t8f9985d0 \tlw\tt9,-31280(gp)\n  52d68c:\t8f86899c \tlw\ta2,-30308(gp)\n  52d690:\tae22e6d8 \tsw\tv0,-6440(s1)\n  52d694:\t00002825 \tmove\ta1,zero\n  52d698:\t0320f809 \tjalr\tt9\n  52d69c:\t27a40018 \taddiu\ta0,sp,24\n  52d6a0:\t00408025 \tmove\ts0,v0\n  52d6a4:\t14400006 \tbnez\tv0,52d6c0 <wlan_manager_reboot+0xa0>\n  52d6a8:\t8fbc0010 \tlw\tgp,16(sp)\n  52d6ac:\t8f99885c \tlw\tt9,-30628(gp)\n  52d6b0:\t0320f809 \tjalr\tt9\n  52d6b4:\t8fa40018 \tlw\ta0,24(sp)\n  52d6b8:\t10000004 \tb\t52d6cc <wlan_manager_reboot+0xac>\n  52d6bc:\t8fbf002c \tlw\tra,44(sp)\n  52d6c0:\t3c10ffff \tlui\ts0,0xffff\n  52d6c4:\t2610635b \taddiu\ts0,s0,25435\n  52d6c8:\t8fbf002c \tlw\tra,44(sp)\n  52d6cc:\t02001025 \tmove\tv0,s0\n  52d6d0:\t8fb10028 \tlw\ts1,40(sp)\n  52d6d4:\t8fb00024 \tlw\ts0,36(sp)\n  52d6d8:\t03e00008 \tjr\tra\n  52d6dc:\t27bd0030 \taddiu\tsp,sp,48\n"
+    },
+    "wlan_manager_reboot_thread": {
+      "name": "wlan_manager_reboot_thread",
+      "address": 5432540,
+      "size": 424,
+      "end": 5432964,
+      "instruction_count": 106,
+      "direct_calls": [
+        {
+          "site": 5432784,
+          "mnemonic": "bal",
+          "target": 5432312,
+          "target_symbol": "wlan_manager_stop",
+          "objdump_symbol": "wlan_manager_stop",
+          "context": [
+            "  52e5b0:\t24020b06 \tli\tv0,2822",
+            "  52e5b4:\t24060003 \tli\ta2,3",
+            "  52e5b8:\t240503e7 \tli\ta1,999",
+            "  52e5bc:\t24040004 \tli\ta0,4",
+            "  52e5c0:\t0320f809 \tjalr\tt9",
+            "  52e5c4:\tafa20010 \tsw\tv0,16(sp)",
+            "  52e5c8:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5cc:\t8f9989fc \tlw\tt9,-30212(gp)",
+            "  52e5d0:\t0411ff89 \tbal\t52e3f8 <wlan_manager_stop>",
+            "  52e5d4:\t00000000 \tnop",
+            "  52e5d8:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5dc:\t8f848838 \tlw\ta0,-30664(gp)",
+            "  52e5e0:\t8f9989b0 \tlw\tt9,-30288(gp)",
+            "  52e5e4:\t04112446 \tbal\t537700 <wlan_adapter_init>",
+            "  52e5e8:\t2484e6f0 \taddiu\ta0,a0,-6416"
+          ]
+        },
+        {
+          "site": 5432804,
+          "mnemonic": "bal",
+          "target": 5469952,
+          "target_symbol": "wlan_adapter_init",
+          "objdump_symbol": "wlan_adapter_init",
+          "context": [
+            "  52e5c4:\tafa20010 \tsw\tv0,16(sp)",
+            "  52e5c8:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5cc:\t8f9989fc \tlw\tt9,-30212(gp)",
+            "  52e5d0:\t0411ff89 \tbal\t52e3f8 <wlan_manager_stop>",
+            "  52e5d4:\t00000000 \tnop",
+            "  52e5d8:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5dc:\t8f848838 \tlw\ta0,-30664(gp)",
+            "  52e5e0:\t8f9989b0 \tlw\tt9,-30288(gp)",
+            "  52e5e4:\t04112446 \tbal\t537700 <wlan_adapter_init>",
+            "  52e5e8:\t2484e6f0 \taddiu\ta0,a0,-6416",
+            "  52e5ec:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5f0:\t8f828838 \tlw\tv0,-30664(gp)",
+            "  52e5f4:\t8f998a00 \tlw\tt9,-30208(gp)",
+            "  52e5f8:\t04111ff2 \tbal\t5365c4 <onboarding_ctx_init>",
+            "  52e5fc:\tac40e6e8 \tsw\tzero,-6424(v0)"
+          ]
+        },
+        {
+          "site": 5432824,
+          "mnemonic": "bal",
+          "target": 5465540,
+          "target_symbol": "onboarding_ctx_init",
+          "objdump_symbol": "onboarding_ctx_init",
+          "context": [
+            "  52e5d8:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5dc:\t8f848838 \tlw\ta0,-30664(gp)",
+            "  52e5e0:\t8f9989b0 \tlw\tt9,-30288(gp)",
+            "  52e5e4:\t04112446 \tbal\t537700 <wlan_adapter_init>",
+            "  52e5e8:\t2484e6f0 \taddiu\ta0,a0,-6416",
+            "  52e5ec:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5f0:\t8f828838 \tlw\tv0,-30664(gp)",
+            "  52e5f4:\t8f998a00 \tlw\tt9,-30208(gp)",
+            "  52e5f8:\t04111ff2 \tbal\t5365c4 <onboarding_ctx_init>",
+            "  52e5fc:\tac40e6e8 \tsw\tzero,-6424(v0)",
+            "  52e600:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e604:\t8f998a04 \tlw\tt9,-30204(gp)",
+            "  52e608:\t0411fe68 \tbal\t52dfac <wlan_manager_start>",
+            "  52e60c:\t00002025 \tmove\ta0,zero",
+            "  52e610:\t8fbc0020 \tlw\tgp,32(sp)"
+          ]
+        },
+        {
+          "site": 5432840,
+          "mnemonic": "bal",
+          "target": 5431212,
+          "target_symbol": "wlan_manager_start",
+          "objdump_symbol": "wlan_manager_start",
+          "context": [
+            "  52e5e8:\t2484e6f0 \taddiu\ta0,a0,-6416",
+            "  52e5ec:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5f0:\t8f828838 \tlw\tv0,-30664(gp)",
+            "  52e5f4:\t8f998a00 \tlw\tt9,-30208(gp)",
+            "  52e5f8:\t04111ff2 \tbal\t5365c4 <onboarding_ctx_init>",
+            "  52e5fc:\tac40e6e8 \tsw\tzero,-6424(v0)",
+            "  52e600:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e604:\t8f998a04 \tlw\tt9,-30204(gp)",
+            "  52e608:\t0411fe68 \tbal\t52dfac <wlan_manager_start>",
+            "  52e60c:\t00002025 \tmove\ta0,zero",
+            "  52e610:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e614:\t8f998a08 \tlw\tt9,-30200(gp)",
+            "  52e618:\t04111e8d \tbal\t536050 <is_onboarding_ds_module_start>",
+            "  52e61c:\t00000000 \tnop",
+            "  52e620:\t10400005 \tbeqz\tv0,52e638 <wlan_manager_reboot_thread+0x15c>"
+          ]
+        },
+        {
+          "site": 5432856,
+          "mnemonic": "bal",
+          "target": 5464144,
+          "target_symbol": "is_onboarding_ds_module_start",
+          "objdump_symbol": "is_onboarding_ds_module_start",
+          "context": [
+            "  52e5f8:\t04111ff2 \tbal\t5365c4 <onboarding_ctx_init>",
+            "  52e5fc:\tac40e6e8 \tsw\tzero,-6424(v0)",
+            "  52e600:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e604:\t8f998a04 \tlw\tt9,-30204(gp)",
+            "  52e608:\t0411fe68 \tbal\t52dfac <wlan_manager_start>",
+            "  52e60c:\t00002025 \tmove\ta0,zero",
+            "  52e610:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e614:\t8f998a08 \tlw\tt9,-30200(gp)",
+            "  52e618:\t04111e8d \tbal\t536050 <is_onboarding_ds_module_start>",
+            "  52e61c:\t00000000 \tnop",
+            "  52e620:\t10400005 \tbeqz\tv0,52e638 <wlan_manager_reboot_thread+0x15c>",
+            "  52e624:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e628:\t8f998a0c \tlw\tt9,-30196(gp)",
+            "  52e62c:\t04111ea2 \tbal\t5360b8 <onboarding_module_start>",
+            "  52e630:\t00000000 \tnop"
+          ]
+        },
+        {
+          "site": 5432876,
+          "mnemonic": "bal",
+          "target": 5464248,
+          "target_symbol": "onboarding_module_start",
+          "objdump_symbol": "onboarding_module_start",
+          "context": [
+            "  52e60c:\t00002025 \tmove\ta0,zero",
+            "  52e610:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e614:\t8f998a08 \tlw\tt9,-30200(gp)",
+            "  52e618:\t04111e8d \tbal\t536050 <is_onboarding_ds_module_start>",
+            "  52e61c:\t00000000 \tnop",
+            "  52e620:\t10400005 \tbeqz\tv0,52e638 <wlan_manager_reboot_thread+0x15c>",
+            "  52e624:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e628:\t8f998a0c \tlw\tt9,-30196(gp)",
+            "  52e62c:\t04111ea2 \tbal\t5360b8 <onboarding_module_start>",
+            "  52e630:\t00000000 \tnop",
+            "  52e634:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e638:\t8f828838 \tlw\tv0,-30664(gp)",
+            "  52e63c:\t8f998840 \tlw\tt9,-30656(gp)",
+            "  52e640:\t2627db94 \taddiu\ta3,s1,-9324",
+            "  52e644:\tac40e6d8 \tsw\tzero,-6440(v0)"
+          ]
+        }
+      ],
+      "indirect_calls": [
+        {
+          "site": 5432632,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52e518:\tafa40018 \tsw\ta0,24(sp)",
+            "  52e51c:\t2627db94 \taddiu\ta3,s1,-9324",
+            "  52e520:\t2442da80 \taddiu\tv0,v0,-9600",
+            "  52e524:\tafa20014 \tsw\tv0,20(sp)",
+            "  52e528:\t24020afe \tli\tv0,2814",
+            "  52e52c:\t24040004 \tli\ta0,4",
+            "  52e530:\tafa20010 \tsw\tv0,16(sp)",
+            "  52e534:\t24060003 \tli\ta2,3",
+            "  52e538:\t0320f809 \tjalr\tt9",
+            "  52e53c:\t240503e7 \tli\ta1,999",
+            "  52e540:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e544:\t10000011 \tb\t52e58c <wlan_manager_reboot_thread+0xb0>",
+            "  52e548:\t02002025 \tmove\ta0,s0",
+            "  52e54c:\t28820010 \tslti\tv0,a0,16",
+            "  52e550:\t14400013 \tbnez\tv0,52e5a0 <wlan_manager_reboot_thread+0xc4>"
+          ]
+        },
+        {
+          "site": 5432700,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52e55c:\tafa40018 \tsw\ta0,24(sp)",
+            "  52e560:\t2627db94 \taddiu\ta3,s1,-9324",
+            "  52e564:\t2442da98 \taddiu\tv0,v0,-9576",
+            "  52e568:\tafa20014 \tsw\tv0,20(sp)",
+            "  52e56c:\t24020b03 \tli\tv0,2819",
+            "  52e570:\t24040004 \tli\ta0,4",
+            "  52e574:\tafa20010 \tsw\tv0,16(sp)",
+            "  52e578:\t24060003 \tli\ta2,3",
+            "  52e57c:\t0320f809 \tjalr\tt9",
+            "  52e580:\t240503e7 \tli\ta1,999",
+            "  52e584:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e588:\t2404000f \tli\ta0,15",
+            "  52e58c:\t8f9988f0 \tlw\tt9,-30480(gp)",
+            "  52e590:\t0320f809 \tjalr\tt9",
+            "  52e594:\t00000000 \tnop"
+          ]
+        },
+        {
+          "site": 5432720,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52e570:\t24040004 \tli\ta0,4",
+            "  52e574:\tafa20010 \tsw\tv0,16(sp)",
+            "  52e578:\t24060003 \tli\ta2,3",
+            "  52e57c:\t0320f809 \tjalr\tt9",
+            "  52e580:\t240503e7 \tli\ta1,999",
+            "  52e584:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e588:\t2404000f \tli\ta0,15",
+            "  52e58c:\t8f9988f0 \tlw\tt9,-30480(gp)",
+            "  52e590:\t0320f809 \tjalr\tt9",
+            "  52e594:\t00000000 \tnop",
+            "  52e598:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e59c:\t8f82813c \tlw\tv0,-32452(gp)",
+            "  52e5a0:\t8f998840 \tlw\tt9,-30656(gp)",
+            "  52e5a4:\t2627db94 \taddiu\ta3,s1,-9324",
+            "  52e5a8:\t2442dad4 \taddiu\tv0,v0,-9516"
+          ]
+        },
+        {
+          "site": 5432768,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52e5a0:\t8f998840 \tlw\tt9,-30656(gp)",
+            "  52e5a4:\t2627db94 \taddiu\ta3,s1,-9324",
+            "  52e5a8:\t2442dad4 \taddiu\tv0,v0,-9516",
+            "  52e5ac:\tafa20014 \tsw\tv0,20(sp)",
+            "  52e5b0:\t24020b06 \tli\tv0,2822",
+            "  52e5b4:\t24060003 \tli\ta2,3",
+            "  52e5b8:\t240503e7 \tli\ta1,999",
+            "  52e5bc:\t24040004 \tli\ta0,4",
+            "  52e5c0:\t0320f809 \tjalr\tt9",
+            "  52e5c4:\tafa20010 \tsw\tv0,16(sp)",
+            "  52e5c8:\t8fbc0020 \tlw\tgp,32(sp)",
+            "  52e5cc:\t8f9989fc \tlw\tt9,-30212(gp)",
+            "  52e5d0:\t0411ff89 \tbal\t52e3f8 <wlan_manager_stop>",
+            "  52e5d4:\t00000000 \tnop",
+            "  52e5d8:\t8fbc0020 \tlw\tgp,32(sp)"
+          ]
+        },
+        {
+          "site": 5432932,
+          "mnemonic": "jalr",
+          "operands": "t9",
+          "context": [
+            "  52e644:\tac40e6d8 \tsw\tzero,-6440(v0)",
+            "  52e648:\t8f82813c \tlw\tv0,-32452(gp)",
+            "  52e64c:\t24060003 \tli\ta2,3",
+            "  52e650:\t240503e7 \tli\ta1,999",
+            "  52e654:\t2442dae8 \taddiu\tv0,v0,-9496",
+            "  52e658:\tafa20014 \tsw\tv0,20(sp)",
+            "  52e65c:\t24020b13 \tli\tv0,2835",
+            "  52e660:\tafa20010 \tsw\tv0,16(sp)",
+            "  52e664:\t0320f809 \tjalr\tt9",
+            "  52e668:\t24040004 \tli\ta0,4",
+            "  52e66c:\t8fbf0034 \tlw\tra,52(sp)",
+            "  52e670:\t8fb10030 \tlw\ts1,48(sp)",
+            "  52e674:\t8fb0002c \tlw\ts0,44(sp)",
+            "  52e678:\t00001025 \tmove\tv0,zero",
+            "  52e67c:\t03e00008 \tjr\tra"
+          ]
+        }
+      ],
+      "branches": [
+        {
+          "site": 5432588,
+          "mnemonic": "beqz",
+          "operands": "v0,52e54c <wlan_manager_reboot_thread+0x70>",
+          "target": 5432652,
+          "target_symbol": null
+        },
+        {
+          "site": 5432644,
+          "mnemonic": "b",
+          "operands": "52e58c <wlan_manager_reboot_thread+0xb0>",
+          "target": 5432716,
+          "target_symbol": null
+        },
+        {
+          "site": 5432656,
+          "mnemonic": "bnez",
+          "operands": "v0,52e5a0 <wlan_manager_reboot_thread+0xc4>",
+          "target": 5432736,
+          "target_symbol": null
+        },
+        {
+          "site": 5432864,
+          "mnemonic": "beqz",
+          "operands": "v0,52e638 <wlan_manager_reboot_thread+0x15c>",
+          "target": 5432888,
+          "target_symbol": null
+        }
+      ],
+      "referenced_strings": [],
+      "name_state_groups": [
+        "link",
+        "reboot"
+      ],
+      "disassembly": "\n/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips\n\n\nDisassembly of section .text:\n\n0052e4dc <wlan_manager_reboot_thread>:\n  52e4dc:\t3c1c0029 \tlui\tgp,0x29\n  52e4e0:\t279c5884 \taddiu\tgp,gp,22660\n  52e4e4:\t0399e021 \taddu\tgp,gp,t9\n  52e4e8:\t27bdffc8 \taddiu\tsp,sp,-56\n  52e4ec:\t2482ffff \taddiu\tv0,a0,-1\n  52e4f0:\t2c42000f \tsltiu\tv0,v0,15\n  52e4f4:\tafbc0020 \tsw\tgp,32(sp)\n  52e4f8:\tafb10030 \tsw\ts1,48(sp)\n  52e4fc:\tafb0002c \tsw\ts0,44(sp)\n  52e500:\tafbf0034 \tsw\tra,52(sp)\n  52e504:\t00808025 \tmove\ts0,a0\n  52e508:\t8f91813c \tlw\ts1,-32452(gp)\n  52e50c:\t1040000f \tbeqz\tv0,52e54c <wlan_manager_reboot_thread+0x70>\n  52e510:\t8f998840 \tlw\tt9,-30656(gp)\n  52e514:\t8f82813c \tlw\tv0,-32452(gp)\n  52e518:\tafa40018 \tsw\ta0,24(sp)\n  52e51c:\t2627db94 \taddiu\ta3,s1,-9324\n  52e520:\t2442da80 \taddiu\tv0,v0,-9600\n  52e524:\tafa20014 \tsw\tv0,20(sp)\n  52e528:\t24020afe \tli\tv0,2814\n  52e52c:\t24040004 \tli\ta0,4\n  52e530:\tafa20010 \tsw\tv0,16(sp)\n  52e534:\t24060003 \tli\ta2,3\n  52e538:\t0320f809 \tjalr\tt9\n  52e53c:\t240503e7 \tli\ta1,999\n  52e540:\t8fbc0020 \tlw\tgp,32(sp)\n  52e544:\t10000011 \tb\t52e58c <wlan_manager_reboot_thread+0xb0>\n  52e548:\t02002025 \tmove\ta0,s0\n  52e54c:\t28820010 \tslti\tv0,a0,16\n  52e550:\t14400013 \tbnez\tv0,52e5a0 <wlan_manager_reboot_thread+0xc4>\n  52e554:\t8f82813c \tlw\tv0,-32452(gp)\n  52e558:\t8f82813c \tlw\tv0,-32452(gp)\n  52e55c:\tafa40018 \tsw\ta0,24(sp)\n  52e560:\t2627db94 \taddiu\ta3,s1,-9324\n  52e564:\t2442da98 \taddiu\tv0,v0,-9576\n  52e568:\tafa20014 \tsw\tv0,20(sp)\n  52e56c:\t24020b03 \tli\tv0,2819\n  52e570:\t24040004 \tli\ta0,4\n  52e574:\tafa20010 \tsw\tv0,16(sp)\n  52e578:\t24060003 \tli\ta2,3\n  52e57c:\t0320f809 \tjalr\tt9\n  52e580:\t240503e7 \tli\ta1,999\n  52e584:\t8fbc0020 \tlw\tgp,32(sp)\n  52e588:\t2404000f \tli\ta0,15\n  52e58c:\t8f9988f0 \tlw\tt9,-30480(gp)\n  52e590:\t0320f809 \tjalr\tt9\n  52e594:\t00000000 \tnop\n  52e598:\t8fbc0020 \tlw\tgp,32(sp)\n  52e59c:\t8f82813c \tlw\tv0,-32452(gp)\n  52e5a0:\t8f998840 \tlw\tt9,-30656(gp)\n  52e5a4:\t2627db94 \taddiu\ta3,s1,-9324\n  52e5a8:\t2442dad4 \taddiu\tv0,v0,-9516\n  52e5ac:\tafa20014 \tsw\tv0,20(sp)\n  52e5b0:\t24020b06 \tli\tv0,2822\n  52e5b4:\t24060003 \tli\ta2,3\n  52e5b8:\t240503e7 \tli\ta1,999\n  52e5bc:\t24040004 \tli\ta0,4\n  52e5c0:\t0320f809 \tjalr\tt9\n  52e5c4:\tafa20010 \tsw\tv0,16(sp)\n  52e5c8:\t8fbc0020 \tlw\tgp,32(sp)\n  52e5cc:\t8f9989fc \tlw\tt9,-30212(gp)\n  52e5d0:\t0411ff89 \tbal\t52e3f8 <wlan_manager_stop>\n  52e5d4:\t00000000 \tnop\n  52e5d8:\t8fbc0020 \tlw\tgp,32(sp)\n  52e5dc:\t8f848838 \tlw\ta0,-30664(gp)\n  52e5e0:\t8f9989b0 \tlw\tt9,-30288(gp)\n  52e5e4:\t04112446 \tbal\t537700 <wlan_adapter_init>\n  52e5e8:\t2484e6f0 \taddiu\ta0,a0,-6416\n  52e5ec:\t8fbc0020 \tlw\tgp,32(sp)\n  52e5f0:\t8f828838 \tlw\tv0,-30664(gp)\n  52e5f4:\t8f998a00 \tlw\tt9,-30208(gp)\n  52e5f8:\t04111ff2 \tbal\t5365c4 <onboarding_ctx_init>\n  52e5fc:\tac40e6e8 \tsw\tzero,-6424(v0)\n  52e600:\t8fbc0020 \tlw\tgp,32(sp)\n  52e604:\t8f998a04 \tlw\tt9,-30204(gp)\n  52e608:\t0411fe68 \tbal\t52dfac <wlan_manager_start>\n  52e60c:\t00002025 \tmove\ta0,zero\n  52e610:\t8fbc0020 \tlw\tgp,32(sp)\n  52e614:\t8f998a08 \tlw\tt9,-30200(gp)\n  52e618:\t04111e8d \tbal\t536050 <is_onboarding_ds_module_start>\n  52e61c:\t00000000 \tnop\n  52e620:\t10400005 \tbeqz\tv0,52e638 <wlan_manager_reboot_thread+0x15c>\n  52e624:\t8fbc0020 \tlw\tgp,32(sp)\n  52e628:\t8f998a0c \tlw\tt9,-30196(gp)\n  52e62c:\t04111ea2 \tbal\t5360b8 <onboarding_module_start>\n  52e630:\t00000000 \tnop\n  52e634:\t8fbc0020 \tlw\tgp,32(sp)\n  52e638:\t8f828838 \tlw\tv0,-30664(gp)\n  52e63c:\t8f998840 \tlw\tt9,-30656(gp)\n  52e640:\t2627db94 \taddiu\ta3,s1,-9324\n  52e644:\tac40e6d8 \tsw\tzero,-6440(v0)\n  52e648:\t8f82813c \tlw\tv0,-32452(gp)\n  52e64c:\t24060003 \tli\ta2,3\n  52e650:\t240503e7 \tli\ta1,999\n  52e654:\t2442dae8 \taddiu\tv0,v0,-9496\n  52e658:\tafa20014 \tsw\tv0,20(sp)\n  52e65c:\t24020b13 \tli\tv0,2835\n  52e660:\tafa20010 \tsw\tv0,16(sp)\n  52e664:\t0320f809 \tjalr\tt9\n  52e668:\t24040004 \tli\ta0,4\n  52e66c:\t8fbf0034 \tlw\tra,52(sp)\n  52e670:\t8fb10030 \tlw\ts1,48(sp)\n  52e674:\t8fb0002c \tlw\ts0,44(sp)\n  52e678:\t00001025 \tmove\tv0,zero\n  52e67c:\t03e00008 \tjr\tra\n  52e680:\t27bd0038 \taddiu\tsp,sp,56\n"
+    }
+  },
+  "callers": {
+    "onboarding_phy_link_status_change_handle": [
+      {
+        "site": 5455304,
+        "mnemonic": "bal",
+        "target": 5465760,
+        "objdump_symbol": "onboarding_phy_link_status_change_handle",
+        "raw": "  533dc8:\t04110a35 \tbal\t5366a0 <onboarding_phy_link_status_change_handle>",
+        "caller": null
+      },
+      {
+        "site": 5455372,
+        "mnemonic": "bal",
+        "target": 5465760,
+        "objdump_symbol": "onboarding_phy_link_status_change_handle",
+        "raw": "  533e0c:\t04110a24 \tbal\t5366a0 <onboarding_phy_link_status_change_handle>",
+        "caller": null
+      }
+    ],
+    "wlan_manager_onboarding_start": [
+      {
+        "site": 5431896,
+        "mnemonic": "bal",
+        "target": 5428468,
+        "objdump_symbol": "wlan_manager_onboarding_start",
+        "raw": "  52e258:\t0411fca6 \tbal\t52d4f4 <wlan_manager_onboarding_start>",
+        "caller": "wlan_manager_start"
+      },
+      {
+        "site": 5465916,
+        "mnemonic": "bal",
+        "target": 5428468,
+        "objdump_symbol": "wlan_manager_onboarding_start",
+        "raw": "  53673c:\t0411db6d \tbal\t52d4f4 <wlan_manager_onboarding_start>",
+        "caller": "onboarding_phy_link_status_change_handle"
+      }
+    ],
+    "onboarding_restart": [
+      {
+        "site": 5427224,
+        "mnemonic": "bal",
+        "target": 5465976,
+        "objdump_symbol": "onboarding_restart",
+        "raw": "  52d018:\t041125d7 \tbal\t536778 <onboarding_restart>",
+        "caller": null
+      },
+      {
+        "site": 5427648,
+        "mnemonic": "bal",
+        "target": 5465976,
+        "objdump_symbol": "onboarding_restart",
+        "raw": "  52d1c0:\t0411256d \tbal\t536778 <onboarding_restart>",
+        "caller": null
+      },
+      {
+        "site": 5428332,
+        "mnemonic": "bal",
+        "target": 5465976,
+        "objdump_symbol": "onboarding_restart",
+        "raw": "  52d46c:\t041124c2 \tbal\t536778 <onboarding_restart>",
+        "caller": null
+      },
+      {
+        "site": 5466148,
+        "mnemonic": "bal",
+        "target": 5465976,
+        "objdump_symbol": "onboarding_restart",
+        "raw": "  536824:\t0411ffd4 \tbal\t536778 <onboarding_restart>",
+        "caller": null
+      }
+    ],
+    "wlan_manager_init_reconnect_ctx": [
+      {
+        "site": 5466132,
+        "mnemonic": "bal",
+        "target": 5423052,
+        "objdump_symbol": "wlan_manager_init_reconnect_ctx",
+        "raw": "  536814:\t0411d5ed \tbal\t52bfcc <wlan_manager_init_reconnect_ctx>",
+        "caller": null
+      }
+    ],
+    "wlan_manual_reconnect": [
+      {
+        "site": 5453688,
+        "mnemonic": "bal",
+        "target": 5469576,
+        "objdump_symbol": "wlan_manual_reconnect",
+        "raw": "  533778:\t04110f83 \tbal\t537588 <wlan_manual_reconnect>",
+        "caller": null
+      }
+    ],
+    "wlan_manager_sta_disconnect": [],
+    "wlan_sta_disconnect": [
+      {
+        "site": 5417932,
+        "mnemonic": "bal",
+        "target": 5444208,
+        "objdump_symbol": "wlan_sta_disconnect",
+        "raw": "  52abcc:\t041119a8 \tbal\t531270 <wlan_sta_disconnect>",
+        "caller": "wlan_manager_sta_disconnect"
+      }
+    ],
+    "disconnect_WiFi_ex": [
+      {
+        "site": 5440132,
+        "mnemonic": "bal",
+        "target": 5438480,
+        "objdump_symbol": "disconnect_WiFi_ex",
+        "raw": "  530284:\t0411fe62 \tbal\t52fc10 <disconnect_WiFi_ex>",
+        "caller": null
+      },
+      {
+        "site": 5440188,
+        "mnemonic": "bal",
+        "target": 5438480,
+        "objdump_symbol": "disconnect_WiFi_ex",
+        "raw": "  5302bc:\t0411fe54 \tbal\t52fc10 <disconnect_WiFi_ex>",
+        "caller": null
+      },
+      {
+        "site": 5457820,
+        "mnemonic": "bal",
+        "target": 5438480,
+        "objdump_symbol": "disconnect_WiFi_ex",
+        "raw": "  53479c:\t0411ed1c \tbal\t52fc10 <disconnect_WiFi_ex>",
+        "caller": null
+      },
+      {
+        "site": 5461152,
+        "mnemonic": "bal",
+        "target": 5438480,
+        "objdump_symbol": "disconnect_WiFi_ex",
+        "raw": "  5354a0:\t0411e9db \tbal\t52fc10 <disconnect_WiFi_ex>",
+        "caller": null
+      }
+    ],
+    "is_reonboarding": [
+      {
+        "site": 5440720,
+        "mnemonic": "bal",
+        "target": 5464096,
+        "objdump_symbol": "is_reonboarding",
+        "raw": "  5304d0:\t041116d3 \tbal\t536020 <is_reonboarding>",
+        "caller": null
+      }
+    ],
+    "get_cur_onboarding_mode": [
+      {
+        "site": 5440980,
+        "mnemonic": "bal",
+        "target": 5464168,
+        "objdump_symbol": "get_cur_onboarding_mode",
+        "raw": "  5305d4:\t041116a4 \tbal\t536068 <get_cur_onboarding_mode>",
+        "caller": null
+      }
+    ],
+    "set_exit_softap_fast_flag": [
+      {
+        "site": 5442132,
+        "mnemonic": "bal",
+        "target": 5441904,
+        "objdump_symbol": "set_exit_softap_fast_flag",
+        "raw": "  530a54:\t0411ffc6 \tbal\t530970 <set_exit_softap_fast_flag>",
+        "caller": "init_wifi_op"
+      },
+      {
+        "site": 5442204,
+        "mnemonic": "bal",
+        "target": 5441904,
+        "objdump_symbol": "set_exit_softap_fast_flag",
+        "raw": "  530a9c:\t0411ffb4 \tbal\t530970 <set_exit_softap_fast_flag>",
+        "caller": null
+      },
+      {
+        "site": 5446260,
+        "mnemonic": "bal",
+        "target": 5441904,
+        "objdump_symbol": "set_exit_softap_fast_flag",
+        "raw": "  531a74:\t0411fbbe \tbal\t530970 <set_exit_softap_fast_flag>",
+        "caller": null
+      }
+    ],
+    "stop_exit_softap": [
+      {
+        "site": 5463312,
+        "mnemonic": "bal",
+        "target": 5441764,
+        "objdump_symbol": "stop_exit_softap",
+        "raw": "  535d10:\t0411eaf4 \tbal\t5308e4 <stop_exit_softap>",
+        "caller": null
+      }
+    ],
+    "set_onboarding_finished": [
+      {
+        "site": 5440948,
+        "mnemonic": "bal",
+        "target": 5467588,
+        "objdump_symbol": "set_onboarding_finished",
+        "raw": "  5305b4:\t04111a03 \tbal\t536dc4 <set_onboarding_finished>",
+        "caller": null
+      }
+    ],
+    "onboarding_set_start_flag": [
+      {
+        "site": 5428728,
+        "mnemonic": "bal",
+        "target": 5464192,
+        "objdump_symbol": "onboarding_set_start_flag",
+        "raw": "  52d5f8:\t041122a1 \tbal\t536080 <onboarding_set_start_flag>",
+        "caller": "wlan_manager_onboarding_start"
+      },
+      {
+        "site": 5431600,
+        "mnemonic": "bal",
+        "target": 5464192,
+        "objdump_symbol": "onboarding_set_start_flag",
+        "raw": "  52e130:\t04111fd3 \tbal\t536080 <onboarding_set_start_flag>",
+        "caller": "wlan_manager_start"
+      },
+      {
+        "site": 5466036,
+        "mnemonic": "bal",
+        "target": 5464192,
+        "objdump_symbol": "onboarding_set_start_flag",
+        "raw": "  5367b4:\t0411fe32 \tbal\t536080 <onboarding_set_start_flag>",
+        "caller": "onboarding_restart"
+      }
+    ],
+    "is_onboarding_finished": [
+      {
+        "site": 5426656,
+        "mnemonic": "bal",
+        "target": 5467508,
+        "objdump_symbol": "is_onboarding_finished",
+        "raw": "  52cde0:\t041127e4 \tbal\t536d74 <is_onboarding_finished>",
+        "caller": null
+      }
+    ],
+    "is_onboarding_started": [
+      {
+        "site": 5433064,
+        "mnemonic": "bal",
+        "target": 5464120,
+        "objdump_symbol": "is_onboarding_started",
+        "raw": "  52e6e8:\t04111e53 \tbal\t536038 <is_onboarding_started>",
+        "caller": null
+      }
+    ],
+    "ffs_onboarding_start": [
+      {
+        "site": 5464832,
+        "mnemonic": "bal",
+        "target": 5448832,
+        "objdump_symbol": "ffs_onboarding_start",
+        "raw": "  536300:\t0411f05f \tbal\t532480 <ffs_onboarding_start>",
+        "caller": "onboarding_module_start"
+      }
+    ],
+    "ffs_onboarding_stop": [
+      {
+        "site": 5449948,
+        "mnemonic": "bal",
+        "target": 5448900,
+        "objdump_symbol": "ffs_onboarding_stop",
+        "raw": "  5328dc:\t0411fef9 \tbal\t5324c4 <ffs_onboarding_stop>",
+        "caller": null
+      },
+      {
+        "site": 5463716,
+        "mnemonic": "bal",
+        "target": 5448900,
+        "objdump_symbol": "ffs_onboarding_stop",
+        "raw": "  535ea4:\t0411f187 \tbal\t5324c4 <ffs_onboarding_stop>",
+        "caller": null
+      },
+      {
+        "site": 5465432,
+        "mnemonic": "bal",
+        "target": 5448900,
+        "objdump_symbol": "ffs_onboarding_stop",
+        "raw": "  536558:\t0411efda \tbal\t5324c4 <ffs_onboarding_stop>",
+        "caller": "onboarding_stop"
+      }
+    ],
+    "wlan_manager_reboot": [
+      {
+        "site": 5430472,
+        "mnemonic": "bal",
+        "target": 5428768,
+        "objdump_symbol": "wlan_manager_reboot",
+        "raw": "  52dcc8:\t0411fe55 \tbal\t52d620 <wlan_manager_reboot>",
+        "caller": null
+      },
+      {
+        "site": 5456000,
+        "mnemonic": "bal",
+        "target": 5428768,
+        "objdump_symbol": "wlan_manager_reboot",
+        "raw": "  534080:\t0411e567 \tbal\t52d620 <wlan_manager_reboot>",
+        "caller": null
+      }
+    ],
+    "wlan_manager_reboot_thread": []
+  },
+  "edges": [
+    {
+      "source": "onboarding_phy_link_status_change_handle",
+      "target": "onboarding_ctx_init",
+      "site": 5465816,
+      "target_address": 5465540,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "onboarding_phy_link_status_change_handle",
+      "target": "wlan_manager_ap_get_status",
+      "site": 5465852,
+      "target_address": 5415976,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "onboarding_phy_link_status_change_handle",
+      "target": "wlan_manager_monitor_get_status",
+      "site": 5465872,
+      "target_address": 5421100,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "onboarding_phy_link_status_change_handle",
+      "target": "wlan_manager_onboarding_start",
+      "site": 5465916,
+      "target_address": 5428468,
+      "target_in_requested_set": true
+    },
+    {
+      "source": "wlan_manager_onboarding_start",
+      "target": "wlan_manager_support_host_ap",
+      "site": 5428592,
+      "target_address": 5415476,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_onboarding_start",
+      "target": "wlan_is_fac_test_mode",
+      "site": 5428612,
+      "target_address": 5434272,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_onboarding_start",
+      "target": "wlan_manager_sta_get_config",
+      "site": 5428648,
+      "target_address": 5416832,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_onboarding_start",
+      "target": "wlan_manager_ap_get_config",
+      "site": 5428668,
+      "target_address": 5416048,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_onboarding_start",
+      "target": "wlan_is_fac_test_mode",
+      "site": 5428684,
+      "target_address": 5434272,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_onboarding_start",
+      "target": "onboarding_set_start_flag",
+      "site": 5428728,
+      "target_address": 5464192,
+      "target_in_requested_set": true
+    },
+    {
+      "source": "onboarding_restart",
+      "target": "onboarding_stop",
+      "site": 5466004,
+      "target_address": 5465332,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "onboarding_restart",
+      "target": "onboarding_ctx_init",
+      "site": 5466020,
+      "target_address": 5465540,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "onboarding_restart",
+      "target": "onboarding_set_start_flag",
+      "site": 5466036,
+      "target_address": 5464192,
+      "target_in_requested_set": true
+    },
+    {
+      "source": "wlan_manual_reconnect",
+      "target": "onboarding_execute_shell_cmd+0x330",
+      "site": 5469608,
+      "target_address": 5468604,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manual_reconnect",
+      "target": "onboarding_execute_shell_cmd+0xdc",
+      "site": 5469628,
+      "target_address": 5468008,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manual_reconnect",
+      "target": "onboarding_execute_shell_cmd+0x254",
+      "site": 5469648,
+      "target_address": 5468384,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_sta_disconnect",
+      "target": "wlan_sta_disconnect",
+      "site": 5417932,
+      "target_address": 5444208,
+      "target_in_requested_set": true
+    },
+    {
+      "source": "wlan_manager_reboot_thread",
+      "target": "wlan_manager_stop",
+      "site": 5432784,
+      "target_address": 5432312,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_reboot_thread",
+      "target": "wlan_adapter_init",
+      "site": 5432804,
+      "target_address": 5469952,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_reboot_thread",
+      "target": "onboarding_ctx_init",
+      "site": 5432824,
+      "target_address": 5465540,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_reboot_thread",
+      "target": "wlan_manager_start",
+      "site": 5432840,
+      "target_address": 5431212,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_reboot_thread",
+      "target": "is_onboarding_ds_module_start",
+      "site": 5432856,
+      "target_address": 5464144,
+      "target_in_requested_set": false
+    },
+    {
+      "source": "wlan_manager_reboot_thread",
+      "target": "onboarding_module_start",
+      "site": 5432876,
+      "target_address": 5464248,
+      "target_in_requested_set": false
+    }
+  ],
+  "bridge_candidates": [
+    {
+      "name": "onboarding_phy_link_status_change_handle",
+      "score": 11,
+      "groups": [
+        "link",
+        "onboarding"
+      ],
+      "reasons": [
+        "link/WLAN state",
+        "onboarding/re-onboarding",
+        "2 direct caller(s)"
+      ],
+      "direct_callees": [
+        "onboarding_ctx_init",
+        "wlan_manager_ap_get_status",
+        "wlan_manager_monitor_get_status",
+        "wlan_manager_onboarding_start"
+      ],
+      "direct_callers": []
+    },
+    {
+      "name": "wlan_manager_onboarding_start",
+      "score": 11,
+      "groups": [
+        "link",
+        "onboarding"
+      ],
+      "reasons": [
+        "link/WLAN state",
+        "onboarding/re-onboarding",
+        "2 direct caller(s)"
+      ],
+      "direct_callees": [
+        "onboarding_set_start_flag",
+        "wlan_is_fac_test_mode",
+        "wlan_manager_ap_get_config",
+        "wlan_manager_sta_get_config",
+        "wlan_manager_support_host_ap"
+      ],
+      "direct_callers": [
+        "onboarding_phy_link_status_change_handle",
+        "wlan_manager_start"
+      ]
+    },
+    {
+      "name": "wlan_manager_reboot_thread",
+      "score": 11,
+      "groups": [
+        "link",
+        "onboarding",
+        "reboot"
+      ],
+      "reasons": [
+        "link/WLAN state",
+        "onboarding/re-onboarding",
+        "reboot"
+      ],
+      "direct_callees": [
+        "is_onboarding_ds_module_start",
+        "onboarding_ctx_init",
+        "onboarding_module_start",
+        "wlan_adapter_init",
+        "wlan_manager_start",
+        "wlan_manager_stop"
+      ],
+      "direct_callers": []
+    },
+    {
+      "name": "wlan_manual_reconnect",
+      "score": 10,
+      "groups": [
+        "link",
+        "onboarding"
+      ],
+      "reasons": [
+        "link/WLAN state",
+        "onboarding/re-onboarding",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [
+        "onboarding_execute_shell_cmd+0x254",
+        "onboarding_execute_shell_cmd+0x330",
+        "onboarding_execute_shell_cmd+0xdc"
+      ],
+      "direct_callers": []
+    },
+    {
+      "name": "ffs_onboarding_stop",
+      "score": 8,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "3 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": [
+        "onboarding_stop"
+      ]
+    },
+    {
+      "name": "onboarding_restart",
+      "score": 8,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "4 direct caller(s)"
+      ],
+      "direct_callees": [
+        "onboarding_ctx_init",
+        "onboarding_set_start_flag",
+        "onboarding_stop"
+      ],
+      "direct_callers": []
+    },
+    {
+      "name": "onboarding_set_start_flag",
+      "score": 8,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "3 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": [
+        "onboarding_restart",
+        "wlan_manager_onboarding_start",
+        "wlan_manager_start"
+      ]
+    },
+    {
+      "name": "set_exit_softap_fast_flag",
+      "score": 8,
+      "groups": [
+        "softap"
+      ],
+      "reasons": [
+        "SoftAP",
+        "3 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": [
+        "init_wifi_op"
+      ]
+    },
+    {
+      "name": "wlan_manager_reboot",
+      "score": 8,
+      "groups": [
+        "link",
+        "reboot"
+      ],
+      "reasons": [
+        "link/WLAN state",
+        "reboot",
+        "2 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "disconnect_WiFi_ex",
+      "score": 7,
+      "groups": [
+        "link"
+      ],
+      "reasons": [
+        "link/WLAN state",
+        "4 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "ffs_onboarding_start",
+      "score": 6,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": [
+        "onboarding_module_start"
+      ]
+    },
+    {
+      "name": "get_cur_onboarding_mode",
+      "score": 6,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "is_onboarding_finished",
+      "score": 6,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "is_onboarding_started",
+      "score": 6,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "is_reonboarding",
+      "score": 6,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "set_onboarding_finished",
+      "score": 6,
+      "groups": [
+        "onboarding"
+      ],
+      "reasons": [
+        "onboarding/re-onboarding",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "stop_exit_softap",
+      "score": 6,
+      "groups": [
+        "softap"
+      ],
+      "reasons": [
+        "SoftAP",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "wlan_manager_init_reconnect_ctx",
+      "score": 5,
+      "groups": [
+        "link"
+      ],
+      "reasons": [
+        "link/WLAN state",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": []
+    },
+    {
+      "name": "wlan_sta_disconnect",
+      "score": 5,
+      "groups": [
+        "link"
+      ],
+      "reasons": [
+        "link/WLAN state",
+        "1 direct caller(s)"
+      ],
+      "direct_callees": [],
+      "direct_callers": [
+        "wlan_manager_sta_disconnect"
+      ]
+    },
+    {
+      "name": "wlan_manager_sta_disconnect",
+      "score": 4,
+      "groups": [
+        "link"
+      ],
+      "reasons": [
+        "link/WLAN state"
+      ],
+      "direct_callees": [
+        "wlan_sta_disconnect"
+      ],
+      "direct_callers": []
+    }
+  ],
+  "limitations": [
+    "Direct bal/jal edges are resolved; PIC jalr/t9 calls remain explicitly unresolved.",
+    "String references are heuristic LUI+ADDIU/ORI materializations and must be checked in Ghidra for final data-flow truth.",
+    "Static evidence does not prove that unauthenticated 802.11 traffic can reach a factory/provisioning transition.",
+    "Recovery and factory reset remain distinct states unless configuration erasure/unbinding is directly demonstrated."
+  ],
+  "next_decision": {
+    "P0": "Inspect onboarding_phy_link_status_change_handle first: identify its callers, reason/status arguments, counters/timeouts and any path to wlan_manager_onboarding_start, onboarding_restart or SoftAP flags.",
+    "only_after_static_condition_is_known": "Design one bounded RF experiment matching that specific condition and observe for Tapo_Cam_* / re-onboarding."
+  }
+}

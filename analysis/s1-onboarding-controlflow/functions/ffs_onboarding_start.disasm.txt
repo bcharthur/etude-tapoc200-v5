@@ -1,0 +1,24 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+00532480 <ffs_onboarding_start>:
+  532480:	3c1c0029 	lui	gp,0x29
+  532484:	279c18e0 	addiu	gp,gp,6368
+  532488:	0399e021 	addu	gp,gp,t9
+  53248c:	8f9988a0 	lw	t9,-30560(gp)
+  532490:	27bdffd8 	addiu	sp,sp,-40
+  532494:	24020001 	li	v0,1
+  532498:	27a50018 	addiu	a1,sp,24
+  53249c:	afbf0024 	sw	ra,36(sp)
+  5324a0:	afbc0010 	sw	gp,16(sp)
+  5324a4:	afa20018 	sw	v0,24(sp)
+  5324a8:	24060004 	li	a2,4
+  5324ac:	0320f809 	jalr	t9
+  5324b0:	3404816c 	li	a0,0x816c
+  5324b4:	8fbf0024 	lw	ra,36(sp)
+  5324b8:	00001025 	move	v0,zero
+  5324bc:	03e00008 	jr	ra
+  5324c0:	27bd0028 	addiu	sp,sp,40

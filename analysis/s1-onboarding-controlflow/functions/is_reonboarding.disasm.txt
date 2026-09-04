@@ -1,0 +1,13 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+00536020 <is_reonboarding>:
+  536020:	3c1c0029 	lui	gp,0x29
+  536024:	279cdd40 	addiu	gp,gp,-8896
+  536028:	0399e021 	addu	gp,gp,t9
+  53602c:	8f828838 	lw	v0,-30664(gp)
+  536030:	03e00008 	jr	ra
+  536034:	8c42e968 	lw	v0,-5784(v0)

@@ -1,0 +1,80 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+0052d4f4 <wlan_manager_onboarding_start>:
+  52d4f4:	3c1c0029 	lui	gp,0x29
+  52d4f8:	279c686c 	addiu	gp,gp,26732
+  52d4fc:	0399e021 	addu	gp,gp,t9
+  52d500:	27bdfc98 	addiu	sp,sp,-872
+  52d504:	8f99804c 	lw	t9,-32692(gp)
+  52d508:	afb1035c 	sw	s1,860(sp)
+  52d50c:	27b102b8 	addiu	s1,sp,696
+  52d510:	afbc0010 	sw	gp,16(sp)
+  52d514:	afbf0364 	sw	ra,868(sp)
+  52d518:	afb20360 	sw	s2,864(sp)
+  52d51c:	afb00358 	sw	s0,856(sp)
+  52d520:	240600a0 	li	a2,160
+  52d524:	00002825 	move	a1,zero
+  52d528:	00809025 	move	s2,a0
+  52d52c:	0320f809 	jalr	t9
+  52d530:	02202025 	move	a0,s1
+  52d534:	8fbc0010 	lw	gp,16(sp)
+  52d538:	27b00018 	addiu	s0,sp,24
+  52d53c:	240602a0 	li	a2,672
+  52d540:	8f99804c 	lw	t9,-32692(gp)
+  52d544:	00002825 	move	a1,zero
+  52d548:	0320f809 	jalr	t9
+  52d54c:	02002025 	move	a0,s0
+  52d550:	12400006 	beqz	s2,52d56c <wlan_manager_onboarding_start+0x78>
+  52d554:	8fbc0010 	lw	gp,16(sp)
+  52d558:	24020004 	li	v0,4
+  52d55c:	52420009 	beql	s2,v0,52d584 <wlan_manager_onboarding_start+0x90>
+  52d560:	8f998990 	lw	t9,-30320(gp)
+  52d564:	10000024 	b	52d5f8 <wlan_manager_onboarding_start+0x104>
+  52d568:	8f998994 	lw	t9,-30316(gp)
+  52d56c:	8f998998 	lw	t9,-30312(gp)
+  52d570:	0411f330 	bal	52a234 <wlan_manager_support_host_ap>
+  52d574:	00000000 	nop
+  52d578:	14400009 	bnez	v0,52d5a0 <wlan_manager_onboarding_start+0xac>
+  52d57c:	8fbc0010 	lw	gp,16(sp)
+  52d580:	8f998990 	lw	t9,-30320(gp)
+  52d584:	04110586 	bal	52eba0 <wlan_is_fac_test_mode>
+  52d588:	00000000 	nop
+  52d58c:	8fbc0010 	lw	gp,16(sp)
+  52d590:	1440001c 	bnez	v0,52d604 <wlan_manager_onboarding_start+0x110>
+  52d594:	8fbf0364 	lw	ra,868(sp)
+  52d598:	10000017 	b	52d5f8 <wlan_manager_onboarding_start+0x104>
+  52d59c:	8f998994 	lw	t9,-30316(gp)
+  52d5a0:	8f998898 	lw	t9,-30568(gp)
+  52d5a4:	02202825 	move	a1,s1
+  52d5a8:	0411f475 	bal	52a780 <wlan_manager_sta_get_config>
+  52d5ac:	00002025 	move	a0,zero
+  52d5b0:	8fbc0010 	lw	gp,16(sp)
+  52d5b4:	02002825 	move	a1,s0
+  52d5b8:	8f99887c 	lw	t9,-30596(gp)
+  52d5bc:	0411f3ac 	bal	52a470 <wlan_manager_ap_get_config>
+  52d5c0:	00002025 	move	a0,zero
+  52d5c4:	8fbc0010 	lw	gp,16(sp)
+  52d5c8:	8f998990 	lw	t9,-30320(gp)
+  52d5cc:	04110574 	bal	52eba0 <wlan_is_fac_test_mode>
+  52d5d0:	00000000 	nop
+  52d5d4:	1440000a 	bnez	v0,52d600 <wlan_manager_onboarding_start+0x10c>
+  52d5d8:	8fbc0010 	lw	gp,16(sp)
+  52d5dc:	8fa202bc 	lw	v0,700(sp)
+  52d5e0:	14400007 	bnez	v0,52d600 <wlan_manager_onboarding_start+0x10c>
+  52d5e4:	8fa20058 	lw	v0,88(sp)
+  52d5e8:	14400005 	bnez	v0,52d600 <wlan_manager_onboarding_start+0x10c>
+  52d5ec:	83a20060 	lb	v0,96(sp)
+  52d5f0:	1000ffe7 	b	52d590 <wlan_manager_onboarding_start+0x9c>
+  52d5f4:	00000000 	nop
+  52d5f8:	041122a1 	bal	536080 <onboarding_set_start_flag>
+  52d5fc:	24040001 	li	a0,1
+  52d600:	8fbf0364 	lw	ra,868(sp)
+  52d604:	8fb20360 	lw	s2,864(sp)
+  52d608:	8fb1035c 	lw	s1,860(sp)
+  52d60c:	8fb00358 	lw	s0,856(sp)
+  52d610:	03e00008 	jr	ra
+  52d614:	27bd0368 	addiu	sp,sp,872

@@ -1,0 +1,40 @@
+{
+  "name": "set_exit_softap_fast_flag",
+  "address": 5441904,
+  "size": 24,
+  "end": 5441928,
+  "instruction_count": 6,
+  "direct_calls": [],
+  "indirect_calls": [],
+  "branches": [],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "softap"
+  ],
+  "direct_callers": [
+    {
+      "site": 5442132,
+      "mnemonic": "bal",
+      "target": 5441904,
+      "objdump_symbol": "set_exit_softap_fast_flag",
+      "raw": "  530a54:\t0411ffc6 \tbal\t530970 <set_exit_softap_fast_flag>",
+      "caller": "init_wifi_op"
+    },
+    {
+      "site": 5442204,
+      "mnemonic": "bal",
+      "target": 5441904,
+      "objdump_symbol": "set_exit_softap_fast_flag",
+      "raw": "  530a9c:\t0411ffb4 \tbal\t530970 <set_exit_softap_fast_flag>",
+      "caller": null
+    },
+    {
+      "site": 5446260,
+      "mnemonic": "bal",
+      "target": 5441904,
+      "objdump_symbol": "set_exit_softap_fast_flag",
+      "raw": "  531a74:\t0411fbbe \tbal\t530970 <set_exit_softap_fast_flag>",
+      "caller": null
+    }
+  ]
+}

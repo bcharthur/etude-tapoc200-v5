@@ -1,0 +1,40 @@
+{
+  "name": "onboarding_set_start_flag",
+  "address": 5464192,
+  "size": 28,
+  "end": 5464220,
+  "instruction_count": 7,
+  "direct_calls": [],
+  "indirect_calls": [],
+  "branches": [],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5428728,
+      "mnemonic": "bal",
+      "target": 5464192,
+      "objdump_symbol": "onboarding_set_start_flag",
+      "raw": "  52d5f8:\t041122a1 \tbal\t536080 <onboarding_set_start_flag>",
+      "caller": "wlan_manager_onboarding_start"
+    },
+    {
+      "site": 5431600,
+      "mnemonic": "bal",
+      "target": 5464192,
+      "objdump_symbol": "onboarding_set_start_flag",
+      "raw": "  52e130:\t04111fd3 \tbal\t536080 <onboarding_set_start_flag>",
+      "caller": "wlan_manager_start"
+    },
+    {
+      "site": 5466036,
+      "mnemonic": "bal",
+      "target": 5464192,
+      "objdump_symbol": "onboarding_set_start_flag",
+      "raw": "  5367b4:\t0411fe32 \tbal\t536080 <onboarding_set_start_flag>",
+      "caller": "onboarding_restart"
+    }
+  ]
+}

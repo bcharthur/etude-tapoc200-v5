@@ -1,0 +1,219 @@
+
+/mnt/c/Users/artbo/PycharmProjects/etude-tapoc200-v5/analysis/c200v5-142/main-1.4.2:     file format elf32-tradlittlemips
+
+
+Disassembly of section .text:
+
+0052dfac <wlan_manager_start>:
+  52dfac:	3c1c0029 	lui	gp,0x29
+  52dfb0:	279c5db4 	addiu	gp,gp,23988
+  52dfb4:	0399e021 	addu	gp,gp,t9
+  52dfb8:	27bdffb0 	addiu	sp,sp,-80
+  52dfbc:	afb00044 	sw	s0,68(sp)
+  52dfc0:	8f908838 	lw	s0,-30664(gp)
+  52dfc4:	8f9989c0 	lw	t9,-30272(gp)
+  52dfc8:	24020008 	li	v0,8
+  52dfcc:	afa2003c 	sw	v0,60(sp)
+  52dfd0:	24020005 	li	v0,5
+  52dfd4:	afbf004c 	sw	ra,76(sp)
+  52dfd8:	afbc0010 	sw	gp,16(sp)
+  52dfdc:	afb10048 	sw	s1,72(sp)
+  52dfe0:	afa20038 	sw	v0,56(sp)
+  52dfe4:	afa00024 	sw	zero,36(sp)
+  52dfe8:	afa00028 	sw	zero,40(sp)
+  52dfec:	afa0002c 	sw	zero,44(sp)
+  52dff0:	afa00018 	sw	zero,24(sp)
+  52dff4:	afa0001c 	sw	zero,28(sp)
+  52dff8:	afa00020 	sw	zero,32(sp)
+  52dffc:	04112662 	bal	537988 <wlan_adapter_start>
+  52e000:	2604e6f0 	addiu	a0,s0,-6416
+  52e004:	8fbc0010 	lw	gp,16(sp)
+  52e008:	34048165 	li	a0,0x8165
+  52e00c:	8f858858 	lw	a1,-30632(gp)
+  52e010:	8f9989c4 	lw	t9,-30268(gp)
+  52e014:	0320f809 	jalr	t9
+  52e018:	24a5d080 	addiu	a1,a1,-12160
+  52e01c:	8fbc0010 	lw	gp,16(sp)
+  52e020:	34048168 	li	a0,0x8168
+  52e024:	8f858858 	lw	a1,-30632(gp)
+  52e028:	8f9989c4 	lw	t9,-30268(gp)
+  52e02c:	0320f809 	jalr	t9
+  52e030:	24a5a5b8 	addiu	a1,a1,-23112
+  52e034:	8fbc0010 	lw	gp,16(sp)
+  52e038:	34048169 	li	a0,0x8169
+  52e03c:	8f858858 	lw	a1,-30632(gp)
+  52e040:	8f9989c4 	lw	t9,-30268(gp)
+  52e044:	0320f809 	jalr	t9
+  52e048:	24a5a818 	addiu	a1,a1,-22504
+  52e04c:	8fbc0010 	lw	gp,16(sp)
+  52e050:	3404816b 	li	a0,0x816b
+  52e054:	8f858858 	lw	a1,-30632(gp)
+  52e058:	8f9989c4 	lw	t9,-30268(gp)
+  52e05c:	0320f809 	jalr	t9
+  52e060:	24a5ced4 	addiu	a1,a1,-12588
+  52e064:	8fbc0010 	lw	gp,16(sp)
+  52e068:	24045043 	li	a0,20547
+  52e06c:	8f858858 	lw	a1,-30632(gp)
+  52e070:	8f9989c4 	lw	t9,-30268(gp)
+  52e074:	0320f809 	jalr	t9
+  52e078:	24a5b704 	addiu	a1,a1,-18684
+  52e07c:	8fbc0010 	lw	gp,16(sp)
+  52e080:	24040024 	li	a0,36
+  52e084:	8f858858 	lw	a1,-30632(gp)
+  52e088:	8f9989c4 	lw	t9,-30268(gp)
+  52e08c:	0320f809 	jalr	t9
+  52e090:	24a5a000 	addiu	a1,a1,-24576
+  52e094:	8fbc0010 	lw	gp,16(sp)
+  52e098:	8f9989c8 	lw	t9,-30264(gp)
+  52e09c:	04112554 	bal	5375f0 <wlan_mode_switch_init>
+  52e0a0:	00000000 	nop
+  52e0a4:	8fbc0010 	lw	gp,16(sp)
+  52e0a8:	8f998858 	lw	t9,-30632(gp)
+  52e0ac:	2739be7c 	addiu	t9,t9,-16772
+  52e0b0:	0411f772 	bal	52be7c <wlan_manager_cascade_set_config+0x4c>
+  52e0b4:	00000000 	nop
+  52e0b8:	8fbc0010 	lw	gp,16(sp)
+  52e0bc:	8e02e6f0 	lw	v0,-6416(s0)
+  52e0c0:	00003025 	move	a2,zero
+  52e0c4:	8f9989cc 	lw	t9,-30260(gp)
+  52e0c8:	8c450004 	lw	a1,4(v0)
+  52e0cc:	04110566 	bal	52f668 <wlan_ap_start_onboot>
+  52e0d0:	00002025 	move	a0,zero
+  52e0d4:	8fbc0010 	lw	gp,16(sp)
+  52e0d8:	8e02e6f0 	lw	v0,-6416(s0)
+  52e0dc:	00003025 	move	a2,zero
+  52e0e0:	8f9989d0 	lw	t9,-30256(gp)
+  52e0e4:	8c450008 	lw	a1,8(v0)
+  52e0e8:	04110c86 	bal	531304 <wlan_sta_start_onboot>
+  52e0ec:	00002025 	move	a0,zero
+  52e0f0:	8fbc0010 	lw	gp,16(sp)
+  52e0f4:	8e02e6f0 	lw	v0,-6416(s0)
+  52e0f8:	00003025 	move	a2,zero
+  52e0fc:	8f9989d4 	lw	t9,-30252(gp)
+  52e100:	8c45000c 	lw	a1,12(v0)
+  52e104:	04111e77 	bal	535ae4 <wlan_monitor_start_onboot>
+  52e108:	00002025 	move	a0,zero
+  52e10c:	8fbc0010 	lw	gp,16(sp)
+  52e110:	8e02e6f0 	lw	v0,-6416(s0)
+  52e114:	00003025 	move	a2,zero
+  52e118:	8f9989d8 	lw	t9,-30248(gp)
+  52e11c:	8c450014 	lw	a1,20(v0)
+  52e120:	04110d61 	bal	5316a8 <wlan_cascade_start_onboot>
+  52e124:	00002025 	move	a0,zero
+  52e128:	8fbc0010 	lw	gp,16(sp)
+  52e12c:	8f998994 	lw	t9,-30316(gp)
+  52e130:	04111fd3 	bal	536080 <onboarding_set_start_flag>
+  52e134:	00002025 	move	a0,zero
+  52e138:	8fbc0010 	lw	gp,16(sp)
+  52e13c:	24020001 	li	v0,1
+  52e140:	8f908838 	lw	s0,-30664(gp)
+  52e144:	8e03e6e4 	lw	v1,-6428(s0)
+  52e148:	14620006 	bne	v1,v0,52e164 <wlan_manager_start+0x1b8>
+  52e14c:	8f828838 	lw	v0,-30664(gp)
+  52e150:	8f998968 	lw	t9,-30360(gp)
+  52e154:	0411244b 	bal	537284 <wlan_switch_to_ethernet>
+  52e158:	00000000 	nop
+  52e15c:	8fbc0010 	lw	gp,16(sp)
+  52e160:	8f828838 	lw	v0,-30664(gp)
+  52e164:	8f84813c 	lw	a0,-32452(gp)
+  52e168:	8f998528 	lw	t9,-31448(gp)
+  52e16c:	24110001 	li	s1,1
+  52e170:	ac51e6e8 	sw	s1,-6424(v0)
+  52e174:	2406000c 	li	a2,12
+  52e178:	27a50024 	addiu	a1,sp,36
+  52e17c:	0320f809 	jalr	t9
+  52e180:	2484d6f0 	addiu	a0,a0,-10512
+  52e184:	97a20024 	lhu	v0,36(sp)
+  52e188:	14510006 	bne	v0,s1,52e1a4 <wlan_manager_start+0x1f8>
+  52e18c:	8fbc0010 	lw	gp,16(sp)
+  52e190:	8e02e6e4 	lw	v0,-6428(s0)
+  52e194:	54400038 	bnezl	v0,52e278 <wlan_manager_start+0x2cc>
+  52e198:	8f84813c 	lw	a0,-32452(gp)
+  52e19c:	10000032 	b	52e268 <wlan_manager_start+0x2bc>
+  52e1a0:	8f998968 	lw	t9,-30360(gp)
+  52e1a4:	8f84813c 	lw	a0,-32452(gp)
+  52e1a8:	8f998528 	lw	t9,-31448(gp)
+  52e1ac:	2406000c 	li	a2,12
+  52e1b0:	27a50018 	addiu	a1,sp,24
+  52e1b4:	0320f809 	jalr	t9
+  52e1b8:	2484d790 	addiu	a0,a0,-10352
+  52e1bc:	8fbc0010 	lw	gp,16(sp)
+  52e1c0:	24060004 	li	a2,4
+  52e1c4:	27a50034 	addiu	a1,sp,52
+  52e1c8:	8f848868 	lw	a0,-30616(gp)
+  52e1cc:	8f998528 	lw	t9,-31448(gp)
+  52e1d0:	0320f809 	jalr	t9
+  52e1d4:	24849df0 	addiu	a0,a0,-25104
+  52e1d8:	8fa20034 	lw	v0,52(sp)
+  52e1dc:	14400008 	bnez	v0,52e200 <wlan_manager_start+0x254>
+  52e1e0:	8fbc0010 	lw	gp,16(sp)
+  52e1e4:	8fa20020 	lw	v0,32(sp)
+  52e1e8:	14400006 	bnez	v0,52e204 <wlan_manager_start+0x258>
+  52e1ec:	8e02e6e4 	lw	v0,-6428(s0)
+  52e1f0:	8f998988 	lw	t9,-30328(gp)
+  52e1f4:	041121e7 	bal	536994 <send_led_event>
+  52e1f8:	24040009 	li	a0,9
+  52e1fc:	8fbc0010 	lw	gp,16(sp)
+  52e200:	8e02e6e4 	lw	v0,-6428(s0)
+  52e204:	14400018 	bnez	v0,52e268 <wlan_manager_start+0x2bc>
+  52e208:	8f99896c 	lw	t9,-30356(gp)
+  52e20c:	8f9988bc 	lw	t9,-30532(gp)
+  52e210:	27a5003c 	addiu	a1,sp,60
+  52e214:	0411f084 	bal	52a428 <wlan_manager_ap_get_status>
+  52e218:	00002025 	move	a0,zero
+  52e21c:	8fbc0010 	lw	gp,16(sp)
+  52e220:	00002025 	move	a0,zero
+  52e224:	8f9989dc 	lw	t9,-30244(gp)
+  52e228:	0411f580 	bal	52b82c <wlan_manager_monitor_get_status>
+  52e22c:	27a50038 	addiu	a1,sp,56
+  52e230:	8fa3003c 	lw	v1,60(sp)
+  52e234:	24020001 	li	v0,1
+  52e238:	8fbc0010 	lw	gp,16(sp)
+  52e23c:	10620005 	beq	v1,v0,52e254 <wlan_manager_start+0x2a8>
+  52e240:	00002025 	move	a0,zero
+  52e244:	8fa30038 	lw	v1,56(sp)
+  52e248:	5462000b 	bnel	v1,v0,52e278 <wlan_manager_start+0x2cc>
+  52e24c:	8f84813c 	lw	a0,-32452(gp)
+  52e250:	24040004 	li	a0,4
+  52e254:	8f9989e0 	lw	t9,-30240(gp)
+  52e258:	0411fca6 	bal	52d4f4 <wlan_manager_onboarding_start>
+  52e25c:	00000000 	nop
+  52e260:	10000004 	b	52e274 <wlan_manager_start+0x2c8>
+  52e264:	8fbc0010 	lw	gp,16(sp)
+  52e268:	0320f809 	jalr	t9
+  52e26c:	00000000 	nop
+  52e270:	8fbc0010 	lw	gp,16(sp)
+  52e274:	8f84813c 	lw	a0,-32452(gp)
+  52e278:	8f998930 	lw	t9,-30416(gp)
+  52e27c:	afa00030 	sw	zero,48(sp)
+  52e280:	24060004 	li	a2,4
+  52e284:	27a50030 	addiu	a1,sp,48
+  52e288:	0320f809 	jalr	t9
+  52e28c:	2484d7e8 	addiu	a0,a0,-10264
+  52e290:	8fbc0010 	lw	gp,16(sp)
+  52e294:	8f908838 	lw	s0,-30664(gp)
+  52e298:	8e02e6d4 	lw	v0,-6444(s0)
+  52e29c:	1440000b 	bnez	v0,52e2cc <wlan_manager_start+0x320>
+  52e2a0:	8f9989e4 	lw	t9,-30236(gp)
+  52e2a4:	8f848858 	lw	a0,-30632(gp)
+  52e2a8:	8f9989e8 	lw	t9,-30232(gp)
+  52e2ac:	24070001 	li	a3,1
+  52e2b0:	24060001 	li	a2,1
+  52e2b4:	00002825 	move	a1,zero
+  52e2b8:	0320f809 	jalr	t9
+  52e2bc:	2484d6e0 	addiu	a0,a0,-10528
+  52e2c0:	8fbc0010 	lw	gp,16(sp)
+  52e2c4:	ae02e6d4 	sw	v0,-6444(s0)
+  52e2c8:	8f9989e4 	lw	t9,-30236(gp)
+  52e2cc:	04111cbf 	bal	5355cc <wifi_backup_start>
+  52e2d0:	00000000 	nop
+  52e2d4:	8fbc0010 	lw	gp,16(sp)
+  52e2d8:	8f84813c 	lw	a0,-32452(gp)
+  52e2dc:	8f9989ec 	lw	t9,-30228(gp)
+  52e2e0:	0320f809 	jalr	t9
+  52e2e4:	2484d9a8 	addiu	a0,a0,-9816
+  52e2e8:	8fbf004c 	lw	ra,76(sp)
+  52e2ec:	8fb10048 	lw	s1,72(sp)
+  52e2f0:	8fb00044 	lw	s0,68(sp)
+  52e2f4:	03e00008 	jr	ra
+  52e2f8:	27bd0050 	addiu	sp,sp,80

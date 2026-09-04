@@ -1,0 +1,47 @@
+{
+  "name": "is_onboarding_finished",
+  "address": 5467508,
+  "size": 80,
+  "end": 5467588,
+  "instruction_count": 20,
+  "direct_calls": [],
+  "indirect_calls": [
+    {
+      "site": 5467560,
+      "mnemonic": "jalr",
+      "operands": "t9",
+      "context": [
+        "  536d88:\t27bdffd0 \taddiu\tsp,sp,-48",
+        "  536d8c:\t27a50018 \taddiu\ta1,sp,24",
+        "  536d90:\t2406000c \tli\ta2,12",
+        "  536d94:\tafbf002c \tsw\tra,44(sp)",
+        "  536d98:\tafbc0010 \tsw\tgp,16(sp)",
+        "  536d9c:\tafa00018 \tsw\tzero,24(sp)",
+        "  536da0:\tafa0001c \tsw\tzero,28(sp)",
+        "  536da4:\tafa00020 \tsw\tzero,32(sp)",
+        "  536da8:\t0320f809 \tjalr\tt9",
+        "  536dac:\t2484d790 \taddiu\ta0,a0,-10352",
+        "  536db0:\t8fa20018 \tlw\tv0,24(sp)",
+        "  536db4:\t8fbf002c \tlw\tra,44(sp)",
+        "  536db8:\t27bd0030 \taddiu\tsp,sp,48",
+        "  536dbc:\t03e00008 \tjr\tra",
+        "  536dc0:\t0002102b \tsltu\tv0,zero,v0"
+      ]
+    }
+  ],
+  "branches": [],
+  "referenced_strings": [],
+  "name_state_groups": [
+    "onboarding"
+  ],
+  "direct_callers": [
+    {
+      "site": 5426656,
+      "mnemonic": "bal",
+      "target": 5467508,
+      "objdump_symbol": "is_onboarding_finished",
+      "raw": "  52cde0:\t041127e4 \tbal\t536d74 <is_onboarding_finished>",
+      "caller": null
+    }
+  ]
+}
