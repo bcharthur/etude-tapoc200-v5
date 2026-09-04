@@ -13,8 +13,10 @@ usage() {
   cat <<'EOF'
 Tapo C200 S1 RF container
 
-Native Linux host only for real RF access. Docker Desktop/WSL cannot expose an
-internal PCIe Wi-Fi adapter to this container in monitor mode.
+Real RF access requires the Linux host that runs this container to expose a
+wireless PHY. On Windows + WSL2 this works with a Linux-supported USB Wi-Fi
+adapter attached to the target WSL distro (for example with usbipd). An internal
+Windows PCIe Wi-Fi adapter is not automatically exposed as a Linux mac80211 PHY.
 
 Commands:
   rf-lab shell
@@ -24,7 +26,7 @@ Commands:
   rf-lab disassoc --channel 6 --ap-bssid aa:bb:cc:dd:ee:ff [--count 1]
 
 Options:
-  --wifi <iface>          managed RZ608 interface; auto-detected when possible
+  --wifi <iface>          Linux Wi-Fi interface; auto-detected when possible
   --monitor <iface>       monitor VIF name (default mon0)
   --channel <n>           target AP channel
   --camera-mac <mac>      default dc:62:79:8b:3a:da
@@ -37,8 +39,6 @@ EOF
 MODE="${1:-probe}"
 if [[ $# -gt 0 ]]; then shift; fi
 
-# Interactive diagnostics must work even when no Wi-Fi radio is visible. This is
-# useful on Docker Desktop/WSL to inspect exactly what the container can access.
 if [[ "$MODE" == "shell" ]]; then
   echo "[+] Entering RF lab container shell"
   echo "[i] Useful commands: ip link ; ip route ; iw dev ; iw phy ; ls -l /sys/class/net"
@@ -64,7 +64,7 @@ done
 [[ "$OBSERVE_SECONDS" =~ ^[0-9]+$ ]] && (( OBSERVE_SECONDS >= 10 && OBSERVE_SECONDS <= 300 )) || { echo "[-] --observe-seconds must be 10..300" >&2; exit 2; }
 [[ "$CAMERA_MAC" =~ ^([0-9A-Fa-f]{2}:){5}[0-9A-Fa-f]{2}$ ]] || { echo "[-] Invalid camera MAC" >&2; exit 2; }
 
-# Identify the RZ608/MT7921E interface first, then fall back to the first Wi-Fi VIF.
+# Prefer an MT7921E interface when present, then fall back to the first Linux Wi-Fi VIF.
 if [[ -z "$WIFI_IFACE" ]]; then
   for p in /sys/class/net/*; do
     [[ -e "$p/device/driver" ]] || continue
@@ -85,17 +85,30 @@ if [[ -z "$WIFI_IFACE" ]]; then
   echo "[-] No Wi-Fi interface visible in the container." >&2
   echo "[i] hostname=$HOSTNAME_NOW kernel=$KERNEL_NOW" >&2
   echo "[i] visible interfaces: $(ls /sys/class/net 2>/dev/null | tr '\n' ' ')" >&2
-  if [[ "$HOSTNAME_NOW" == "docker-desktop" || "$KERNEL_NOW" == *microsoft-standard-WSL* ]]; then
-    cat >&2 <<'EOF'
-[-] Docker Desktop / WSL boundary detected.
-    The container is seeing Docker Desktop's Linux VM network namespace, not
-    the Windows RZ608 PCIe radio. --privileged and host networking do not turn
-    that internal Windows adapter into a Linux mac80211 PHY.
 
-    Real RF options for this lab are:
-      1) boot Linux natively (Live USB is enough), keep Ethernet for Internet,
-         then run this same Docker image against the host RZ608/mt7921e; or
-      2) attach a Linux-supported USB Wi-Fi adapter to the Linux environment.
+  if [[ "$HOSTNAME_NOW" == "docker-desktop" ]]; then
+    cat >&2 <<'EOF'
+[-] Docker Desktop daemon detected.
+    The container is running inside Docker Desktop's Linux VM and no wireless
+    PHY is exposed to it. Use the dedicated rf-wsl Docker context instead.
+EOF
+  elif [[ "$KERNEL_NOW" == *microsoft-standard-WSL* ]]; then
+    cat >&2 <<'EOF'
+[-] Local WSL2 RF daemon detected, but the WSL host currently has no Linux Wi-Fi PHY.
+    The Docker setup is ready; the missing prerequisite is the radio itself.
+
+    On Windows:
+      1) plug in a Linux-supported USB Wi-Fi adapter;
+      2) confirm it appears in usbipd list;
+      3) attach its real BUSID to Ubuntu with scripts/attach-rf-usb.ps1.
+
+    Then, in Ubuntu WSL, verify BEFORE rerunning Docker:
+      lsusb
+      iw dev
+      iw phy
+
+    Once iw dev/iw phy show the adapter on the WSL host, this privileged host-network
+    container can use that same PHY for the bounded RF lab.
 EOF
   fi
   exit 1
@@ -111,8 +124,9 @@ echo "[+] Driver         : ${DRIVER:-unknown}"
 echo "[+] PHY            : $PHY"
 echo ""
 
-echo "=== PCI wireless hardware ==="
+echo "=== PCI/USB wireless context ==="
 lspci -nnk | grep -A3 -Ei 'network controller|wireless' || true
+lsusb || true
 echo ""
 echo "=== Supported interface modes ==="
 MODES="$(iw phy "$PHY" info | sed -n '/Supported interface modes:/,/Band [0-9]/p' | head -n 50)"
@@ -126,10 +140,8 @@ fi
 if [[ "$MODE" == "probe" ]]; then
   echo ""
   echo "[+] monitor mode advertised: YES"
-  if [[ "$DRIVER" == "mt7921e" ]]; then
-    echo "[+] RZ608 / MT7921E detected."
-  fi
-  echo "[i] Next: docker compose -f docker-compose.rf.yml run --rm rf observe --channel <AP_CHANNEL>"
+  echo "[+] Linux RF path is ready."
+  echo "[i] Next: docker --context rf-wsl compose -f docker-compose.rf.yml run --rm rf observe --channel <AP_CHANNEL>"
   exit 0
 fi
 
