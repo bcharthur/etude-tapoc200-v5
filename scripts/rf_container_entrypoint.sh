@@ -78,7 +78,28 @@ fi
 if [[ -z "$WIFI_IFACE" ]]; then
   WIFI_IFACE="$(iw dev | awk '$1=="Interface" {print $2; exit}')"
 fi
-[[ -n "$WIFI_IFACE" ]] || { echo "[-] No Wi-Fi interface visible in the container." >&2; exit 1; }
+
+if [[ -z "$WIFI_IFACE" ]]; then
+  HOSTNAME_NOW="$(hostname 2>/dev/null || true)"
+  KERNEL_NOW="$(uname -r 2>/dev/null || true)"
+  echo "[-] No Wi-Fi interface visible in the container." >&2
+  echo "[i] hostname=$HOSTNAME_NOW kernel=$KERNEL_NOW" >&2
+  echo "[i] visible interfaces: $(ls /sys/class/net 2>/dev/null | tr '\n' ' ')" >&2
+  if [[ "$HOSTNAME_NOW" == "docker-desktop" || "$KERNEL_NOW" == *microsoft-standard-WSL* ]]; then
+    cat >&2 <<'EOF'
+[-] Docker Desktop / WSL boundary detected.
+    The container is seeing Docker Desktop's Linux VM network namespace, not
+    the Windows RZ608 PCIe radio. --privileged and host networking do not turn
+    that internal Windows adapter into a Linux mac80211 PHY.
+
+    Real RF options for this lab are:
+      1) boot Linux natively (Live USB is enough), keep Ethernet for Internet,
+         then run this same Docker image against the host RZ608/mt7921e; or
+      2) attach a Linux-supported USB Wi-Fi adapter to the Linux environment.
+EOF
+  fi
+  exit 1
+fi
 
 PHY="$(iw dev "$WIFI_IFACE" info | awk '$1=="wiphy" {print "phy"$2; exit}')"
 [[ -n "$PHY" ]] || { echo "[-] Could not resolve PHY for $WIFI_IFACE" >&2; exit 1; }
